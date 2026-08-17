@@ -1,0 +1,38 @@
+# LaTeX build products -- never commit these, they cause pointless merge conflicts
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+*.nav
+*.snm
+
+# Commit the PDF only if you want a browsable copy in the repo. The Actions
+# artifact usually makes that unnecessary, and a binary that changes every
+# build makes the history noisy.
+tex/main.pdf
+protocol/protocol.pdf
+
+# Never commit spatial data. Repos are for code, protocol and text.
+# Occurrence data in particular is sensitive (CAU-013) and WDPA cannot be
+# redistributed at all (CAU-012).
+*.gdb/
+*.tif
+*.img
+*.shp
+*.shx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.cpg
+data/
+raw/
