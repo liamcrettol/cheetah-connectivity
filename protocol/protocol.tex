@@ -366,8 +366,13 @@ modelled with and without digitised fence lines from the best available source)
 and the limitation is stated prominently. Omitting fences silently is not an
 option.
 
-\dec{Confirm the acquisition order, and set a hard date by which the contingency
-triggers.}
+\lockd{Acquisition order and contingency trigger confirmed.} National
+veterinary department layers rank first as the most authoritative source, the
+AHEAD/WCS KAZA fence assessment second, and OSM \texttt{barrier=fence} last as a
+crowdsourced fallback. The trigger is the end of timeline block 3 on the Master
+Workflow schedule, not a calendar date: if the acquisition sequence above has
+not produced a usable vector layer by that point in the workflow, the
+scenario-comparison contingency above is invoked automatically.
 
 %==============================================================================
 \section{Resistance scenarios}
