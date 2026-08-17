@@ -1,0 +1,119 @@
+\section{Methods}
+\label{sec:methods}
+
+% This is the section that earns or loses the paper. Everything here should be
+% traceable to a workflow step (WF-xxx) in the planning workbook, and every
+% subsection should end able to answer "how would someone reproduce this?"
+
+\subsection{Study area and analysis extent}
+\label{sec:extent}
+\TODO{WF-001. Countries, area, the confirmed-range envelope, exclusion rules, and the
+statement that the extent was fixed before any connectivity output was viewed.}
+Analyses were conducted in \TODO{equal-area CRS, e.g. Africa Albers Equal Area Conic,
+give the full WKT in Appendix~\ref{app:protocol}} at a working resolution of \cellsize.
+
+\subsection{Rationale for the working resolution}
+\label{sec:scale}
+\TODO{CAU-006. The occurrence baseline is a 10-km assessment grid; environmental
+covariates range from 30\,m to 1\,km. Justify \cellsize\ as the compromise: fine
+enough that a pinch point is a meaningful location, coarse enough that it does not
+imply precision the occurrence evidence cannot support. State that the full pipeline
+was repeated at 2\,km and 5\,km as a resolution sensitivity (WF-022).}
+
+\subsection{Range cores}
+\label{sec:cores}
+\TODO{WF-011. Three or more core definitions from the archived confirmed-range data,
+differing in evidence-category threshold and minimum patch area. Report how many
+cores each definition yields. State explicitly that cores are HELD CONSTANT across
+all four temporal snapshots, and why (CAU-002): no comparable range reassessment
+exists after the baseline period, so any core movement would be invented.}
+
+\subsection{Covariates and their temporal treatment}
+\label{sec:covariates}
+\TODO{Table~\ref{tab:covariates} lists every layer, its native resolution, its
+source year(s), and critically whether it is treated as DYNAMIC (varies across
+snapshots) or STATIC (held fixed, contributing no temporal signal). Do not bury this
+distinction. Roads, livestock, terrain and hydrography are static; built-up fraction,
+nighttime radiance and continuous vegetation fields are dynamic.}
+
+\paragraph{Why categorical land cover is not the change carrier.}
+\TODO{CAU-008 and the MODIS class-instability problem. Annual categorical products
+flip classes between years for reasons unrelated to landscape change. Temporal signal
+is therefore carried on continuous fields; categorical land cover is used for masking
+and description only.}
+
+\subsection{Resistance scenarios}
+\label{sec:resistance}
+\TODO{WF-013, WF-014. Present RES-01 to RES-05 as a table of variable-to-resistance
+functions with the evidence or rationale for each. State that the scenario set was
+fixed before results were viewed and that no single scenario is designated as
+preferred. Report the transformation (linear vs exponential) per scenario and cite
+\textcite{zeller2012resistance} for why the transformation matters as much as the
+weights.}
+
+\subsection{Connectivity modelling}
+\label{sec:connectivity}
+\TODO{WF-015, WF-016. Least-cost / effective-distance work in ArcGIS Pro (Distance
+Accumulation, Optimal Region Connections, Corridor). Current flow computed with
+Circuitscape.jl \parencite{anantharaman2020circuitscape} in pairwise mode; give the
+solver, the source/ground configuration, and how current was normalised for
+comparability across years. State why the omnidirectional approach
+\parencite{landau2021omniscape} was NOT used: cores are defined a priori, so a
+core-to-core formulation is the correct one.}
+
+\paragraph{Corridor definition.}
+\TODO{Decide and state ONCE whether corridors are (a) continuous current surfaces
+summarised by quantile or (b) thresholded polygons. This choice sets the denominator
+for the protected-area comparison in \S\ref{sec:pa} and cannot be made after seeing
+the overlap result.}
+
+\subsection{Network structure}
+\label{sec:graph}
+\TODO{WF-017. Cores as nodes, effective distances as edge weights. Report the
+probability of connectivity and per-node $dPC$ \parencite{saura2007pc}, computed in
+Conefor \parencite{saura2009conefor} or an equivalent, and betweenness on the same
+graph. Justify the metric set against \textcite{keeley2021metrics}. Report
+sensitivity to the dispersal-distance parameter; do not report a single value.}
+
+\subsection{Temporal comparison}
+\label{sec:temporal}
+\TODO{WF-018. Same cores, same scenarios, same resolution across all four snapshots,
+so that differences are attributable to covariate change alone. Give the change
+equations. Report both absolute and proportional change.}
+
+\subsection{Protected-area coverage}
+\label{sec:pa}
+\TODO{WF-019, CAU-011, CAU-012. Name the \wdpaversion. State polygon-only handling
+and what was excluded. State the null explicitly: high-current area is compared
+against \TODO{the full extent OR the modelled network} using an area-standardised
+permutation test. Predeclare this.}
+
+\subsection{Robustness and uncertainty}
+\label{sec:uncertainty}
+\TODO{WF-022. The full sensitivity grid: \nscen\ resistance scenarios $\times$ core
+definitions $\times$ resolutions $\times$ snapshots. Report the resulting run count.
+Define "robust" numerically (e.g. a cell in the top decile of current under at least
+$k$ of $n$ runs) and fix $k$ in advance. Produce an agreement map. Low-agreement
+locations are reported as uncertain, never as priorities.}
+
+\subsection{Independent plausibility assessment}
+\label{sec:validation}
+\TODO{WF-020, WF-021, CAU-004, CAU-017. See the validation decision note before
+writing this. If the plausibility-check route is taken, this subsection is titled as
+above and must NOT use the word "validation". If the empirical-resistance route is
+taken, add RES-06, describe the fitting procedure, and report country-held-out
+performance following \textcite{roberts2017cv}.}
+
+\subsection{Monitoring prioritisation}
+\label{sec:mcda}
+\TODO{WF-023, WF-024, CAU-020. Components, normalisation, and the predeclared weight
+set, plus at least two alternative weightings. Report rank stability (Spearman /
+Kendall) across weightings. Publish component scores alongside the composite so a
+reader can reweight.}
+
+\subsection{Software and reproducibility}
+\label{sec:software}
+\TODO{ArcGIS Pro \TODO{version}; Circuitscape.jl \TODO{version}; Julia \TODO{version};
+R \TODO{version} or Python \TODO{version}; Google Earth Engine for acquisition and
+harmonisation. All geoprocessing scripted in arcpy rather than ModelBuilder. Archive
+location and what can and cannot be redistributed (CAU-012, CAU-013).}

@@ -1,0 +1,100 @@
+%==============================================================================
+% Changing connections: temporal landscape connectivity, unprotected pinch
+% points, and monitoring priorities for free-ranging cheetahs in southern Africa
+%
+% Liam Crettol -- Weber State University
+%
+% BUILD:  latexmk -pdf main.tex      (uses biber; see latexmkrc)
+%
+% ONE SOURCE, TWO OUTPUTS
+%   \capstonetrue  -> capstone version: 12pt, double spaced, title page,
+%                     appendices bound in, wider limits
+%   \capstonefalse -> journal version: compact, no title page furniture,
+%                     supplement split out
+% Flip the flag on the next line. Nothing else needs to change.
+%==============================================================================
+
+\newif\ifcapstone
+\capstonetrue          % <-- set to \capstonefalse when you convert for submission
+
+\documentclass[12pt,letterpaper]{article}
+
+%---------------------------------------- page + type
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\ifcapstone \doublespacing \else \onehalfspacing \fi
+\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{} % graceful on minimal TeX installs
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[protrusion=true,expansion=false]{microtype} % expansion needs scalable fonts
+\usepackage[hidelinks]{hyperref}
+\usepackage{lineno}
+\ifcapstone\else\linenumbers\fi   % journals want line numbers; capstones don't
+
+%---------------------------------------- floats, tables, math
+\usepackage{graphicx}
+\graphicspath{{../figures/}}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{siunitx}
+\sisetup{group-separator={,}, per-mode=symbol}
+\usepackage{amsmath}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{rotating}
+
+%---------------------------------------- bibliography (APA 7 via biblatex+biber)
+\usepackage[style=apa,backend=biber,sortcites=true]{biblatex}
+\DeclareLanguageMapping{english}{english-apa}
+\addbibresource{../refs/methods_canon.bib}
+\addbibresource{../refs/cheetah_lit.bib}   % export your Literature sheet here
+
+%---------------------------------------- project shorthand
+% Use these instead of typing the phrases. If a reviewer makes you change the
+% claim language, you change it in ONE place and the whole paper follows.
+\newcommand{\structconn}{potential structural connectivity}
+\newcommand{\Structconn}{Potential structural connectivity}
+\newcommand{\studyperiod}{2012--2024}
+\newcommand{\cellsize}{\SI{1}{\kilo\metre}}
+\newcommand{\nscen}{five}
+\newcommand{\wdpaversion}{WDPA <MONTH YEAR> release}   % fill once, cite everywhere
+\newcommand{\TODO}[1]{\textcolor{red}{[TODO: #1]}}
+\usepackage{xcolor}
+
+%==============================================================================
+\title{Changing connections: temporal \structconn, unprotected pinch points,
+and monitoring priorities for free-ranging cheetahs (\textit{Acinonyx jubatus})
+in southern Africa}
+\author{Liam Crettol\\ \small Department of <DEPT>, Weber State University}
+\date{\today}
+%==============================================================================
+
+\begin{document}
+
+\ifcapstone
+  \maketitle
+  \thispagestyle{empty}
+  \newpage
+  \tableofcontents
+  \newpage
+\else
+  \maketitle
+\fi
+
+\input{sections/00_abstract}
+\input{sections/01_introduction}
+\input{sections/02_methods}
+\input{sections/03_results}
+\input{sections/04_discussion}
+\input{sections/05_limitations}
+\input{sections/06_conclusion}
+\input{sections/07_backmatter}
+
+\printbibliography
+
+\ifcapstone
+  \appendix
+  \input{sections/A1_protocol}
+  \input{sections/A2_supplement}
+\fi
+
+\end{document}

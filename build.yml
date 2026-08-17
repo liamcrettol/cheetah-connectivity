@@ -1,0 +1,65 @@
+name: build
+
+# Compiles the manuscript and the protocol on every push, and attaches both
+# PDFs to the run as downloadable artifacts. On a tagged push it also cuts a
+# GitHub Release containing them, which is a convenient way to hand a dated,
+# immutable draft to an advisor.
+#
+# Free on public repositories (unlimited standard-runner minutes). On a private
+# repository this draws against the 2,000 min/month included with a Free
+# account; each run here costs roughly 2 minutes, so weekly pushes are nowhere
+# near the cap and daily pushes are still fine.
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+  workflow_dispatch:      # lets you trigger a build by hand from the Actions tab
+
+permissions:
+  contents: write         # needed only for the release job
+
+jobs:
+  latex:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Compile manuscript
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: tex/main.tex
+          work_in_root_file_dir: true     # so ../refs/ and ../figures/ resolve
+          latexmk_shell_escape: false
+          # TeX Live full image already includes biber and biblatex-apa.
+          # Add packages here only if a build starts failing on a missing .sty.
+          # extra_system_packages: ""
+
+      - name: Compile protocol
+        uses: xu-cheng/latex-action@v4
+        with:
+          root_file: protocol/protocol.tex
+          work_in_root_file_dir: true
+
+      - name: Upload PDFs
+        uses: actions/upload-artifact@v4
+        with:
+          name: pdfs
+          path: |
+            tex/main.pdf
+            protocol/protocol.pdf
+          if-no-files-found: error
+          retention-days: 90
+
+      # Tagged builds become releases. Tag the protocol lock like this:
+      #   git tag -a protocol-v1.0 -m "protocol locked, advisor signed"
+      #   git push origin protocol-v1.0
+      # The tag date is then independently verifiable, which is worth having.
+      - name: Publish release on tag
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            tex/main.pdf
+            protocol/protocol.pdf

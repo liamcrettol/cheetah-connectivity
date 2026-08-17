@@ -1,0 +1,659 @@
+%##############################################################################
+%  PREDECLARED ANALYSIS PROTOCOL
+%  Cheetah connectivity project -- Liam Crettol, Weber State University
+%
+%  Build:  latexmk -pdf protocol.tex
+%
+%  This is a standalone signable document. It also drops straight into the
+%  manuscript as Appendix A1: replace the body of A1_protocol.tex with
+%  \input{../../protocol/protocol_body.tex} once this is signed, or just paste
+%  everything between \begin{document} and \end{document}.
+%
+%  HOW TO USE IT
+%  1. Work through every line marked DECISION REQUIRED. Defaults are supplied
+%     with rationale; you can accept them, but accept them deliberately.
+%  2. Sign and date section 0 with your advisor.
+%  3. Optionally post to OSF for an independent timestamp (free, ~10 minutes).
+%  4. From that point, changes go in the amendment log in section 19. Never
+%     edit a locked value silently.
+%##############################################################################
+
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=1in]{geometry}
+\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[protrusion=true,expansion=false]{microtype}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{siunitx}
+\sisetup{group-separator={,}}
+\usepackage{xcolor}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+\definecolor{navy}{HTML}{1F3864}
+\definecolor{decide}{HTML}{B04A00}
+\titleformat{\section}{\large\bfseries\color{navy}}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}
+
+\pagestyle{fancy}\fancyhf{}
+\lhead{\small Predeclared analysis protocol}
+\rhead{\small v0.1 draft \textbullet\ \today}
+\cfoot{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% DECISION REQUIRED marker: renders orange so open decisions cannot hide.
+\newcommand{\dec}[1]{\par\vspace{2pt}\noindent\textcolor{decide}{\textbf{DECISION REQUIRED:} #1}\par\vspace{2pt}}
+\newcommand{\lockd}[1]{\textbf{#1}}
+\newcommand{\structconn}{potential structural connectivity}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\bfseries\color{navy} Predeclared Analysis Protocol}\\[6pt]
+{\large Changing connections: temporal \structconn, unprotected pinch points,\\
+and monitoring priorities for free-ranging cheetahs in southern Africa}\\[10pt]
+{Liam Crettol \textbullet\ Weber State University}\\[4pt]
+{Version 0.1 (draft for advisor review) \textbullet\ \today}
+\end{center}
+
+\vspace{6pt}
+\hrule
+\vspace{10pt}
+
+\noindent\textbf{What this document is.} A complete statement of the analytical
+choices for this project, fixed before any connectivity output is generated or
+inspected. Its purpose is to remove researcher degrees of freedom from a study
+design that contains a very large number of individually defensible options.
+Every value below was chosen without reference to any result.
+
+\noindent\textbf{What it is not.} It is not immutable. Changes are permitted and
+expected; they are recorded in the amendment log (\S\ref{sec:amend}) with a date
+and a reason, and the log is published with the manuscript. A disclosed
+amendment is sound practice. A silent change is not.
+
+\vspace{10pt}
+\hrule
+
+%==============================================================================
+\section{Document control and sign-off}
+
+\begin{tabular}{@{}p{4.2cm}p{10.5cm}@{}}
+\toprule
+Protocol version & 0.1 (draft) \\
+Date drafted & \today \\
+Date locked & \rule{5cm}{0.4pt} \\
+Author & Liam Crettol \\
+Advisor & \rule{5cm}{0.4pt} \\
+Advisor signature & \rule{5cm}{0.4pt} \\
+Independent timestamp & OSF DOI: \rule{4cm}{0.4pt} \quad (optional but recommended) \\
+Amendments to date & 0 \\
+\bottomrule
+\end{tabular}
+
+\vspace{8pt}
+\noindent The signature above attests that this protocol was fixed before any
+connectivity, corridor, current-flow, protected-area overlap, or prioritisation
+result had been generated or viewed.
+
+%==============================================================================
+\section{Purpose and contribution}
+
+This project models how \structconn\ between established cheetah range cores has
+changed across southern Africa between 2012 and 2024, identifies which pinch
+points remain important across plausible modelling assumptions, characterises
+their protected-area status, and derives a ranked set of monitoring priorities.
+
+Two boundaries define the contribution and both are binding.
+
+\begin{enumerate}[leftmargin=*]
+\item \textbf{This is not a habitat suitability study.} Regional current and
+projected cheetah habitat suitability, including protected-area mismatch, is
+already published. Suitability may enter this analysis only as an input to a
+resistance scenario, never as a result.
+\item \textbf{Range cores are held fixed at the historical baseline.} No
+comparable range reassessment exists after the 2010--2016 evidence period.
+Cores therefore do not move between snapshots, and all measured temporal change
+is landscape-side. This must be stated in the abstract, not only the methods.
+\end{enumerate}
+
+%==============================================================================
+\section{Objectives and hypotheses}
+
+\subsection{Objectives}
+\begin{enumerate}[leftmargin=*,label=O\arabic*.]
+\item Quantify change in modelled \structconn\ between fixed range cores across
+four snapshots spanning 2012--2024.
+\item Identify pinch points that remain important across the full sensitivity
+grid, and characterise their protected-area status.
+\item Derive and stress-test a ranked set of monitoring priorities.
+\end{enumerate}
+
+\subsection{Hypotheses as locked}
+
+\textbf{H1 (revised from the workbook).} Connectivity loss is concentrated on a
+minority of network links rather than distributed across the network, and the
+affected links are disproportionately those with high betweenness in the
+baseline network.
+
+\emph{Note on the revision.} H1 as originally drafted predicted that cells with
+larger increases in human pressure would show larger increases in resistance.
+That is true by construction, since the pressure layers are the resistance
+inputs. It cannot fail and therefore is not a hypothesis. The revised form asks
+a question the model can answer negatively: pressure change might fall on
+redundant links, in which case network-level connectivity is robust to it and
+the conservation implication reverses.
+
+\emph{Refuted if:} connectivity loss is approximately uniform across links, or
+loss falls preferentially on low-betweenness links.
+
+\textbf{H2.} High-value connectivity area is disproportionately located outside
+formal protected areas.
+
+\emph{Refuted if:} the outside-PA share of high-current area does not exceed the
+predeclared null (\S\ref{sec:pa}) at the stated significance level, or the
+result does not hold across current-flow thresholds.
+
+\textbf{H3.} A limited subset of transboundary linkages remains important across
+all resistance assumptions, while other apparent corridors are strongly
+model-sensitive.
+
+\emph{Refuted if:} agreement is uniformly high (in which case the ensemble adds
+nothing) or uniformly low (in which case no robust set exists and the paper's
+primary output becomes the uncertainty map, per the decision rule in
+\S\ref{sec:stop}).
+
+\textbf{H4.} The highest-priority monitoring cells occur where structural
+importance coincides with old or sparse cheetah evidence and rapid landscape
+change.
+
+\emph{Refuted if:} no stable top tier persists across the predeclared weight
+sets.
+
+\dec{Confirm you accept the H1 revision. If you prefer to keep the original H1,
+it must be demoted from a hypothesis to a descriptive attribution analysis, and
+the word ``hypothesis'' removed from it.}
+
+%==============================================================================
+\section{Study extent and exclusions}
+
+\textbf{Primary extent.} The confirmed and likely free-ranging cheetah range
+envelope across Namibia, Botswana, Zimbabwe and South Africa, as delineated in
+the archived 2010--2016 regional range assessment, buffered outward by
+\lockd{\SI{100}{\kilo\metre}} to avoid truncating corridors at the envelope edge.
+
+\emph{Rationale for the buffer.} Least-cost and current-flow results are
+sensitive to boundary truncation. A buffer wider than the plausible inter-core
+path deviation prevents the analysis boundary from becoming an artificial
+barrier. Cores are not defined in the buffer; it exists only so paths can route
+through it.
+
+\textbf{Exclusions.} Permanent water bodies; cells with no valid data in any
+covariate for any snapshot; areas outside the four primary countries except
+where inside the buffer.
+
+\textbf{Scope-control fallback.} If total compute for the full sensitivity grid
+exceeds \lockd{120 hours} on available hardware, the extent reduces to the
+Namibia--Botswana--Zimbabwe transboundary network. This trigger is numeric and
+declared in advance so that a scope reduction is a planned contingency rather
+than a response to inconvenient results. South Africa would then be reported as
+a validation region only.
+
+\dec{Confirm the \SI{100}{\kilo\metre} buffer and the 120-hour compute trigger.
+The trigger should reflect hardware you actually have, so measure a pilot run
+first (timeline block 5) and amend this value before locking if needed.}
+
+%==============================================================================
+\section{Coordinate system and working resolution}
+
+\textbf{Coordinate reference system.} Africa Albers Equal Area Conic
+(ESRI:102022), an equal-area projection appropriate for continental Africa.
+Equal-area is required because the analysis reports areal quantities (protected
+area shares, corridor areas, tabulated change).
+
+\dec{Paste the full WKT string into the box below when you set up the ArcGIS Pro
+project, so the projection is unambiguous and reproducible.}
+
+\begin{center}
+\fbox{\parbox{0.92\textwidth}{\vspace{1.5cm}\centering\emph{full CRS WKT here}\vspace{1.5cm}}}
+\end{center}
+
+\textbf{Working resolution.} \lockd{\SI{1}{\kilo\metre}}, with the full pipeline
+repeated at \lockd{\SI{2}{\kilo\metre}} and \lockd{\SI{5}{\kilo\metre}} as
+resolution sensitivity.
+
+\emph{Rationale.} The occurrence baseline is a \SI{10}{\kilo\metre} assessment
+grid; environmental covariates range from \SI{30}{\metre} to \SI{1}{\kilo\metre}.
+Modelling at \SI{10}{\kilo\metre} would make a ``pinch point'' a
+\SI{100}{\kilo\metre\squared} block, which is not an actionable location and not
+a pinch point in any meaningful sense. Modelling at \SI{100}{\metre} would imply
+locational precision the occurrence evidence cannot support and would raise
+compute by two orders of magnitude. \SI{1}{\kilo\metre} is the coarsest
+resolution at which a pinch point is a place a survey team could go, and the
+finest at which the claim remains honest. The two coarser repetitions
+demonstrate that conclusions are not resolution artefacts.
+
+\textbf{Alignment.} All rasters share a single snap raster, origin, cell size,
+extent and NoData convention. Aggregation from finer sources uses mean for
+continuous variables and majority for categorical variables; both are recorded
+per layer.
+
+%==============================================================================
+\section{Temporal design}
+
+\textbf{Snapshots.} \lockd{2012, 2016, 2020, 2024}.
+
+\textbf{Nearest-year rule.} Where a covariate is not available for a snapshot
+year, the nearest available year is used and the offset in years is recorded.
+The temporal alignment table (one row per covariate, one column per snapshot,
+each cell giving source year and offset) is a required deliverable and is
+published in the supplement.
+
+\textbf{Maximum tolerated offset.} \lockd{$\pm$2 years}. A covariate that cannot
+meet this for a given snapshot is treated as static for the entire analysis
+rather than being interpolated. Interpolation is prohibited: it would create
+apparent change from an assumption rather than an observation.
+
+%==============================================================================
+\section{Range cores}
+
+Three core definitions, all derived from the archived confirmed-range data,
+applied identically to every snapshot.
+
+\begin{center}
+\begin{tabular}{@{}llll@{}}
+\toprule
+ID & Evidence included & Minimum patch area & Character \\
+\midrule
+C1 & Confirmed range only & \SI{2000}{\kilo\metre\squared} & Conservative \\
+C2 & Confirmed + likely range & \SI{1000}{\kilo\metre\squared} & Moderate (default for headline figures) \\
+C3 & Confirmed + likely + possible & \SI{500}{\kilo\metre\squared} & Inclusive \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\emph{Rationale for the area thresholds.} Cheetah home ranges on southern
+African farmland are reported at the order of hundreds to over a thousand square
+kilometres. A core smaller than roughly one home range is not a population
+source in any useful sense. The three thresholds bracket that magnitude rather
+than asserting a precise value.
+
+\dec{Confirm the three area thresholds against the home-range figures in Marker
+et al. 2008 and Melzheimer et al. 2020 before locking. If the reported ranges
+differ substantially from the assumption above, adjust the thresholds and record
+the source. Also confirm that the archived dataset uses the evidence categories
+named here; if the category labels differ, map them explicitly in an amendment.}
+
+Cores are generated by region grouping on the thresholded evidence surface, with
+a single morphological closing pass to remove single-cell holes. No manual
+editing of core geometry is permitted at any stage.
+
+%==============================================================================
+\section{Covariate register and temporal treatment}
+
+Every covariate is classified as \textbf{dynamic} (varies across snapshots and
+therefore carries temporal signal) or \textbf{static} (identical in every
+snapshot). This classification is locked here and cannot change after results
+are seen.
+
+\begin{center}
+\small
+\begin{tabular}{@{}p{4.6cm}p{2.4cm}p{2.0cm}p{5.2cm}@{}}
+\toprule
+Covariate & Source & Treatment & Note \\
+\midrule
+Built-up fraction & GHSL & Dynamic & Epochal; apply nearest-year rule \\
+Nighttime radiance & VIIRS annual & Dynamic & Mask known gas flares before differencing \\
+Percent tree cover & MODIS VCF & Dynamic & Pin one collection version across all years \\
+Percent non-tree vegetation & MODIS VCF & Dynamic & As above \\
+Percent bare ground & MODIS VCF & Dynamic & As above \\
+Land cover (categorical) & MODIS MCD12Q1 & \textbf{Static} & Context and masking only; never differenced \\
+Roads & GRIP4 (primary) & \textbf{Static} & OSM for contemporary detail only \\
+Livestock density & GLW4 & \textbf{Static} & Single reference year; exposure only \\
+Veterinary fences & national / AHEAD & \textbf{Static} & See \S\ref{sec:fences} \\
+Distance to water & HydroSHEDS & \textbf{Static} & \\
+Slope / ruggedness & SRTM & \textbf{Static} & \\
+Protected areas & WDPA & \textbf{Static} & Overlay only, not a resistance input \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Why categorical land cover is static.} Annual categorical land-cover
+products reassign classes between adjacent years for reasons unrelated to
+landscape change, and the instability concentrates in exactly the semi-arid
+mixed grass and shrub classes that dominate this study area. Differencing them
+would manufacture change. Temporal vegetation signal is therefore carried
+entirely on the continuous VCF fields.
+
+\subsection{Veterinary fences}
+\label{sec:fences}
+
+Veterinary cordon fences in Botswana and Namibia are major deliberate barriers
+to large mammal movement and must be represented. Acquisition proceeds in this
+order: national veterinary department layers; the AHEAD/WCS KAZA fence
+assessment materials; OSM \texttt{barrier=fence} where mapped.
+
+\textbf{Contingency.} If no usable vector layer can be obtained by the end of
+timeline block 3, fences are handled as an explicit scenario comparison (network
+modelled with and without digitised fence lines from the best available source)
+and the limitation is stated prominently. Omitting fences silently is not an
+option.
+
+\dec{Confirm the acquisition order, and set a hard date by which the contingency
+triggers.}
+
+%==============================================================================
+\section{Resistance scenarios}
+
+Six scenarios. RES-01 to RES-05 are as specified in the project workbook's
+Resistance Scenario Register, reproduced by reference and treated as locked.
+RES-06 is added here.
+
+\textbf{RES-06 (composite pressure).} Resistance driven by a single published
+composite human-modification index rather than by separately weighted pressure
+layers. Its purpose is to test whether conclusions depend on the analyst's own
+weighting of correlated human-pressure variables, which is the collinearity
+concern in the cautions register. It uses no parameters chosen by the author.
+
+\textbf{No preferred scenario.} No scenario is designated as correct, primary,
+or best. Results are reported as an ensemble. Where a single surface is required
+for illustration, RES-04 (balanced evidence) is used and labelled as
+illustrative, not preferred.
+
+\textbf{Transformations.} As specified per scenario in the register. Resistance
+values are relative ranks, not empirical coefficients, and are described as such
+throughout.
+
+\dec{Confirm that RES-06 is added, and confirm RES-04 as the illustrative
+surface. Both choices must be made now, not after seeing which surface produces
+the clearest map.}
+
+%==============================================================================
+\section{Connectivity modelling}
+
+\textbf{Effective distance and corridors.} ArcGIS Pro Distance Accumulation and
+Optimal Region Connections, cores as sources, per scenario and per snapshot.
+
+\textbf{Current flow.} Circuitscape.jl in \lockd{pairwise} mode, all core pairs,
+with cores as sources and grounds. Pairwise rather than omnidirectional because
+cores are defined a priori; an omnidirectional formulation answers a different
+question and is not used.
+
+\textbf{Normalisation.} Cumulative current is normalised by the number of core
+pairs contributing, so that snapshots and core definitions yielding different
+core counts remain comparable. The normalisation formula is fixed here and
+applied identically everywhere.
+
+\textbf{Corridor definition.} \lockd{Continuous current surfaces summarised by
+quantile.} Thresholded corridor polygons are used only for cartography and are
+never the basis of a statistical comparison.
+
+\emph{Why this must be fixed now.} The corridor definition sets the denominator
+for the protected-area test in \S\ref{sec:pa}. Choosing it after seeing the
+overlap result would let the analyst select the definition that produces the
+desired protection gap.
+
+\textbf{High-current definition.} The \lockd{top decile} of normalised current
+within the analysis extent.
+
+%==============================================================================
+\section{Network metrics}
+
+Cores are nodes; effective distances between core pairs are edge weights.
+Reported metrics:
+
+\begin{itemize}[leftmargin=*,nosep]
+\item Probability of connectivity (PC) and per-node and per-link importance
+(dPC), computed in Conefor or an equivalent implementation.
+\item Betweenness centrality on the same graph, used for H1.
+\end{itemize}
+
+\textbf{Dispersal distance parameter.} PC requires a dispersal probability
+function. Median dispersal probability is set at \lockd{\SI{100}{\kilo\metre}},
+with sensitivity at \lockd{50, 200 and \SI{400}{\kilo\metre}}. No single value
+is reported alone.
+
+\dec{The \SI{100}{\kilo\metre} default is a placeholder pending a literature
+check on reported cheetah natal dispersal distances. Confirm or replace it with
+a cited value before locking, and record the source. If the literature does not
+support a defensible central value, report the full sensitivity range and say
+so rather than picking one.}
+
+%==============================================================================
+\section{Temporal comparison}
+
+Change is computed between consecutive snapshots and between the first and last
+snapshot, using identical cores, scenarios, resolution and normalisation. Both
+absolute and proportional change are reported. Change is attributed to covariate
+change by construction; no causal language is used.
+
+%==============================================================================
+\section{Protected-area analysis}
+\label{sec:pa}
+
+\textbf{Source.} A single named WDPA monthly release, recorded here on locking.
+\lockd{Release: \rule{3cm}{0.4pt}}
+
+\textbf{Geometry handling.} Valid polygons only. Point records are excluded and
+the count of exclusions is reported. Status and designation fields are filtered
+to \lockd{designated, inscribed and established}; proposed sites are excluded.
+
+\textbf{Predeclared null.} The observed share of top-decile current area falling
+outside protected areas is compared against a null generated by
+\lockd{999 area-standardised spatial permutations of the protected-area
+configuration within the analysis extent}, preserving total protected area and
+patch size distribution.
+
+\textbf{Primary comparison denominator.} \lockd{The modelled network} (the union
+of the top quartile of current), not the full analysis extent. The full extent
+is reported as a secondary comparison.
+
+\emph{Rationale.} Comparing against the full extent would largely recover the
+known fact that protected areas cover a minority of the landscape. Comparing
+against the modelled network asks the sharper question: within the area the
+model identifies as connectivity-relevant, is the highest-value subset
+disproportionately unprotected?
+
+\textbf{Significance threshold.} \lockd{$\alpha = 0.05$}, reported with the
+observed effect size, not as a bare $p$-value.
+
+\textbf{Threshold sensitivity.} The comparison is repeated at the top 5\%, 10\%
+and 20\% of current. A result that holds only at one threshold is reported as
+threshold-dependent.
+
+%==============================================================================
+\section{Sensitivity grid and the definition of robustness}
+\label{sec:grid}
+
+\textbf{Full grid at \SI{1}{\kilo\metre}:} 6 resistance scenarios $\times$ 3 core
+definitions $\times$ 4 snapshots = \lockd{72 runs}.
+
+\textbf{Resolution sensitivity:} the same grid at \SI{2}{\kilo\metre} and
+\SI{5}{\kilo\metre} for the \lockd{first and last snapshots only}
+(6 $\times$ 3 $\times$ 2 $\times$ 2 = 72 additional runs), giving
+\lockd{144 runs total}.
+
+\emph{Rationale for restricting the resolution sensitivity.} Repeating all four
+snapshots at all three resolutions triples compute for little added inference.
+The first and last snapshots bracket the change being measured, which is what
+the resolution check needs to test.
+
+\textbf{Definition of robust.} A cell is robust if it falls in the top decile of
+normalised current in \lockd{at least 80\% of runs} within a given snapshot
+(that is, $k \geq 15$ of $n = 18$ scenario-core combinations at
+\SI{1}{\kilo\metre}).
+
+\emph{Rationale for $k/n = 0.8$.} The threshold is set high because the
+scenarios share input layers and will therefore agree more than genuinely
+independent models would. A permissive threshold would report shared-input
+agreement as biological robustness. This number is fixed before any agreement
+map is produced.
+
+\textbf{Reporting rule.} Cells with agreement below the threshold are reported
+as \emph{uncertain}, never as priorities, and appear in the monitoring index
+rather than in the corridor recommendations.
+
+\dec{Confirm $k/n = 0.8$. This is the single most consequential number in the
+protocol and the one most tempting to relax later. If you relax it after seeing
+the agreement map, it must appear in the amendment log with the pre- and
+post-values and the original result reported alongside.}
+
+%==============================================================================
+\section{Independent plausibility assessment}
+
+\textbf{Route: plausibility check only.} No resistance surface is fitted to the
+occurrence data. Consequently there is no fitted model to validate, and the word
+``validation'' is prohibited in describing this analysis (see the claim
+dictionary, \S\ref{sec:dict}).
+
+\textbf{Evidence used.} The archived Limpopo cheetah tracking dataset
+(nine individuals, 2003--2008) and published camera-trap occurrence evidence
+from central-eastern Namibia, both external to the core definition.
+
+\textbf{Test.} Observed locations are compared against availability-matched
+random points drawn within the same landscape, asking whether observed locations
+fall in lower-resistance and higher-current cells more often than expected.
+Autocorrelation within tracks is accounted for by \lockd{subsampling to one
+location per individual per 24 hours}.
+
+\textbf{Declared limits.} Nine individuals in one landscape twenty years ago
+cannot speak to a four-country network in 2024. A positive result is localised
+support only. A negative or null result is reported with equal prominence and
+does not invalidate the modelling, but does bound the discussion.
+
+%==============================================================================
+\section{Monitoring priority index}
+
+\textbf{Reporting unit.} \SI{10}{\kilo\metre} cells, matching the resolution of
+the occurrence evidence rather than the modelling resolution.
+
+\textbf{Components}, each normalised to $[0,1]$ by min-max scaling within the
+extent: (i) connectivity importance (normalised current and dPC);
+(ii) magnitude of connectivity change 2012--2024; (iii) model uncertainty
+(inverse of ensemble agreement); (iv) evidence age; (v) evidence sparsity;
+(vi) threat exposure (change in human pressure).
+
+\textbf{Predeclared weight sets.}
+
+\begin{center}
+\begin{tabular}{@{}lcccccc@{}}
+\toprule
+Set & Connectivity & Change & Uncertainty & Evid. age & Evid. sparsity & Threat \\
+\midrule
+W1 (balanced, headline) & 0.25 & 0.20 & 0.15 & 0.15 & 0.15 & 0.10 \\
+W2 (connectivity-led) & 0.45 & 0.15 & 0.10 & 0.10 & 0.10 & 0.10 \\
+W3 (knowledge-gap-led) & 0.15 & 0.15 & 0.20 & 0.25 & 0.20 & 0.05 \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Stability testing.} Spearman rank correlation between weight sets across
+all cells, and Jaccard overlap of the top 20 cells between weight sets. A cell
+enters the recommended tier only if it appears in the top 20 under
+\lockd{all three} weight sets.
+
+\textbf{Transparency requirement.} All six component scores are published per
+cell alongside the composite, so any reader can reweight and obtain their own
+ranking. The index is decision support under stated assumptions, not an
+objective ordering.
+
+\dec{Confirm the three weight sets. They must be fixed now. If a partner
+organisation later supplies operational weights, those are added as a fourth set
+in an amendment, not substituted for these.}
+
+%==============================================================================
+\section{Claim dictionary}
+\label{sec:dict}
+
+Permitted and prohibited language, binding on the manuscript.
+
+\begin{center}
+\small
+\begin{tabular}{@{}p{7.1cm}p{7.4cm}@{}}
+\toprule
+\textbf{Prohibited} & \textbf{Required instead} \\
+\midrule
+functional corridor; cheetah corridor & area of high modelled \structconn \\
+cheetahs move through / use this area & this area is a modelled structural priority warranting field validation \\
+validation; validated & independent plausibility assessment; consistent with \\
+conflict hotspot & area of high modelled livestock exposure \\
+population decline; caused & spatially coincided with; associated with \\
+current cheetah range & historical confirmed-range evidence, 2010--2016 \\
+absent; no cheetahs & no records; unknown detection and effort \\
+the corridor network & the modelled network under scenario X \\
+this resistance surface is correct & results were evaluated across a predeclared ensemble \\
+\bottomrule
+\end{tabular}
+\end{center}
+
+Every prohibited term is checked by text search before submission. This check is
+a required item in the pre-submission audit.
+
+%==============================================================================
+\section{Decision and stopping rules}
+\label{sec:stop}
+
+\textbf{If corridor rankings are unstable} (no robust set emerges under
+\S\ref{sec:grid}), the paper's primary output becomes the uncertainty-guided
+monitoring design, and the corridor map is demoted to a supporting figure. This
+is a legitimate result, not a failure, and is declared here so it cannot be
+presented as the plan all along or quietly avoided.
+
+\textbf{If the protected-area result is not significant}, H2 is reported as
+unsupported and the discussion addresses why, without threshold shopping.
+
+\textbf{If the plausibility assessment is null}, it is reported in full and the
+discussion is bounded accordingly.
+
+\textbf{All scenarios are retained and reported.} No scenario is dropped for
+producing inconvenient or uninteresting results.
+
+%==============================================================================
+\section{Reproducibility and data handling}
+
+\textbf{Scripting.} All geoprocessing is scripted in arcpy. ModelBuilder is used
+for exploration only; no result in the manuscript derives from an unscripted
+step.
+
+\textbf{Version recording.} ArcGIS Pro, Julia, Circuitscape.jl, R or Python, and
+every dataset version and access date are recorded in the data manifest.
+
+\textbf{Redistribution limits.} Raw WDPA data are not redistributed; users
+obtain them independently under Protected Planet terms. Occurrence data are
+shared only at the resolution the source archive permits. Derived summaries and
+all code are published.
+
+\textbf{Archive.} Code, protocol, manifest and derived non-restricted outputs
+are deposited with a DOI on completion.
+
+%==============================================================================
+\section{Amendment log}
+\label{sec:amend}
+
+Every change to a locked value after the sign-off date is recorded here before
+the change is made. The log is published with the manuscript.
+
+\begin{center}
+\begin{tabular}{@{}p{1.4cm}p{1.6cm}p{3.4cm}p{3.2cm}p{4.4cm}@{}}
+\toprule
+No. & Date & Section and value & Changed from / to & Reason, and whether any result had been seen \\
+\midrule
+1 & & & & \\[10pt]
+2 & & & & \\[10pt]
+3 & & & & \\[10pt]
+4 & & & & \\[10pt]
+\bottomrule
+\end{tabular}
+\end{center}
+
+\vspace{6pt}
+\noindent The final column is the one that matters. An amendment made before any
+relevant result was viewed is routine. An amendment made afterwards is not
+disqualifying, but it must be visible, and the pre-amendment result is reported
+alongside the post-amendment result.
+
+\end{document}

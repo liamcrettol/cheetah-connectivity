@@ -1,0 +1,21 @@
+{
+  "name": "cheetah-paper",
+  "image": "texlive/texlive:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop",
+        "streetsidesoftware.code-spell-checker",
+        "valentjn.vscode-ltex"
+      ],
+      "settings": {
+        "latex-workshop.latex.outDir": "%DIR%",
+        "latex-workshop.latex.autoBuild.run": "onFileChange",
+        "latex-workshop.latex.recipe.default": "latexmk",
+        "editor.wordWrap": "on",
+        "editor.rulers": [80]
+      }
+    }
+  },
+  "postCreateCommand": "latexmk --version && biber --version"
+}
