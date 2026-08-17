@@ -203,9 +203,18 @@ declared in advance so that a scope reduction is a planned contingency rather
 than a response to inconvenient results. South Africa would then be reported as
 a validation region only.
 
-\dec{Confirm the \SI{100}{\kilo\metre} buffer and the 120-hour compute trigger.
-The trigger should reflect hardware you actually have, so measure a pilot run
-first (timeline block 5) and amend this value before locking if needed.}
+\lockd{\SI{100}{\kilo\metre} buffer confirmed.} It is the same order of
+magnitude as the individual movement-distance value adopted for the PC
+dispersal parameter below, which gives the two figures internal consistency,
+and it is wide enough that corridor routing is not truncated at the boundary.
+
+\dec{The 120-hour compute trigger remains provisional pending a pilot run on
+the development hardware (GitHub Codespace: 4-core, 16GB RAM, 32GB storage).
+Time one full sensitivity-grid unit run (one resistance scenario $\times$ one
+core definition $\times$ one snapshot at \SI{1}{\kilo\metre}) end to end in
+Circuitscape.jl pairwise mode, multiply by 144 runs, and compare the result
+against the 120-hour ceiling before timeline block 5. Amend this value with the
+measured figure once the pilot is run.}
 
 %==============================================================================
 \section{Coordinate system and working resolution}
