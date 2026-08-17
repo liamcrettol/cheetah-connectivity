@@ -215,11 +215,12 @@ first (timeline block 5) and amend this value before locking if needed.}
 Equal-area is required because the analysis reports areal quantities (protected
 area shares, corridor areas, tabulated change).
 
-\dec{Paste the full WKT string into the box below when you set up the ArcGIS Pro
-project, so the projection is unambiguous and reproducible.}
+\lockd{Full WKT confirmed below (Esri's standard definition for ESRI:102022).}
 
 \begin{center}
-\fbox{\parbox{0.92\textwidth}{\vspace{1.5cm}\centering\emph{full CRS WKT here}\vspace{1.5cm}}}
+\fbox{\parbox{0.92\textwidth}{\scriptsize\ttfamily\raggedright
+PROJCS["Africa\_Albers\_Equal\_Area\_Conic",GEOGCS["WGS 84",DATUM["WGS\_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Albers\_Conic\_Equal\_Area"],PARAMETER["latitude\_of\_center",0],PARAMETER["longitude\_of\_center",25],PARAMETER["standard\_parallel\_1",20],PARAMETER["standard\_parallel\_2",-23],PARAMETER["false\_easting",0],PARAMETER["false\_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["ESRI","102022"]]
+}}
 \end{center}
 
 \textbf{Working resolution.} \lockd{\SI{1}{\kilo\metre}}, with the full pipeline
