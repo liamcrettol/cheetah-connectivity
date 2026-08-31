@@ -17,3 +17,7 @@ cheetah-sheets-*.json
 *.toc
 *.nav
 *.snm
+
+# ArcGIS Pro transient session locks -- never commit
+*.sr.lock
+*.lock
