@@ -56,8 +56,8 @@ Record and freeze the core definitions before connectivity runs.
 Create `resistance_spec.csv` before making surfaces. It needs six scenarios
 (RES-01 habitat, RES-02 human pressure, RES-03 livestock, RES-04 balanced,
 RES-05 low contrast, RES-06 composite) x four years. For every covariate,
-record function, range/weight, source or explicit scenario assumption. Have
-your advisor review and freeze it before Step 15.
+record function, range/weight, source or explicit scenario assumption. Freeze
+it and tag the commit before Step 15.
 
 ## 9. Pressure overlap check (Step 14)
 
