@@ -28,7 +28,7 @@ Codespace and the devcontainer supplies both.
 The protocol is fixed before any connectivity result is generated. When it is
 signed, tag it:
 
-    git tag -a protocol-v1.0 -m "protocol locked, advisor signed"
+    git tag -a protocol-v1.0 -m "protocol locked"
     git push origin protocol-v1.0
 
 Amendments after that point go in the protocol's amendment log AND get their own

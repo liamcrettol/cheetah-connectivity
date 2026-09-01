@@ -1,0 +1,19 @@
+source_code,source_class,project_class,project_value,treatment,rationale,source
+0,Water,water,5,retain,Direct hydrologic class retained as water context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+1,Evergreen needleleaf forest,woody,2,retain,Tree-dominated forest context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+2,Evergreen broadleaf forest,woody,2,retain,Tree-dominated forest context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+3,Deciduous needleleaf forest,woody,2,retain,Tree-dominated forest context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+4,Deciduous broadleaf forest,woody,2,retain,Tree-dominated forest context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+5,Mixed forest,woody,2,retain,Tree-dominated forest context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+6,Closed shrublands,woody,2,retain,Shrub-dominated cover retained as woody landscape context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+7,Open shrublands,open vegetation,1,retain,Open shrub cover grouped with open vegetation for broad landscape description,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+8,Woody savannas,woody,2,retain,Woody-dominated savanna retained as woody landscape context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+9,Savannas,open vegetation,1,retain,Savanna grouped with open vegetation for broad landscape description,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+10,Grasslands,open vegetation,1,retain,Open herbaceous cover,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+11,Permanent wetlands,water,5,retain,Hydrologic wetland context grouped with water,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+12,Croplands,cropland,3,retain,Direct land-use class retained as cropland context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+13,Urban and built-up,built,4,retain,Direct built-environment class retained as built context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+14,Cropland natural vegetation mosaic,cropland,3,retain,Cropland component drives land-use label; mixed composition noted in source class,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+15,Snow and ice,bare,6,retain,Non-vegetated land cover grouped with bare context,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+16,Barren or sparsely vegetated,bare,6,retain,Direct non-vegetated land-cover class,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf
+17,Unclassified,NoData,,exclude,No land-cover claim is made for unclassified pixels,https://lpdaac.usgs.gov/documents/1409/MCD12_User_Guide_V61.pdf

@@ -12,8 +12,9 @@
 %  HOW TO USE IT
 %  1. Work through every line marked DECISION REQUIRED. Defaults are supplied
 %     with rationale; you can accept them, but accept them deliberately.
-%  2. Sign and date section 0 with your advisor.
-%  3. Optionally post to OSF for an independent timestamp (free, ~10 minutes).
+%  2. Date and lock section 0, then tag the commit (git tag -a protocol-v1.0).
+%  3. Post to OSF for an independent timestamp (free, ~10 minutes). This is the
+%     only external verification of the lock date, so do not skip it.
 %  4. From that point, changes go in the amendment log in section 19. Never
 %     edit a locked value silently.
 %##############################################################################
@@ -58,7 +59,7 @@
 {\large Changing connections: temporal \structconn, unprotected pinch points,\\
 and monitoring priorities for free-ranging cheetahs in southern Africa}\\[10pt]
 {Liam Crettol \textbullet\ Weber State University}\\[4pt]
-{Version 0.1 (draft for advisor review) \textbullet\ \today}
+{Version 0.1 (draft) \textbullet\ \today}
 \end{center}
 
 \vspace{6pt}
@@ -88,17 +89,20 @@ Protocol version & 0.1 (draft) \\
 Date drafted & \today \\
 Date locked & \rule{5cm}{0.4pt} \\
 Author & Liam Crettol \\
-Advisor & \rule{5cm}{0.4pt} \\
-Advisor signature & \rule{5cm}{0.4pt} \\
-Independent timestamp & OSF DOI: \rule{4cm}{0.4pt} \quad (optional but recommended) \\
+Author signature & \rule{5cm}{0.4pt} \\
+Git lock tag & \texttt{protocol-v1.0} \quad commit: \rule{3cm}{0.4pt} \\
+Independent timestamp & OSF DOI: \rule{4cm}{0.4pt} \\
 Amendments to date & 0 \\
 \bottomrule
 \end{tabular}
 
 \vspace{8pt}
-\noindent The signature above attests that this protocol was fixed before any
+\noindent The lock recorded above attests that this protocol was fixed before any
 connectivity, corridor, current-flow, protected-area overlap, or prioritisation
-result had been generated or viewed.
+result had been generated or viewed. Because this is single-author work with no
+countersignature, the verifiable evidence of the lock date is external: the
+signed git tag and the OSF timestamp, both of which are dated independently of
+the author.
 
 %==============================================================================
 \section{Purpose and contribution}
@@ -174,9 +178,9 @@ change.
 \emph{Refuted if:} no stable top tier persists across the predeclared weight
 sets.
 
-\dec{Confirm you accept the H1 revision. If you prefer to keep the original H1,
-it must be demoted from a hypothesis to a descriptive attribution analysis, and
-the word ``hypothesis'' removed from it.}
+\lockd{H1 revision confirmed.} The original form was true by construction
+(pressure layers are the resistance inputs) and could not fail, so it was not a
+hypothesis. The revised form above is retained as stated.
 
 %==============================================================================
 \section{Study extent and exclusions}
@@ -203,9 +207,18 @@ declared in advance so that a scope reduction is a planned contingency rather
 than a response to inconvenient results. South Africa would then be reported as
 a validation region only.
 
-\dec{Confirm the \SI{100}{\kilo\metre} buffer and the 120-hour compute trigger.
-The trigger should reflect hardware you actually have, so measure a pilot run
-first (timeline block 5) and amend this value before locking if needed.}
+\lockd{\SI{100}{\kilo\metre} buffer confirmed.} It is the same order of
+magnitude as the individual movement-distance value adopted for the PC
+dispersal parameter below, which gives the two figures internal consistency,
+and it is wide enough that corridor routing is not truncated at the boundary.
+
+\dec{The 120-hour compute trigger remains provisional pending a pilot run on
+the development hardware (GitHub Codespace: 4-core, 16GB RAM, 32GB storage).
+Time one full sensitivity-grid unit run (one resistance scenario $\times$ one
+core definition $\times$ one snapshot at \SI{1}{\kilo\metre}) end to end in
+Circuitscape.jl pairwise mode, multiply by 144 runs, and compare the result
+against the 120-hour ceiling before timeline block 5. Amend this value with the
+measured figure once the pilot is run.}
 
 %==============================================================================
 \section{Coordinate system and working resolution}
@@ -215,11 +228,12 @@ first (timeline block 5) and amend this value before locking if needed.}
 Equal-area is required because the analysis reports areal quantities (protected
 area shares, corridor areas, tabulated change).
 
-\dec{Paste the full WKT string into the box below when you set up the ArcGIS Pro
-project, so the projection is unambiguous and reproducible.}
+\lockd{Full WKT confirmed below (Esri's standard definition for ESRI:102022).}
 
 \begin{center}
-\fbox{\parbox{0.92\textwidth}{\vspace{1.5cm}\centering\emph{full CRS WKT here}\vspace{1.5cm}}}
+\fbox{\parbox{0.92\textwidth}{\scriptsize\ttfamily\raggedright
+PROJCS["Africa\_Albers\_Equal\_Area\_Conic",GEOGCS["WGS 84",DATUM["WGS\_1984",SPHEROID["WGS 84",6378137,298.257223563,AUTHORITY["EPSG","7030"]],AUTHORITY["EPSG","6326"]],PRIMEM["Greenwich",0,AUTHORITY["EPSG","8901"]],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]],AUTHORITY["EPSG","4326"]],PROJECTION["Albers\_Conic\_Equal\_Area"],PARAMETER["latitude\_of\_center",0],PARAMETER["longitude\_of\_center",25],PARAMETER["standard\_parallel\_1",20],PARAMETER["standard\_parallel\_2",-23],PARAMETER["false\_easting",0],PARAMETER["false\_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH],AUTHORITY["ESRI","102022"]]
+}}
 \end{center}
 
 \textbf{Working resolution.} \lockd{\SI{1}{\kilo\metre}}, with the full pipeline
@@ -282,11 +296,24 @@ kilometres. A core smaller than roughly one home range is not a population
 source in any useful sense. The three thresholds bracket that magnitude rather
 than asserting a precise value.
 
-\dec{Confirm the three area thresholds against the home-range figures in Marker
-et al. 2008 and Melzheimer et al. 2020 before locking. If the reported ranges
-differ substantially from the assumption above, adjust the thresholds and record
-the source. Also confirm that the archived dataset uses the evidence categories
-named here; if the category labels differ, map them explicitly in an amendment.}
+\lockd{Area thresholds confirmed.} Marker et al. 2008 report a mean cheetah home
+range of \SI{1651}{\kilo\metre\squared} ($\pm$\SI{1594}{\kilo\metre\squared}) on
+north-central Namibian farmland; Melzheimer et al. 2020 report
+\SI{380}{\kilo\metre\squared} for territory holders, up to
+\SI{1600}{\kilo\metre\squared} for floaters spanning multiple territories, and
+\SI{650}{\kilo\metre\squared} for females. This confirms the ``hundreds to over
+a thousand'' order of magnitude above, and the three thresholds bracket it
+without adjustment.
+
+\emph{Amendment: evidence category mapping.} The archived Weise et al. 2017
+Dryad raster (\texttt{cheetahsouthernafricadistribution.tif}) does not use
+confirmed/likely/possible labels. Its raster attribute table instead codes:
+Value 1 = Possible Cheetah Presence; Value 2 = Free Range Cheetah Presence
+Buffer; Value 3 = Free Range Cheetah Presence; Value 4 = Fenced Cheetah
+Presence. Mapped onto the core definitions above: C1 (confirmed range only)
+uses Value 3 only; C2 (confirmed + likely) adds Value 2; C3 (confirmed + likely
++ possible) adds Value 1. Value 4 (fenced populations) is excluded from all
+three core definitions, consistent with the free-ranging scope of this study.
 
 Cores are generated by region grouping on the thresholded evidence surface, with
 a single morphological closing pass to remove single-cell holes. No manual
@@ -343,8 +370,13 @@ modelled with and without digitised fence lines from the best available source)
 and the limitation is stated prominently. Omitting fences silently is not an
 option.
 
-\dec{Confirm the acquisition order, and set a hard date by which the contingency
-triggers.}
+\lockd{Acquisition order and contingency trigger confirmed.} National
+veterinary department layers rank first as the most authoritative source, the
+AHEAD/WCS KAZA fence assessment second, and OSM \texttt{barrier=fence} last as a
+crowdsourced fallback. The trigger is the end of timeline block 3 on the Master
+Workflow schedule, not a calendar date: if the acquisition sequence above has
+not produced a usable vector layer by that point in the workflow, the
+scenario-comparison contingency above is invoked automatically.
 
 %==============================================================================
 \section{Resistance scenarios}
@@ -368,9 +400,8 @@ illustrative, not preferred.
 values are relative ranks, not empirical coefficients, and are described as such
 throughout.
 
-\dec{Confirm that RES-06 is added, and confirm RES-04 as the illustrative
-surface. Both choices must be made now, not after seeing which surface produces
-the clearest map.}
+\lockd{RES-06 and the RES-04 illustrative designation confirmed.} Both were
+fixed before any resistance surface was produced.
 
 %==============================================================================
 \section{Connectivity modelling}
@@ -417,11 +448,18 @@ function. Median dispersal probability is set at \lockd{\SI{100}{\kilo\metre}},
 with sensitivity at \lockd{50, 200 and \SI{400}{\kilo\metre}}. No single value
 is reported alone.
 
-\dec{The \SI{100}{\kilo\metre} default is a placeholder pending a literature
-check on reported cheetah natal dispersal distances. Confirm or replace it with
-a cited value before locking, and record the source. If the literature does not
-support a defensible central value, report the full sensitivity range and say
-so rather than picking one.}
+\lockd{\SI{100}{\kilo\metre} confirmed as an order-of-magnitude central value.}
+No published cheetah natal-dispersal telemetry study exists for this system.
+The best available proxy is Melzheimer et al. 2020, who report communication
+hubs spaced \SI{22.9}{\kilo\metre} ($\pm$\SI{4.0}{\kilo\metre}) apart (independently corroborated at
+approximately \SI{20}{\kilo\metre} in the Serengeti and Maasai Mara), with
+floaters visiting an average of $3.3 \pm 1.9$ hubs --- implying individual
+movement typically spans on the order of several tens to \SI{100}{\kilo\metre}
+within an extended range. This supports \SI{100}{\kilo\metre} as a defensible
+order-of-magnitude central value, while acknowledging it is derived from
+hub-spacing data rather than a dedicated dispersal study. Sensitivity at 50,
+200 and \SI{400}{\kilo\metre} is reported alongside it; no single value is
+asserted as definitive.
 
 %==============================================================================
 \section{Temporal comparison}
@@ -497,10 +535,10 @@ map is produced.
 as \emph{uncertain}, never as priorities, and appear in the monitoring index
 rather than in the corridor recommendations.
 
-\dec{Confirm $k/n = 0.8$. This is the single most consequential number in the
-protocol and the one most tempting to relax later. If you relax it after seeing
-the agreement map, it must appear in the amendment log with the pre- and
-post-values and the original result reported alongside.}
+\lockd{$k/n = 0.8$ confirmed.} This is the single most consequential number in
+the protocol and the one most tempting to relax later. If it is relaxed after
+seeing the agreement map, it must appear in the amendment log with the pre- and
+post-values and the original result reported alongside.
 
 %==============================================================================
 \section{Independent plausibility assessment}
@@ -561,9 +599,9 @@ cell alongside the composite, so any reader can reweight and obtain their own
 ranking. The index is decision support under stated assumptions, not an
 objective ordering.
 
-\dec{Confirm the three weight sets. They must be fixed now. If a partner
-organisation later supplies operational weights, those are added as a fourth set
-in an amendment, not substituted for these.}
+\lockd{The three weight sets are confirmed and fixed.} If a partner
+organisation later supplies operational weights, those are added as a fourth
+set in an amendment, not substituted for these.
 
 %==============================================================================
 \section{Claim dictionary}
