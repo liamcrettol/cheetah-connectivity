@@ -14,6 +14,7 @@
 
 \subsection{Study area and analysis extent}
 \label{sec:extent}
+% Sentence starters: "The study area was defined as ..." / "We fixed the analysis extent before ..." / "All layers were aligned to ..."
 \TODO{WF-001. Countries, area, the confirmed-range envelope, exclusion rules, and the
 statement that the extent was fixed before any connectivity output was viewed.}
 Analyses were conducted in \TODO{equal-area CRS, e.g. Africa Albers Equal Area Conic,
@@ -32,6 +33,7 @@ give the full WKT in Appendix~\ref{app:protocol}} at a working resolution of \ce
 
 \subsection{Rationale for the working resolution}
 \label{sec:scale}
+% Sentence starters: "We used a 1-km working resolution because ..." / "This resolution represents a compromise between ..." / "To test whether results depended on scale, we ..."
 \TODO{CAU-006. The occurrence baseline is a 10-km assessment grid; environmental
 covariates range from 30\,m to 1\,km. Justify \cellsize\ as the compromise: fine
 enough that a pinch point is a meaningful location, coarse enough that it does not
@@ -40,6 +42,7 @@ was repeated at 2\,km and 5\,km as a resolution sensitivity (WF-022).}
 
 \subsection{Range cores}
 \label{sec:cores}
+% Sentence starters: "We defined a core area as ..." / "Cells were grouped into patches using ..." / "We retained only patches larger than ..."
 \TODO{WF-011. Three or more core definitions from the archived confirmed-range data,
 differing in evidence-category threshold and minimum patch area. Report how many
 cores each definition yields. State explicitly that cores are HELD CONSTANT across
@@ -52,6 +55,7 @@ We represented the 23 baseline-defined core areas as fixed nodes across all four
 
 \subsection{Covariates and their temporal treatment}
 \label{sec:covariates}
+% Sentence starters: "The predictor layers represented ..." / "We treated a variable as dynamic when ..." / "We treated a variable as static when ..."
 \TODO{Table~\ref{tab:covariates} lists every layer, its native resolution, its
 source year(s), and critically whether it is treated as DYNAMIC (varies across
 snapshots) or STATIC (held fixed, contributing no temporal signal). Do not bury this
@@ -90,6 +94,7 @@ and description only.}
 
 \subsection{Resistance scenarios}
 \label{sec:resistance}
+% Sentence starters: "Resistance values were assigned to represent ..." / "The terrain component was derived from ..." / "We compared alternative vegetation weights because ..."
 \TODO{WF-013, WF-014. Present RES-01 to RES-05 as a table of variable-to-resistance
 functions with the evidence or rationale for each. State that the scenario set was
 fixed before results were viewed and that no single scenario is designated as
@@ -131,6 +136,7 @@ scenario ID or state plainly in the text that the implemented set differs and wh
 
 \subsection{Connectivity modelling}
 \label{sec:connectivity}
+% Sentence starters: "For each selected core pair, we calculated ..." / "The straight-line link was used to define ..." / "The least-cost path could depart from that line when ..."
 \TODO{WF-015, WF-016. Least-cost / effective-distance work in ArcGIS Pro (Distance
 Accumulation, Optimal Region Connections, Corridor). Current flow computed with
 Circuitscape.jl \parencite{anantharaman2020circuitscape} in pairwise mode; give the
@@ -176,6 +182,7 @@ dispersal distance is still the 100\,km placeholder.
 
 \subsection{Temporal comparison}
 \label{sec:temporal}
+% Sentence starters: "We compared the same core pairs across ..." / "Absolute change was calculated as ..." / "Proportional change was calculated as ..."
 \TODO{WF-018. Same cores, same scenarios, same resolution across all four snapshots,
 so that differences are attributable to covariate change alone. Give the change
 equations. Report both absolute and proportional change.}
@@ -206,6 +213,7 @@ permutation test. Predeclare this.}
 
 \subsection{Robustness and uncertainty}
 \label{sec:uncertainty}
+% Sentence starters: "We considered a result robust when ..." / "A link was classified as sensitive when ..." / "Locations with low agreement were treated as ..."
 \TODO{WF-022. The full sensitivity grid: \nscen\ resistance scenarios $\times$ core
 definitions $\times$ resolutions $\times$ snapshots. Report the resulting run count.
 Define "robust" numerically (e.g. a cell in the top decile of current under at least
