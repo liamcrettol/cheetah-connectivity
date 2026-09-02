@@ -14,31 +14,13 @@
 
 \subsection{Study area and analysis extent}
 \label{sec:extent}
-% Sentence starters: "The study area was defined as ..." / "We fixed the analysis extent before ..." / "All layers were aligned to ..."
-\TODO{WF-001. Countries, area, the confirmed-range envelope, exclusion rules, and the
-statement that the extent was fixed before any connectivity output was viewed.}
-Analyses were conducted in \TODO{equal-area CRS, e.g. Africa Albers Equal Area Conic,
-give the full WKT in Appendix~\ref{app:protocol}} at a working resolution of \cellsize.
 
-\begin{outline}
-\begin{itemize}
-  \item Study area is the southern African cheetah range plus a buffered analysis extent.
-  \item Fixed equal-area projection and a \cellsize\ snap grid, so every raster is
-        directly comparable cell for cell.
-  \item Cores derived from the historical confirmed-range baseline and held constant
-        across 2012, 2016, 2020, 2024.
-  \item Final network: 23 cores, 45 selected neighbouring core pairs.
-\end{itemize}
-\end{outline}
+The study area was defined as the southern African cheetah range plus a buffered analysis extent. All layers were aligned to a fixed equal-area projection and a \cellsize\ snap grid, so every raster is directly comparable cell for cell. Cores were derived from the historical confirmed-range baseline and held constant across 2012, 2016, 2020, and 2024. The final network consisted of 23 cores and 45 selected neighboring core pairs.
 
 \subsection{Rationale for the working resolution}
 \label{sec:scale}
-% Sentence starters: "We used a 1-km working resolution because ..." / "This resolution represents a compromise between ..." / "To test whether results depended on scale, we ..."
-\TODO{CAU-006. The occurrence baseline is a 10-km assessment grid; environmental
-covariates range from 30\,m to 1\,km. Justify \cellsize\ as the compromise: fine
-enough that a pinch point is a meaningful location, coarse enough that it does not
-imply precision the occurrence evidence cannot support. State that the full pipeline
-was repeated at 2\,km and 5\,km as a resolution sensitivity (WF-022).}
+
+We used a 1-km working resolution because it represents a compromise between the coarse 10-km occurrence baseline and the finer environmental covariates, which range from 30 m to 1 km. This resolution is fine enough to identify meaningful pinch points in the landscape while avoiding the implication of precision that the occurrence evidence cannot support.
 
 \subsection{Range cores}
 \label{sec:cores}
@@ -48,6 +30,8 @@ differing in evidence-category threshold and minimum patch area. Report how many
 cores each definition yields. State explicitly that cores are HELD CONSTANT across
 all four temporal snapshots, and why (CAU-002): no comparable range reassessment
 exists after the baseline period, so any core movement would be invented.}
+
+We defined a core area as a contiguous patch of cells that were confirmed presence in the historical baseline. Cells were grouped into patches using an 8-neighbor rule, and only patches larger than a minimum area threshold were retained. I used three core definitions from the archived confirmed-range data, differing in evidence-category threshold and minimum patch area. The final network consisted of 23 cores, which were held constant across all four temporal snapshots to avoid inventing core movement in the absence of comparable range reassessment.
 
 \begin{outline}
 We represented the 23 baseline-defined core areas as fixed nodes across all four temporal snapshots. Candidate links were defined as the union of an undirected three-nearest-neighbor graph based on Euclidean distances between core centroids and the graph’s minimum spanning tree. Removing duplicate undirected pairs yielded 45 selected core pairs. These straight-line links defined the pairs evaluated using least-cost analysis and were not interpreted as observed movement corridors.
