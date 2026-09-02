@@ -1,80 +1,29 @@
 \section{Methods}
 \label{sec:methods}
 
-% This is the section that earns or loses the paper. Everything here should be
-% traceable to a workflow step (WF-xxx) in the planning workbook, and every
-% subsection should end able to answer "how would someone reproduce this?"
-
-% ---------------------------------------------------------------------------
-% AS-BUILT OUTLINES (added 2026-09-02). Each \OUTLINE block below records what
-% was actually run, in note form, so the prose can be written from it. Notes are
-% raw material, not draft sentences. Delete each block once its subsection is
-% written.
-% ---------------------------------------------------------------------------
-
 \subsection{Study area and analysis extent}
 \label{sec:extent}
 
-The study area was defined as the southern African cheetah range plus a buffered analysis extent. All layers were aligned to a fixed equal-area projection and a \cellsize\ snap grid, so every raster is directly comparable cell for cell. Cores were derived from the historical confirmed-range baseline and held constant across 2012, 2016, 2020, and 2024. The final network consisted of 23 cores and 45 selected neighboring core pairs.
+The study area was defined as the southern African cheetah range \TODO{find citation} plus a buffered analysis extent. All layers were aligned to a fixed equal-area projection and a \cellsize\ snap grid, so every raster is directly comparable cell for cell. Cores were derived from the historical confirmed-range baseline and held constant across 2012, 2016, 2020, and 2024. The final network consisted of 23 cores and 45 selected neighboring core pairs.
 
 \subsection{Rationale for the working resolution}
 \label{sec:scale}
 
-I used a 1-km working resolution because it represents a compromise between the coarse 10-km occurrence baseline and the finer environmental covariates, which range from 30 m to 1 km. This resolution is fine enough to identify meaningful pinch points in the landscape while avoiding the implication of precision that the occurrence evidence cannot support.
+I used a 1-km working resolution because it represents a compromise between the rougher 10-km occurrence baseline and the finer environmental covariates, which range from 30 m to 1 km. This resolution is fine enough to identify meaningful points in the landscape while avoiding the implication of a level of accuracy that the occurrence evidence alone could not provide.
 
 \subsection{Range cores}
 \label{sec:cores}
-% Sentence starters: "I defined a core area as ..." / "Cells were grouped into patches using ..." / "I retained only patches larger than ..."
-\TODO{WF-011. Three or more core definitions from the archived confirmed-range data,
-differing in evidence-category threshold and minimum patch area. Report how many
-cores each definition yields. State explicitly that cores are HELD CONSTANT across
-all four temporal snapshots, and why (CAU-002): no comparable range reassessment
-exists after the baseline period, so any core movement would be invented.}
 
-I defined a core area as a contiguous patch of cells that were confirmed presence in the historical baseline. Cells were grouped into patches using an 8-neighbor rule, and only patches larger than a minimum area threshold were retained. I used three core definitions from the archived confirmed-range data, differing in evidence-category threshold and minimum patch area. The final network consisted of 23 cores, which were held constant across all four temporal snapshots to avoid inventing core movement in the absence of comparable range reassessment.
+I defined a core area as a contiguous patch of cells that were confirmed presence, with a density of $\geq$ 0.51 cheetahs per 100 $km^2$. The final network consisted of 23 cores, which were held constant across all four temporal snapshots to avoid inventing core movement in the absence of comparable range reassessment.
 
-\begin{outline}
-I represented the 23 baseline-defined core areas as fixed nodes across all four temporal snapshots. Candidate links were defined as the union of an undirected three-nearest-neighbor graph based on Euclidean distances between core centroids and the graph’s minimum spanning tree. Removing duplicate undirected pairs yielded 45 selected core pairs. These straight-line links defined the pairs evaluated using least-cost analysis and were not interpreted as observed movement corridors.
-\end{outline}
+I represented these 23 core areas as fixed nodes across all four temporal snapshots (2012, 2016, 2020 and 2024). I took each core area and calculated the Euclidean distance to the nearest neighbor. This yielded 45 straight-line links. These straight-line links defined the lines used to get the least cost paths based on the added resistance surface rasters.
 
 \subsection{Covariates and their temporal treatment}
 \label{sec:covariates}
-% Sentence starters: "The predictor layers represented ..." / "I treated a variable as dynamic when ..." / "I treated a variable as static when ..."
-\TODO{Table~\ref{tab:covariates} lists every layer, its native resolution, its
-source year(s), and critically whether it is treated as DYNAMIC (varies across
-snapshots) or STATIC (held fixed, contributing no temporal signal). Do not bury this
-distinction. Roads, livestock, terrain and hydrography are static; built-up fraction,
-nighttime radiance and continuous vegetation fields are dynamic.}
 
-\begin{outline}
-\begin{itemize}
-  \item Built-up fraction: GHSL, 2012 / 2016 / 2020 / 2024.
-  \item Nighttime lights: VIIRS, flare-masked before differencing.
-  \item Land cover: MODIS MCD12Q1, reclassified to open vegetation, woody, cropland,
-        built, water, bare.
-  \item Vegetation continuous fields (VCF): tree cover, non-tree vegetation, bare ground.
-  \item Roads: GRIP4 Africa, clipped to the study extent.
-  \item Livestock: GLW4 cattle, goats and sheep, combined into a livestock-exposure index.
-  \item Terrain: approximately 30\,m SRTM DEM pulled through Google Earth Engine and
-        aggregated to the \cellsize\ grid. Derivatives: mean slope, maximum slope,
-        terrain resistance surface.
-  \item Veterinary fences: WWF/KAZA reference fence dataset, with main, near-barrier and
-        conservative fence scenarios. Kruger fence references treated as scenario
-        information, not as universal barriers.
-  \item Dynamic: built-up fraction, nighttime lights, tree cover, non-tree vegetation,
-        bare-ground VCF.
-  \item Static: roads, livestock, terrain, hydrography, fences, protected areas, core
-        definitions.
-  \item Categorical land cover used for context and masking only, never as an independent
-        temporal resistance penalty.
-\end{itemize}
-\end{outline}
+The predicted temporal resistance values are coming from the continuous rasters (built-up fraction (human development) from GHSL, nighttime lights from VIIRS, and VCF (vegetation) from MODIS). Categorical land cover is used for masking and description only, because annual categorical features switch classes between years for reasons unrelated to overall landscape change.
 
-\paragraph{Why categorical land cover is not the change carrier.}
-\TODO{CAU-008 and the MODIS class-instability problem. Annual categorical products
-flip classes between years for reasons unrelated to landscape change. Temporal signal
-is therefore carried on continuous fields; categorical land cover is used for masking
-and description only.}
+I also used the static covariates (roads, livestock, terrain, hydrography, fences, protected areas, and core definitions). The static covariates do not contribute \textit{temporal} signal to the resistance surface, however they do contribute \textit{spatial} signal to the resistance surface. The static covariates are used to describe the landscape and to provide context for the dynamic covariates.
 
 \subsection{Resistance scenarios}
 \label{sec:resistance}
@@ -117,6 +66,8 @@ Reconciliation still needed: these six weighting models are not the same object 
 predeclared RES-01 to RES-06 scenario set. Either map each one onto a predeclared
 scenario ID or state plainly in the text that the implemented set differs and why.
 \end{outline}
+
+Resistance values were assigned to represent the relative difficulty of movement through each landscape feature. The terrain component was derived from slope, with steeper slopes assigned higher resistance values. This had to be done carefully however, given cheetahs do have an affinity for some sloped terrains \TODO{Cite the preffered terrain source here}. I compared alternative vegetation weights because vegetation cover can significantly influence cheetah movement, and different weighting schemes allow for sensitivity analysis of this factor.
 
 \subsection{Connectivity modelling}
 \label{sec:connectivity}
@@ -203,6 +154,8 @@ definitions $\times$ resolutions $\times$ snapshots. Report the resulting run co
 Define "robust" numerically (e.g. a cell in the top decile of current under at least
 $k$ of $n$ runs) and fix $k$ in advance. Produce an agreement map. Low-agreement
 locations are reported as uncertain, never as priorities.}
+
+I considered a res
 
 \begin{outline}
 \begin{itemize}
