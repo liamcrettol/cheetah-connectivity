@@ -58,6 +58,19 @@
 \newcommand{\nscen}{five}
 \newcommand{\wdpaversion}{WDPA <MONTH YEAR> release}   % fill once, cite everywhere
 \newcommand{\TODO}[1]{\textcolor{red}{[TODO: #1]}}
+% As-built outline blocks: multi-paragraph notes, deleted once the prose is written.
+%   \notestrue  -> outline blocks render in blue (writing copy)
+%   \notesfalse -> outline blocks vanish entirely (reading/sharing copy)
+\newif\ifnotes
+\notestrue             % <-- flip to \notesfalse for a clean PDF with no notes
+\usepackage{comment}
+\ifnotes
+  \newenvironment{outline}%
+    {\par\medskip\begingroup\color{blue}\small\noindent\textbf{[OUTLINE]}\par\nobreak}%
+    {\par\endgroup\medskip}
+\else
+  \excludecomment{outline}
+\fi
 \usepackage{xcolor}
 
 %==============================================================================

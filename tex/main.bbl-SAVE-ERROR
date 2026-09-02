@@ -1,0 +1,2041 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{adriaensen2003leastcost}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=4d1d0e7571f54f138ca0b17645c1732d}{%
+           family={Adriaensen},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6127f6b60d2aa6764d9553b71c3a82e7}{%
+           family={Chardon},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b64c7f0f7b0ba749c44041fb1dce728}{%
+           family={De\bibnamedelima Blust},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3307b67992818aeb2f6fc5796fbdefec}{%
+           family={Swinnen},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e85eb53ef2bd69b4e434cc51249788d}{%
+           family={Villalba},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f387037818cea9acb546cf35ad091b1}{%
+           family={Gulinck},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f72ae04a410ed5f492f23abbe8609df0}{%
+           family={Matthysen},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64a35f4f6bde07eb5c792ea02cfe6670}
+      \strng{fullhash}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{fullhashraw}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{bibnamehash}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{authorbibnamehash}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{authornamehash}{64a35f4f6bde07eb5c792ea02cfe6670}
+      \strng{authorfullhash}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{authorfullhashraw}{f03c3f7789fb06e858c718c0552c3d57}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Landscape and Urban Planning}
+      \field{number}{4}
+      \field{title}{The Application of `Least-Cost' Modelling as a Functional Landscape Model}
+      \field{volume}{64}
+      \field{year}{2003}
+      \field{pages}{233\bibrangedash 247}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/S0169-2046(02)00242-6
+      \endverb
+    \endentry
+    \entry{anantharaman2020circuitscape}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5fc59c99e1f29923febab255896b2218}{%
+           family={Anantharaman},
+           familyi={A\bibinitperiod},
+           given={Ranjan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c1e648f27b4e5941e72f9ef3b4da4ae}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Kimberly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de802ff42d9c902868c57a332dbac5e0}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Viral\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01a6ca61fcd12a3a071ec49304df57f8}{%
+           family={Edelman},
+           familyi={E\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e609195c753f22e00be4362ad727eb50}
+      \strng{fullhash}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{fullhashraw}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{bibnamehash}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{authorbibnamehash}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{authornamehash}{e609195c753f22e00be4362ad727eb50}
+      \strng{authorfullhash}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{authorfullhashraw}{3d8fb99ba76105a7e88df1266fd5deba}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the JuliaCon Conferences}
+      \field{number}{1}
+      \field{title}{Circuitscape in {J}ulia: High Performance Connectivity Modelling to Support Conservation Decisions}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{pages}{58}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/jcon.00058
+      \endverb
+    \endentry
+    \entry{beier2008forks}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8434e6bfffccaed43a6c63602d31363d}{%
+           family={Beier},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66e9483aa98d1fc0cc2c59db9c719756}{%
+           family={Majka},
+           familyi={M\bibinitperiod},
+           given={Daniel\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=747149d3716f087ae685bd09976d8b37}{%
+           family={Spencer},
+           familyi={S\bibinitperiod},
+           given={Wayne\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abdc93a6ef4775cbb815e5cf0ac90691}
+      \strng{fullhash}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{fullhashraw}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{bibnamehash}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{authorbibnamehash}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{authornamehash}{abdc93a6ef4775cbb815e5cf0ac90691}
+      \strng{authorfullhash}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{authorfullhashraw}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Conservation Biology}
+      \field{number}{4}
+      \field{title}{Forks in the Road: Choices in Procedures for Designing Wildland Linkages}
+      \field{volume}{22}
+      \field{year}{2008}
+      \field{pages}{836\bibrangedash 851}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1523-1739.2008.00942.x
+      \endverb
+    \endentry
+    \entry{brennan2020multispecies}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=f56d84af21723f9ebfde6c3eacbf4318}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35bfb8938b6c9628b7df0d4028767e79}{%
+           family={Beytell},
+           familyi={B\bibinitperiod},
+           given={Piet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cbeb490cc5edf78da943ceb5b0e5467}{%
+           family={Aschenborn},
+           familyi={A\bibinitperiod},
+           given={Ortwin},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cf1729c19e494f30dcfdec6bd4178ca}{%
+           family={Du\bibnamedelima Preez},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcc2964ed31c7c8ca44a5a948da533c5}{%
+           family={Funston},
+           familyi={F\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a47aed357c7b9e35724ff1ac0c8aa0a}{%
+           family={Hanssen},
+           familyi={H\bibinitperiod},
+           given={Lise},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22fa70e6d959cafb0a53eaf22c61a7a5}{%
+           family={Kilian},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d588146307cbbdc827c482ca0baf97e4}{%
+           family={Stuart-Hill},
+           familyi={S\bibinithyphendelim H\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=956d7a07e14440e964e8844d97118fe4}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Russell\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b2e48e49ab1240d21ccde1e77896467}{%
+           family={Naidoo},
+           familyi={N\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1dc45e5b576f69dd9ed112f47110b773}
+      \strng{fullhash}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{fullhashraw}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{bibnamehash}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{authorbibnamehash}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{authornamehash}{1dc45e5b576f69dd9ed112f47110b773}
+      \strng{authorfullhash}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{authorfullhashraw}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Ecology}
+      \field{number}{9}
+      \field{title}{Characterizing Multispecies Connectivity across a Transfrontier Conservation Landscape}
+      \field{volume}{57}
+      \field{year}{2020}
+      \field{pages}{1700\bibrangedash 1710}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/1365-2664.13716
+      \endverb
+    \endentry
+    \entry{keeley2021metrics}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a2b634ab826f524dce56d2f09312381b}{%
+           family={Keeley},
+           familyi={K\bibinitperiod},
+           given={Annika\bibnamedelimb T.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8434e6bfffccaed43a6c63602d31363d}{%
+           family={Beier},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=046b5233f080604cafa5928964397f77}{%
+           family={Jenness},
+           familyi={J\bibinitperiod},
+           given={Jeff\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fab2b9216de2738d57bfcd879d303897}
+      \strng{fullhash}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{fullhashraw}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{bibnamehash}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{authorbibnamehash}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{authornamehash}{fab2b9216de2738d57bfcd879d303897}
+      \strng{authorfullhash}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{authorfullhashraw}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Conservation}
+      \field{title}{Connectivity Metrics for Conservation Planning and Monitoring}
+      \field{volume}{255}
+      \field{year}{2021}
+      \field{pages}{109008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.biocon.2021.109008
+      \endverb
+    \endentry
+    \entry{landau2021omniscape}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2bc95668dfb445d2728e30bc78fa17f4}{%
+           family={Landau},
+           familyi={L\bibinitperiod},
+           given={Vincent\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de802ff42d9c902868c57a332dbac5e0}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Viral\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fc59c99e1f29923febab255896b2218}{%
+           family={Anantharaman},
+           familyi={A\bibinitperiod},
+           given={Ranjan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0acfb2d5e0391b93be053209019e922c}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Kimberly\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bf708f38d3af627d9862f3b14239b6c}
+      \strng{fullhash}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{fullhashraw}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{bibnamehash}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{authorbibnamehash}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{authornamehash}{1bf708f38d3af627d9862f3b14239b6c}
+      \strng{authorfullhash}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{authorfullhashraw}{be2e64fabfff73ebbc98c130e345b6a2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{57}
+      \field{title}{Omniscape.jl: Software to Compute Omnidirectional Landscape Connectivity}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{2829}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.02829
+      \endverb
+    \endentry
+    \entry{mcrae2008circuit}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a8bd09d1f72ddd5f80b30d3e8d15eb72}{%
+           family={McRae},
+           familyi={M\bibinitperiod},
+           given={Brad\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1410cdf9358b6ae8bdbd96b327ee4f2b}{%
+           family={Dickson},
+           familyi={D\bibinitperiod},
+           given={Brett\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d79d7708a7917b70c9c27273af43ed72}{%
+           family={Keitt},
+           familyi={K\bibinitperiod},
+           given={Timothy\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de802ff42d9c902868c57a332dbac5e0}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Viral\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23b790283a63425682d65116fabd9f67}
+      \strng{fullhash}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{fullhashraw}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{bibnamehash}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{authorbibnamehash}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{authornamehash}{23b790283a63425682d65116fabd9f67}
+      \strng{authorfullhash}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{authorfullhashraw}{dc2972985a01acf08eeed122bf7acbb9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology}
+      \field{number}{10}
+      \field{title}{Using Circuit Theory to Model Connectivity in Ecology, Evolution, and Conservation}
+      \field{volume}{89}
+      \field{year}{2008}
+      \field{pages}{2712\bibrangedash 2724}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1890/07-1861.1
+      \endverb
+    \endentry
+    \entry{naidoo2024kaza}{article}{}{}
+      \name{author}{31}{}{%
+        {{un=0,uniquepart=base,hash=8b2e48e49ab1240d21ccde1e77896467}{%
+           family={Naidoo},
+           familyi={N\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35bfb8938b6c9628b7df0d4028767e79}{%
+           family={Beytell},
+           familyi={B\bibinitperiod},
+           given={Piet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f56d84af21723f9ebfde6c3eacbf4318}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abdd9ad1eb92af4ac27eda8caad32697}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6c9d3c94edc72144b9f7565a66e1c8b}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Kerryn\bibnamedelima D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=241bfe8c46b18776e676485a74e23300}{%
+           family={Chamaillé-Jammes},
+           familyi={C\bibinithyphendelim J\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3736b91d96e5b279a3ada7a339f56138}{%
+           family={Chilambe},
+           familyi={C\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0739e144136e08439ec2d08f7f274338}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9be195ea3ed2941bd4407a33839cac0}{%
+           family={Iiyambo},
+           familyi={I\bibinitperiod},
+           given={Novald},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21d15abc3e9d019b49d81e70bce2ac91}{%
+           family={Jooste},
+           familyi={J\bibinitperiod},
+           given={Donovan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac6aaf994f82a581acb1d0d73dc8ef34}{%
+           family={Karidozo},
+           familyi={K\bibinitperiod},
+           given={Malvern},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83f8e69c09a0d3f38c492276c982327d}{%
+           family={Kilian},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi Werner},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=751bc8c38f09c75406601758a53b587a}{%
+           family={Madhlamoto},
+           familyi={M\bibinitperiod},
+           given={Daphine},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad2e7a995198383b330863243faadc62}{%
+           family={Madiri},
+           familyi={M\bibinitperiod},
+           given={Tinaapi\bibnamedelima Hilary},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35f29a0250e6fdd8995df652c71cd059}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3cff404898beafc7764e1ea6f7e9cf1}{%
+           family={Monks},
+           familyi={M\bibinitperiod},
+           given={Norman},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=415d06b823c5d30f8657a71e3fc4b1b4}{%
+           family={Mudimba},
+           familyi={M\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=932c66168af747414df8c1d59d4adac1}{%
+           family={Ngwenya},
+           familyi={N\bibinitperiod},
+           given={Nobesuthu},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2739b7c80fd5015f8dc4f31adee476e6}{%
+           family={Nyambe},
+           familyi={N\bibinitperiod},
+           given={Nyambe},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e31a7c7c63d7cbdfa4e0c02d0cb04e69}{%
+           family={Osborn},
+           familyi={O\bibinitperiod},
+           given={Loki},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13f3df9ff7ad6b1357b96e7f9fdc04ca}{%
+           family={Pelham},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f57655d440879fd7fc9b5cc2ff71dfe}{%
+           family={Phologo},
+           familyi={P\bibinitperiod},
+           given={Letlhogonolo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fa64a744af8e5fc63da96bc37de57cd}{%
+           family={Reid},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d13d9d282f3c42c88d5e4e3fc2ae64c}{%
+           family={Savituma},
+           familyi={S\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b0b8ea726f1d3d6ba495ed8c3f4494e}{%
+           family={Schutgens},
+           familyi={S\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0452d54f214fad861794ad71c62d16d}{%
+           family={Simpamba},
+           familyi={S\bibinitperiod},
+           given={Twakundine},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a63eb449704ba6eaefe97e2ed4d4aeac}{%
+           family={Slabbert},
+           familyi={S\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5edc513393b1a8290d188245ebb857e9}{%
+           family={Stronza},
+           familyi={S\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a9bfc1e14539a5f51d759f270016efb}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4b62d2a5b2baa644310302813cf0c61}{%
+           family={Tshipa},
+           familyi={T\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a7e4ddea0ab27235c2d140a4858f5d6}{%
+           family={Songhurst},
+           familyi={S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c840b2c59942550f86fd7bb27c37f565}
+      \strng{fullhash}{368f03ccb5e50e98c0e8199874ad29ef}
+      \strng{fullhashraw}{368f03ccb5e50e98c0e8199874ad29ef}
+      \strng{bibnamehash}{5eceba955685ffabe4098f9b67333583}
+      \strng{authorbibnamehash}{5eceba955685ffabe4098f9b67333583}
+      \strng{authornamehash}{c840b2c59942550f86fd7bb27c37f565}
+      \strng{authorfullhash}{368f03ccb5e50e98c0e8199874ad29ef}
+      \strng{authorfullhashraw}{368f03ccb5e50e98c0e8199874ad29ef}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Ecology}
+      \field{number}{10}
+      \field{title}{Landscape Connectivity for African Elephants in the World's Largest Transfrontier Conservation Area: A Collaborative, Multi-Scalar Assessment}
+      \field{volume}{61}
+      \field{year}{2024}
+      \field{pages}{2483\bibrangedash 2496}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/1365-2664.14746
+      \endverb
+    \endentry
+    \entry{osipova2018fencing}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=b20ab95d9f681b6219ca6ccfa1b0b69c}{%
+           family={Osipova},
+           familyi={O\bibinitperiod},
+           given={Liudmila},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e9616db5234cbc71d08e83b12829767}{%
+           family={Okello},
+           familyi={O\bibinitperiod},
+           given={Moses\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50211c177bfac2ad9e3d4355f07e5e60}{%
+           family={Njumbi},
+           familyi={N\bibinitperiod},
+           given={Steve\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0451496896989308a11ad63ff3559eb5}{%
+           family={Ngene},
+           familyi={N\bibinitperiod},
+           given={Shadrack},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f13a7211fc09b8604d10b0fa4dd0af4}{%
+           family={Western},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0e6e9237366d5458a88aa24c9577a32}{%
+           family={Hayward},
+           familyi={H\bibinitperiod},
+           given={Matt\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fb6d1b9ee78da6b93f12cf26b4235cc}{%
+           family={Balkenhol},
+           familyi={B\bibinitperiod},
+           given={Niko},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3ad5c8c931e51e18c0a286af96d2d75}
+      \strng{fullhash}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{fullhashraw}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{bibnamehash}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{authorbibnamehash}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{authornamehash}{f3ad5c8c931e51e18c0a286af96d2d75}
+      \strng{authorfullhash}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{authorfullhashraw}{80c35ca914f8aea1a18a4d76b95a7020}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Ecology}
+      \field{number}{6}
+      \field{title}{Fencing Solves Human-Wildlife Conflict Locally but Shifts Problems Elsewhere: A Case Study Using Functional Connectivity Modelling of the African Elephant}
+      \field{volume}{55}
+      \field{year}{2018}
+      \field{pages}{2673\bibrangedash 2684}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/1365-2664.13246
+      \endverb
+    \endentry
+    \entry{roberts2017cv}{article}{}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=8757785039815c2ae72c0ad4e86db274}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e9658f7695f7b67acfc882eaeadb45f}{%
+           family={Bahn},
+           familyi={B\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09e171ca6fbd23492244a680bf33d115}{%
+           family={Ciuti},
+           familyi={C\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc81c7f9cae28796afb9c45efce6d849}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22e158108d166fcb5d64aab03da6300f}{%
+           family={Elith},
+           familyi={E\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f1a495648ba3bad5ada18ad5f02fa0f}{%
+           family={Guillera-Arroita},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Gurutzeta},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=749971ea84887e346c6c48401b051b32}{%
+           family={Hauenstein},
+           familyi={H\bibinitperiod},
+           given={Severin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=039c23fb4b08573d813878c388cc3b4a}{%
+           family={Lahoz-Monfort},
+           familyi={L\bibinithyphendelim M\bibinitperiod},
+           given={José\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ee0107bf08c27fc0a3e192f04dbe6df}{%
+           family={Schröder},
+           familyi={S\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ba59c28f90db059d902fa5b3248b41c}{%
+           family={Warton},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aeccd33e04ed4951aa8e89c1c059b554}{%
+           family={Wintle},
+           familyi={W\bibinitperiod},
+           given={Brendan\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2023df7507c5721104bd31350623c8c}{%
+           family={Hartig},
+           familyi={H\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e58ec5a72f2b79de033f264f720ad88c}{%
+           family={Dormann},
+           familyi={D\bibinitperiod},
+           given={Carsten\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0e0955684122d4025d2671d18c95203}
+      \strng{fullhash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{fullhashraw}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{bibnamehash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{authorbibnamehash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{authornamehash}{c0e0955684122d4025d2671d18c95203}
+      \strng{authorfullhash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{authorfullhashraw}{a4abb5c445cb2b1c726724b4683fd324}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecography}
+      \field{number}{8}
+      \field{title}{Cross-Validation Strategies for Data with Temporal, Spatial, Hierarchical, or Phylogenetic Structure}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{pages}{913\bibrangedash 929}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/ecog.02881
+      \endverb
+    \endentry
+    \entry{saura2007pc}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dc46895b4720d6474e8c2622e67b5efe}{%
+           family={Saura},
+           familyi={S\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ca773c644cbd82f9742d66bfeac3231}{%
+           family={Pascual-Hortal},
+           familyi={P\bibinithyphendelim H\bibinitperiod},
+           given={Lucía},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{410f17da1b19556bc955055b7b374542}
+      \strng{fullhash}{410f17da1b19556bc955055b7b374542}
+      \strng{fullhashraw}{410f17da1b19556bc955055b7b374542}
+      \strng{bibnamehash}{410f17da1b19556bc955055b7b374542}
+      \strng{authorbibnamehash}{410f17da1b19556bc955055b7b374542}
+      \strng{authornamehash}{410f17da1b19556bc955055b7b374542}
+      \strng{authorfullhash}{410f17da1b19556bc955055b7b374542}
+      \strng{authorfullhashraw}{410f17da1b19556bc955055b7b374542}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Landscape and Urban Planning}
+      \field{number}{2-3}
+      \field{title}{A New Habitat Availability Index to Integrate Connectivity in Landscape Conservation Planning: Comparison with Existing Indices and Application to a Case Study}
+      \field{volume}{83}
+      \field{year}{2007}
+      \field{pages}{91\bibrangedash 103}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.landurbplan.2007.03.005
+      \endverb
+    \endentry
+    \entry{saura2009conefor}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dc46895b4720d6474e8c2622e67b5efe}{%
+           family={Saura},
+           familyi={S\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d09bdacf1f9bbf32664f616714efb14}{%
+           family={Torné},
+           familyi={T\bibinitperiod},
+           given={Josep},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{fullhash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{fullhashraw}{eb648498b44e575e3373820c2d0c9553}
+      \strng{bibnamehash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{authorbibnamehash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{authornamehash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{authorfullhash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{authorfullhashraw}{eb648498b44e575e3373820c2d0c9553}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Modelling \& Software}
+      \field{number}{1}
+      \field{title}{Conefor Sensinode 2.2: A Software Package for Quantifying the Importance of Habitat Patches for Landscape Connectivity}
+      \field{volume}{24}
+      \field{year}{2009}
+      \field{pages}{135\bibrangedash 139}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.envsoft.2008.05.005
+      \endverb
+    \endentry
+    \entry{zeller2012resistance}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f3bf6e0f207c10684a95d7a26e2917be}{%
+           family={Zeller},
+           familyi={Z\bibinitperiod},
+           given={Katherine\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e62528206e8858d8061cbf76f9fd7bb}{%
+           family={McGarigal},
+           familyi={M\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8547fd542899d25d6094fd30f1ee15ed}{%
+           family={Whiteley},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99f491e5c4a3bca44597e0d857b5777c}
+      \strng{fullhash}{a98375af6e745d78870f68fb60ff748f}
+      \strng{fullhashraw}{a98375af6e745d78870f68fb60ff748f}
+      \strng{bibnamehash}{a98375af6e745d78870f68fb60ff748f}
+      \strng{authorbibnamehash}{a98375af6e745d78870f68fb60ff748f}
+      \strng{authornamehash}{99f491e5c4a3bca44597e0d857b5777c}
+      \strng{authorfullhash}{a98375af6e745d78870f68fb60ff748f}
+      \strng{authorfullhashraw}{a98375af6e745d78870f68fb60ff748f}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Landscape Ecology}
+      \field{number}{6}
+      \field{title}{Estimating Landscape Resistance to Movement: A Review}
+      \field{volume}{27}
+      \field{year}{2012}
+      \field{pages}{777\bibrangedash 797}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/s10980-012-9737-0
+      \endverb
+    \endentry
+    \entry{zeller2018equal}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f3bf6e0f207c10684a95d7a26e2917be}{%
+           family={Zeller},
+           familyi={Z\bibinitperiod},
+           given={Katherine\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7d4b0d7d2eaa441cf2f3807e348371a}{%
+           family={Jennings},
+           familyi={J\bibinitperiod},
+           given={Megan\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5a41406f98af35efc549ae42f71e9fd}{%
+           family={Vickers},
+           familyi={V\bibinitperiod},
+           given={T.\bibnamedelimi Winston},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcdd8218b78807943e2946ac7bf66d99}{%
+           family={Ernest},
+           familyi={E\bibinitperiod},
+           given={Holly\bibnamedelima B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97c381866c688e7e09e35b87677dc959}{%
+           family={Cushman},
+           familyi={C\bibinitperiod},
+           given={Samuel\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e47ec9dac04dfc0b65be9cadba9e0e04}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={Walter\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99f491e5c4a3bca44597e0d857b5777c}
+      \strng{fullhash}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{fullhashraw}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{bibnamehash}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{authorbibnamehash}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{authornamehash}{99f491e5c4a3bca44597e0d857b5777c}
+      \strng{authorfullhash}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{authorfullhashraw}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diversity and Distributions}
+      \field{number}{7}
+      \field{title}{Are All Data Types and Connectivity Models Created Equal? Validating Common Connectivity Approaches with Dispersal Data}
+      \field{volume}{24}
+      \field{year}{2018}
+      \field{pages}{868\bibrangedash 879}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/ddi.12742
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{adriaensen2003leastcost}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=4d1d0e7571f54f138ca0b17645c1732d}{%
+           family={Adriaensen},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6127f6b60d2aa6764d9553b71c3a82e7}{%
+           family={Chardon},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi P.},
+           giveni={J\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7b64c7f0f7b0ba749c44041fb1dce728}{%
+           family={De\bibnamedelima Blust},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3307b67992818aeb2f6fc5796fbdefec}{%
+           family={Swinnen},
+           familyi={S\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2e85eb53ef2bd69b4e434cc51249788d}{%
+           family={Villalba},
+           familyi={V\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f387037818cea9acb546cf35ad091b1}{%
+           family={Gulinck},
+           familyi={G\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f72ae04a410ed5f492f23abbe8609df0}{%
+           family={Matthysen},
+           familyi={M\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64a35f4f6bde07eb5c792ea02cfe6670}
+      \strng{fullhash}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{fullhashraw}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{bibnamehash}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{authorbibnamehash}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{authornamehash}{64a35f4f6bde07eb5c792ea02cfe6670}
+      \strng{authorfullhash}{f03c3f7789fb06e858c718c0552c3d57}
+      \strng{authorfullhashraw}{f03c3f7789fb06e858c718c0552c3d57}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Landscape and Urban Planning}
+      \field{number}{4}
+      \field{title}{The Application of `Least-Cost' Modelling as a Functional Landscape Model}
+      \field{volume}{64}
+      \field{year}{2003}
+      \field{pages}{233\bibrangedash 247}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/S0169-2046(02)00242-6
+      \endverb
+    \endentry
+    \entry{anantharaman2020circuitscape}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=5fc59c99e1f29923febab255896b2218}{%
+           family={Anantharaman},
+           familyi={A\bibinitperiod},
+           given={Ranjan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c1e648f27b4e5941e72f9ef3b4da4ae}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Kimberly},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de802ff42d9c902868c57a332dbac5e0}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Viral\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=01a6ca61fcd12a3a071ec49304df57f8}{%
+           family={Edelman},
+           familyi={E\bibinitperiod},
+           given={Alan},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e609195c753f22e00be4362ad727eb50}
+      \strng{fullhash}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{fullhashraw}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{bibnamehash}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{authorbibnamehash}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{authornamehash}{e609195c753f22e00be4362ad727eb50}
+      \strng{authorfullhash}{3d8fb99ba76105a7e88df1266fd5deba}
+      \strng{authorfullhashraw}{3d8fb99ba76105a7e88df1266fd5deba}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Proceedings of the JuliaCon Conferences}
+      \field{number}{1}
+      \field{title}{Circuitscape in {J}ulia: High Performance Connectivity Modelling to Support Conservation Decisions}
+      \field{volume}{1}
+      \field{year}{2020}
+      \field{pages}{58}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/jcon.00058
+      \endverb
+    \endentry
+    \entry{beier2008forks}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8434e6bfffccaed43a6c63602d31363d}{%
+           family={Beier},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=66e9483aa98d1fc0cc2c59db9c719756}{%
+           family={Majka},
+           familyi={M\bibinitperiod},
+           given={Daniel\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=747149d3716f087ae685bd09976d8b37}{%
+           family={Spencer},
+           familyi={S\bibinitperiod},
+           given={Wayne\bibnamedelima D.},
+           giveni={W\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{abdc93a6ef4775cbb815e5cf0ac90691}
+      \strng{fullhash}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{fullhashraw}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{bibnamehash}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{authorbibnamehash}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{authornamehash}{abdc93a6ef4775cbb815e5cf0ac90691}
+      \strng{authorfullhash}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \strng{authorfullhashraw}{52dbcf19730f5926ae92c34a2f3c65e3}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Conservation Biology}
+      \field{number}{4}
+      \field{title}{Forks in the Road: Choices in Procedures for Designing Wildland Linkages}
+      \field{volume}{22}
+      \field{year}{2008}
+      \field{pages}{836\bibrangedash 851}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1111/j.1523-1739.2008.00942.x
+      \endverb
+    \endentry
+    \entry{brennan2020multispecies}{article}{}{}
+      \name{author}{10}{}{%
+        {{un=0,uniquepart=base,hash=f56d84af21723f9ebfde6c3eacbf4318}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35bfb8938b6c9628b7df0d4028767e79}{%
+           family={Beytell},
+           familyi={B\bibinitperiod},
+           given={Piet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2cbeb490cc5edf78da943ceb5b0e5467}{%
+           family={Aschenborn},
+           familyi={A\bibinitperiod},
+           given={Ortwin},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6cf1729c19e494f30dcfdec6bd4178ca}{%
+           family={Du\bibnamedelima Preez},
+           familyi={D\bibinitperiod\bibinitdelim P\bibinitperiod},
+           given={Pierre},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bcc2964ed31c7c8ca44a5a948da533c5}{%
+           family={Funston},
+           familyi={F\bibinitperiod},
+           given={Paul\bibnamedelima J.},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3a47aed357c7b9e35724ff1ac0c8aa0a}{%
+           family={Hanssen},
+           familyi={H\bibinitperiod},
+           given={Lise},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22fa70e6d959cafb0a53eaf22c61a7a5}{%
+           family={Kilian},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d588146307cbbdc827c482ca0baf97e4}{%
+           family={Stuart-Hill},
+           familyi={S\bibinithyphendelim H\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=956d7a07e14440e964e8844d97118fe4}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Russell\bibnamedelima D.},
+           giveni={R\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8b2e48e49ab1240d21ccde1e77896467}{%
+           family={Naidoo},
+           familyi={N\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1dc45e5b576f69dd9ed112f47110b773}
+      \strng{fullhash}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{fullhashraw}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{bibnamehash}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{authorbibnamehash}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{authornamehash}{1dc45e5b576f69dd9ed112f47110b773}
+      \strng{authorfullhash}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \strng{authorfullhashraw}{e69c28b3da52bf6f7bc9d3a933cef4f4}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Ecology}
+      \field{number}{9}
+      \field{title}{Characterizing Multispecies Connectivity across a Transfrontier Conservation Landscape}
+      \field{volume}{57}
+      \field{year}{2020}
+      \field{pages}{1700\bibrangedash 1710}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1111/1365-2664.13716
+      \endverb
+    \endentry
+    \entry{keeley2021metrics}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a2b634ab826f524dce56d2f09312381b}{%
+           family={Keeley},
+           familyi={K\bibinitperiod},
+           given={Annika\bibnamedelimb T.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8434e6bfffccaed43a6c63602d31363d}{%
+           family={Beier},
+           familyi={B\bibinitperiod},
+           given={Paul},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=046b5233f080604cafa5928964397f77}{%
+           family={Jenness},
+           familyi={J\bibinitperiod},
+           given={Jeff\bibnamedelima S.},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fab2b9216de2738d57bfcd879d303897}
+      \strng{fullhash}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{fullhashraw}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{bibnamehash}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{authorbibnamehash}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{authornamehash}{fab2b9216de2738d57bfcd879d303897}
+      \strng{authorfullhash}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \strng{authorfullhashraw}{7195cd4efb6f005423fbbce9fb8ddd3a}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Biological Conservation}
+      \field{title}{Connectivity Metrics for Conservation Planning and Monitoring}
+      \field{volume}{255}
+      \field{year}{2021}
+      \field{pages}{109008}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.biocon.2021.109008
+      \endverb
+    \endentry
+    \entry{landau2021omniscape}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=2bc95668dfb445d2728e30bc78fa17f4}{%
+           family={Landau},
+           familyi={L\bibinitperiod},
+           given={Vincent\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de802ff42d9c902868c57a332dbac5e0}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Viral\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fc59c99e1f29923febab255896b2218}{%
+           family={Anantharaman},
+           familyi={A\bibinitperiod},
+           given={Ranjan},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0acfb2d5e0391b93be053209019e922c}{%
+           family={Hall},
+           familyi={H\bibinitperiod},
+           given={Kimberly\bibnamedelima R.},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1bf708f38d3af627d9862f3b14239b6c}
+      \strng{fullhash}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{fullhashraw}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{bibnamehash}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{authorbibnamehash}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{authornamehash}{1bf708f38d3af627d9862f3b14239b6c}
+      \strng{authorfullhash}{be2e64fabfff73ebbc98c130e345b6a2}
+      \strng{authorfullhashraw}{be2e64fabfff73ebbc98c130e345b6a2}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{57}
+      \field{title}{Omniscape.jl: Software to Compute Omnidirectional Landscape Connectivity}
+      \field{volume}{6}
+      \field{year}{2021}
+      \field{pages}{2829}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.02829
+      \endverb
+    \endentry
+    \entry{mcrae2008circuit}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=a8bd09d1f72ddd5f80b30d3e8d15eb72}{%
+           family={McRae},
+           familyi={M\bibinitperiod},
+           given={Brad\bibnamedelima H.},
+           giveni={B\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1410cdf9358b6ae8bdbd96b327ee4f2b}{%
+           family={Dickson},
+           familyi={D\bibinitperiod},
+           given={Brett\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d79d7708a7917b70c9c27273af43ed72}{%
+           family={Keitt},
+           familyi={K\bibinitperiod},
+           given={Timothy\bibnamedelima H.},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=de802ff42d9c902868c57a332dbac5e0}{%
+           family={Shah},
+           familyi={S\bibinitperiod},
+           given={Viral\bibnamedelima B.},
+           giveni={V\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{23b790283a63425682d65116fabd9f67}
+      \strng{fullhash}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{fullhashraw}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{bibnamehash}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{authorbibnamehash}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{authornamehash}{23b790283a63425682d65116fabd9f67}
+      \strng{authorfullhash}{dc2972985a01acf08eeed122bf7acbb9}
+      \strng{authorfullhashraw}{dc2972985a01acf08eeed122bf7acbb9}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecology}
+      \field{number}{10}
+      \field{title}{Using Circuit Theory to Model Connectivity in Ecology, Evolution, and Conservation}
+      \field{volume}{89}
+      \field{year}{2008}
+      \field{pages}{2712\bibrangedash 2724}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1890/07-1861.1
+      \endverb
+    \endentry
+    \entry{naidoo2024kaza}{article}{}{}
+      \name{author}{31}{}{%
+        {{un=0,uniquepart=base,hash=8b2e48e49ab1240d21ccde1e77896467}{%
+           family={Naidoo},
+           familyi={N\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35bfb8938b6c9628b7df0d4028767e79}{%
+           family={Beytell},
+           familyi={B\bibinitperiod},
+           given={Piet},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f56d84af21723f9ebfde6c3eacbf4318}{%
+           family={Brennan},
+           familyi={B\bibinitperiod},
+           given={Angela},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=abdd9ad1eb92af4ac27eda8caad32697}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6c9d3c94edc72144b9f7565a66e1c8b}{%
+           family={Carter},
+           familyi={C\bibinitperiod},
+           given={Kerryn\bibnamedelima D.},
+           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=241bfe8c46b18776e676485a74e23300}{%
+           family={Chamaillé-Jammes},
+           familyi={C\bibinithyphendelim J\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3736b91d96e5b279a3ada7a339f56138}{%
+           family={Chilambe},
+           familyi={C\bibinitperiod},
+           given={Brian},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0739e144136e08439ec2d08f7f274338}{%
+           family={Hoare},
+           familyi={H\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e9be195ea3ed2941bd4407a33839cac0}{%
+           family={Iiyambo},
+           familyi={I\bibinitperiod},
+           given={Novald},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=21d15abc3e9d019b49d81e70bce2ac91}{%
+           family={Jooste},
+           familyi={J\bibinitperiod},
+           given={Donovan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ac6aaf994f82a581acb1d0d73dc8ef34}{%
+           family={Karidozo},
+           familyi={K\bibinitperiod},
+           given={Malvern},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=83f8e69c09a0d3f38c492276c982327d}{%
+           family={Kilian},
+           familyi={K\bibinitperiod},
+           given={J.\bibnamedelimi Werner},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=751bc8c38f09c75406601758a53b587a}{%
+           family={Madhlamoto},
+           familyi={M\bibinitperiod},
+           given={Daphine},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad2e7a995198383b330863243faadc62}{%
+           family={Madiri},
+           familyi={M\bibinitperiod},
+           given={Tinaapi\bibnamedelima Hilary},
+           giveni={T\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35f29a0250e6fdd8995df652c71cd059}{%
+           family={McCulloch},
+           familyi={M\bibinitperiod},
+           given={Graham},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f3cff404898beafc7764e1ea6f7e9cf1}{%
+           family={Monks},
+           familyi={M\bibinitperiod},
+           given={Norman},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=415d06b823c5d30f8657a71e3fc4b1b4}{%
+           family={Mudimba},
+           familyi={M\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=932c66168af747414df8c1d59d4adac1}{%
+           family={Ngwenya},
+           familyi={N\bibinitperiod},
+           given={Nobesuthu},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2739b7c80fd5015f8dc4f31adee476e6}{%
+           family={Nyambe},
+           familyi={N\bibinitperiod},
+           given={Nyambe},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e31a7c7c63d7cbdfa4e0c02d0cb04e69}{%
+           family={Osborn},
+           familyi={O\bibinitperiod},
+           given={Loki},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13f3df9ff7ad6b1357b96e7f9fdc04ca}{%
+           family={Pelham},
+           familyi={P\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f57655d440879fd7fc9b5cc2ff71dfe}{%
+           family={Phologo},
+           familyi={P\bibinitperiod},
+           given={Letlhogonolo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5fa64a744af8e5fc63da96bc37de57cd}{%
+           family={Reid},
+           familyi={R\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0d13d9d282f3c42c88d5e4e3fc2ae64c}{%
+           family={Savituma},
+           familyi={S\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2b0b8ea726f1d3d6ba495ed8c3f4494e}{%
+           family={Schutgens},
+           familyi={S\bibinitperiod},
+           given={Maurice},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d0452d54f214fad861794ad71c62d16d}{%
+           family={Simpamba},
+           familyi={S\bibinitperiod},
+           given={Twakundine},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a63eb449704ba6eaefe97e2ed4d4aeac}{%
+           family={Slabbert},
+           familyi={S\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5edc513393b1a8290d188245ebb857e9}{%
+           family={Stronza},
+           familyi={S\bibinitperiod},
+           given={Amanda},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a9bfc1e14539a5f51d759f270016efb}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={Russell},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e4b62d2a5b2baa644310302813cf0c61}{%
+           family={Tshipa},
+           familyi={T\bibinitperiod},
+           given={Arnold},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a7e4ddea0ab27235c2d140a4858f5d6}{%
+           family={Songhurst},
+           familyi={S\bibinitperiod},
+           given={Anna},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c840b2c59942550f86fd7bb27c37f565}
+      \strng{fullhash}{368f03ccb5e50e98c0e8199874ad29ef}
+      \strng{fullhashraw}{368f03ccb5e50e98c0e8199874ad29ef}
+      \strng{bibnamehash}{5eceba955685ffabe4098f9b67333583}
+      \strng{authorbibnamehash}{5eceba955685ffabe4098f9b67333583}
+      \strng{authornamehash}{c840b2c59942550f86fd7bb27c37f565}
+      \strng{authorfullhash}{368f03ccb5e50e98c0e8199874ad29ef}
+      \strng{authorfullhashraw}{368f03ccb5e50e98c0e8199874ad29ef}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Ecology}
+      \field{number}{10}
+      \field{title}{Landscape Connectivity for African Elephants in the World's Largest Transfrontier Conservation Area: A Collaborative, Multi-Scalar Assessment}
+      \field{volume}{61}
+      \field{year}{2024}
+      \field{pages}{2483\bibrangedash 2496}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1111/1365-2664.14746
+      \endverb
+    \endentry
+    \entry{osipova2018fencing}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=b20ab95d9f681b6219ca6ccfa1b0b69c}{%
+           family={Osipova},
+           familyi={O\bibinitperiod},
+           given={Liudmila},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e9616db5234cbc71d08e83b12829767}{%
+           family={Okello},
+           familyi={O\bibinitperiod},
+           given={Moses\bibnamedelima M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50211c177bfac2ad9e3d4355f07e5e60}{%
+           family={Njumbi},
+           familyi={N\bibinitperiod},
+           given={Steve\bibnamedelima J.},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0451496896989308a11ad63ff3559eb5}{%
+           family={Ngene},
+           familyi={N\bibinitperiod},
+           given={Shadrack},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7f13a7211fc09b8604d10b0fa4dd0af4}{%
+           family={Western},
+           familyi={W\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c0e6e9237366d5458a88aa24c9577a32}{%
+           family={Hayward},
+           familyi={H\bibinitperiod},
+           given={Matt\bibnamedelima W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0fb6d1b9ee78da6b93f12cf26b4235cc}{%
+           family={Balkenhol},
+           familyi={B\bibinitperiod},
+           given={Niko},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f3ad5c8c931e51e18c0a286af96d2d75}
+      \strng{fullhash}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{fullhashraw}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{bibnamehash}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{authorbibnamehash}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{authornamehash}{f3ad5c8c931e51e18c0a286af96d2d75}
+      \strng{authorfullhash}{80c35ca914f8aea1a18a4d76b95a7020}
+      \strng{authorfullhashraw}{80c35ca914f8aea1a18a4d76b95a7020}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Applied Ecology}
+      \field{number}{6}
+      \field{title}{Fencing Solves Human-Wildlife Conflict Locally but Shifts Problems Elsewhere: A Case Study Using Functional Connectivity Modelling of the African Elephant}
+      \field{volume}{55}
+      \field{year}{2018}
+      \field{pages}{2673\bibrangedash 2684}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/1365-2664.13246
+      \endverb
+    \endentry
+    \entry{roberts2017cv}{article}{}{}
+      \name{author}{14}{}{%
+        {{un=0,uniquepart=base,hash=8757785039815c2ae72c0ad4e86db274}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={David\bibnamedelima R.},
+           giveni={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8e9658f7695f7b67acfc882eaeadb45f}{%
+           family={Bahn},
+           familyi={B\bibinitperiod},
+           given={Volker},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=09e171ca6fbd23492244a680bf33d115}{%
+           family={Ciuti},
+           familyi={C\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dc81c7f9cae28796afb9c45efce6d849}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={Mark\bibnamedelima S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22e158108d166fcb5d64aab03da6300f}{%
+           family={Elith},
+           familyi={E\bibinitperiod},
+           given={Jane},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f1a495648ba3bad5ada18ad5f02fa0f}{%
+           family={Guillera-Arroita},
+           familyi={G\bibinithyphendelim A\bibinitperiod},
+           given={Gurutzeta},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=749971ea84887e346c6c48401b051b32}{%
+           family={Hauenstein},
+           familyi={H\bibinitperiod},
+           given={Severin},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=039c23fb4b08573d813878c388cc3b4a}{%
+           family={Lahoz-Monfort},
+           familyi={L\bibinithyphendelim M\bibinitperiod},
+           given={José\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ee0107bf08c27fc0a3e192f04dbe6df}{%
+           family={Schröder},
+           familyi={S\bibinitperiod},
+           given={Boris},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c8420a71ed1be07777ddccc3254bee18}{%
+           family={Thuiller},
+           familyi={T\bibinitperiod},
+           given={Wilfried},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1ba59c28f90db059d902fa5b3248b41c}{%
+           family={Warton},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima I.},
+           giveni={D\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aeccd33e04ed4951aa8e89c1c059b554}{%
+           family={Wintle},
+           familyi={W\bibinitperiod},
+           given={Brendan\bibnamedelima A.},
+           giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f2023df7507c5721104bd31350623c8c}{%
+           family={Hartig},
+           familyi={H\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e58ec5a72f2b79de033f264f720ad88c}{%
+           family={Dormann},
+           familyi={D\bibinitperiod},
+           given={Carsten\bibnamedelima F.},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c0e0955684122d4025d2671d18c95203}
+      \strng{fullhash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{fullhashraw}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{bibnamehash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{authorbibnamehash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{authornamehash}{c0e0955684122d4025d2671d18c95203}
+      \strng{authorfullhash}{a4abb5c445cb2b1c726724b4683fd324}
+      \strng{authorfullhashraw}{a4abb5c445cb2b1c726724b4683fd324}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecography}
+      \field{number}{8}
+      \field{title}{Cross-Validation Strategies for Data with Temporal, Spatial, Hierarchical, or Phylogenetic Structure}
+      \field{volume}{40}
+      \field{year}{2017}
+      \field{pages}{913\bibrangedash 929}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1111/ecog.02881
+      \endverb
+    \endentry
+    \entry{saura2007pc}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dc46895b4720d6474e8c2622e67b5efe}{%
+           family={Saura},
+           familyi={S\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5ca773c644cbd82f9742d66bfeac3231}{%
+           family={Pascual-Hortal},
+           familyi={P\bibinithyphendelim H\bibinitperiod},
+           given={Lucía},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{410f17da1b19556bc955055b7b374542}
+      \strng{fullhash}{410f17da1b19556bc955055b7b374542}
+      \strng{fullhashraw}{410f17da1b19556bc955055b7b374542}
+      \strng{bibnamehash}{410f17da1b19556bc955055b7b374542}
+      \strng{authorbibnamehash}{410f17da1b19556bc955055b7b374542}
+      \strng{authornamehash}{410f17da1b19556bc955055b7b374542}
+      \strng{authorfullhash}{410f17da1b19556bc955055b7b374542}
+      \strng{authorfullhashraw}{410f17da1b19556bc955055b7b374542}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Landscape and Urban Planning}
+      \field{number}{2-3}
+      \field{title}{A New Habitat Availability Index to Integrate Connectivity in Landscape Conservation Planning: Comparison with Existing Indices and Application to a Case Study}
+      \field{volume}{83}
+      \field{year}{2007}
+      \field{pages}{91\bibrangedash 103}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.landurbplan.2007.03.005
+      \endverb
+    \endentry
+    \entry{saura2009conefor}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=dc46895b4720d6474e8c2622e67b5efe}{%
+           family={Saura},
+           familyi={S\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1d09bdacf1f9bbf32664f616714efb14}{%
+           family={Torné},
+           familyi={T\bibinitperiod},
+           given={Josep},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{fullhash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{fullhashraw}{eb648498b44e575e3373820c2d0c9553}
+      \strng{bibnamehash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{authorbibnamehash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{authornamehash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{authorfullhash}{eb648498b44e575e3373820c2d0c9553}
+      \strng{authorfullhashraw}{eb648498b44e575e3373820c2d0c9553}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Environmental Modelling \& Software}
+      \field{number}{1}
+      \field{title}{Conefor Sensinode 2.2: A Software Package for Quantifying the Importance of Habitat Patches for Landscape Connectivity}
+      \field{volume}{24}
+      \field{year}{2009}
+      \field{pages}{135\bibrangedash 139}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.envsoft.2008.05.005
+      \endverb
+    \endentry
+    \entry{zeller2018equal}{article}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=f3bf6e0f207c10684a95d7a26e2917be}{%
+           family={Zeller},
+           familyi={Z\bibinitperiod},
+           given={Katherine\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b7d4b0d7d2eaa441cf2f3807e348371a}{%
+           family={Jennings},
+           familyi={J\bibinitperiod},
+           given={Megan\bibnamedelima K.},
+           giveni={M\bibinitperiod\bibinitdelim K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e5a41406f98af35efc549ae42f71e9fd}{%
+           family={Vickers},
+           familyi={V\bibinitperiod},
+           given={T.\bibnamedelimi Winston},
+           giveni={T\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dcdd8218b78807943e2946ac7bf66d99}{%
+           family={Ernest},
+           familyi={E\bibinitperiod},
+           given={Holly\bibnamedelima B.},
+           giveni={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=97c381866c688e7e09e35b87677dc959}{%
+           family={Cushman},
+           familyi={C\bibinitperiod},
+           given={Samuel\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e47ec9dac04dfc0b65be9cadba9e0e04}{%
+           family={Boyce},
+           familyi={B\bibinitperiod},
+           given={Walter\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99f491e5c4a3bca44597e0d857b5777c}
+      \strng{fullhash}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{fullhashraw}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{bibnamehash}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{authorbibnamehash}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{authornamehash}{99f491e5c4a3bca44597e0d857b5777c}
+      \strng{authorfullhash}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \strng{authorfullhashraw}{4bfb8f7c06713e7e52fa4d7dc45fd47e}
+      \field{extraname}{1}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Diversity and Distributions}
+      \field{number}{7}
+      \field{title}{Are All Data Types and Connectivity Models Created Equal? Validating Common Connectivity Approaches with Dispersal Data}
+      \field{volume}{24}
+      \field{year}{2018}
+      \field{pages}{868\bibrangedash 879}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/ddi.12742
+      \endverb
+    \endentry
+    \entry{zeller2012resistance}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=f3bf6e0f207c10684a95d7a26e2917be}{%
+           family={Zeller},
+           familyi={Z\bibinitperiod},
+           given={Katherine\bibnamedelima A.},
+           giveni={K\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4e62528206e8858d8061cbf76f9fd7bb}{%
+           family={McGarigal},
+           familyi={M\bibinitperiod},
+           given={Kevin},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8547fd542899d25d6094fd30f1ee15ed}{%
+           family={Whiteley},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{99f491e5c4a3bca44597e0d857b5777c}
+      \strng{fullhash}{a98375af6e745d78870f68fb60ff748f}
+      \strng{fullhashraw}{a98375af6e745d78870f68fb60ff748f}
+      \strng{bibnamehash}{a98375af6e745d78870f68fb60ff748f}
+      \strng{authorbibnamehash}{a98375af6e745d78870f68fb60ff748f}
+      \strng{authornamehash}{99f491e5c4a3bca44597e0d857b5777c}
+      \strng{authorfullhash}{a98375af6e745d78870f68fb60ff748f}
+      \strng{authorfullhashraw}{a98375af6e745d78870f68fb60ff748f}
+      \field{extraname}{2}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Landscape Ecology}
+      \field{number}{6}
+      \field{title}{Estimating Landscape Resistance to Movement: A Review}
+      \field{volume}{27}
+      \field{year}{2012}
+      \field{pages}{777\bibrangedash 797}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1007/s10980-012-9737-0
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
