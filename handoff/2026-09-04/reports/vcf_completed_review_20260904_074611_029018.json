@@ -1,0 +1,928 @@
+{
+  "summary": {
+    "verified_routes": 180,
+    "source_checkpoints": 84,
+    "pairs": 45,
+    "previous_priority_pairs": 32,
+    "median_abs_cost_change_pct": 0.22131797644023843,
+    "max_abs_cost_change_pct": 1.962548541150777,
+    "median_min_directional_overlap_1km_pct": 96.8992212381281,
+    "routes_below80pct_min_overlap_1km": 49,
+    "pairs_below80pct_in_any_year": 29,
+    "previous_priority_pairs_below80pct_in_any_year": 21,
+    "routes_touching_fallback": 0,
+    "routes_touching_valid_below95pct_coverage": 8,
+    "temporal_sign_changes": 0,
+    "max_temporal_difference_pp": 2.7155889160404234
+  },
+  "pair_reviews": [
+    {
+      "from_core": 17,
+      "to_core": 24,
+      "worst_year": 2020,
+      "worst_min_directional_overlap_1km_pct": 0.0,
+      "worst_min_directional_overlap_5km_pct": 29.19802277945865,
+      "max_abs_cost_change_pct": 1.3392292289908125,
+      "max_endpoint_shift_km": 10.049875612063968,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "3"
+    },
+    {
+      "from_core": 24,
+      "to_core": 28,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 0.0,
+      "worst_min_directional_overlap_5km_pct": 0.0,
+      "max_abs_cost_change_pct": 0.41632064313346095,
+      "max_endpoint_shift_km": 16.000000007178635,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "22"
+    },
+    {
+      "from_core": 30,
+      "to_core": 36,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 0.0,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.42970846532448537,
+      "max_endpoint_shift_km": 4.000000007171184,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "25"
+    },
+    {
+      "from_core": 42,
+      "to_core": 50,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 2.6441172712129686,
+      "worst_min_directional_overlap_5km_pct": 83.9023752240824,
+      "max_abs_cost_change_pct": 0.4232941083214259,
+      "max_endpoint_shift_km": 3.9999999928213654,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "11"
+    },
+    {
+      "from_core": 43,
+      "to_core": 45,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 8.73381707996714,
+      "worst_min_directional_overlap_5km_pct": 21.085299645742452,
+      "max_abs_cost_change_pct": 0.7047610787704994,
+      "max_endpoint_shift_km": 9.055385147392343,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "26"
+    },
+    {
+      "from_core": 27,
+      "to_core": 41,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 19.117201717785832,
+      "worst_min_directional_overlap_5km_pct": 34.86231984856593,
+      "max_abs_cost_change_pct": 0.42246922462840786,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "5"
+    },
+    {
+      "from_core": 24,
+      "to_core": 33,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 19.287522621264916,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.4261800678274863,
+      "max_endpoint_shift_km": 2.0530534005854702e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "23"
+    },
+    {
+      "from_core": 30,
+      "to_core": 41,
+      "worst_year": 2020,
+      "worst_min_directional_overlap_1km_pct": 24.44101803104525,
+      "worst_min_directional_overlap_5km_pct": 89.35687917357282,
+      "max_abs_cost_change_pct": 0.2196835729266322,
+      "max_endpoint_shift_km": 2.0530534005854702e-08,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 24,
+      "to_core": 38,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 27.526973300480893,
+      "worst_min_directional_overlap_5km_pct": 91.0786487724149,
+      "max_abs_cost_change_pct": 0.3015962292930663,
+      "max_endpoint_shift_km": 2.000000007174909,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "2"
+    },
+    {
+      "from_core": 1,
+      "to_core": 9,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 30.69674233011758,
+      "worst_min_directional_overlap_5km_pct": 47.52808068183468,
+      "max_abs_cost_change_pct": 0.6865325039342007,
+      "max_endpoint_shift_km": 1.0000000071786346,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 13,
+      "to_core": 17,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 44.551427450285566,
+      "worst_min_directional_overlap_5km_pct": 50.01520082393354,
+      "max_abs_cost_change_pct": 0.5877384480493797,
+      "max_endpoint_shift_km": 3.999999980765395,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 28,
+      "to_core": 33,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 45.02581458837232,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.4901335139276819,
+      "max_endpoint_shift_km": 2.0000000192373992,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "31"
+    },
+    {
+      "from_core": 36,
+      "to_core": 41,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 51.6849223540329,
+      "worst_min_directional_overlap_5km_pct": 96.78910396410086,
+      "max_abs_cost_change_pct": 0.3126457904114588,
+      "max_endpoint_shift_km": 3.000000019234605,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "19"
+    },
+    {
+      "from_core": 33,
+      "to_core": 38,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 52.39240240169159,
+      "worst_min_directional_overlap_5km_pct": 91.57865651476415,
+      "max_abs_cost_change_pct": 0.5271518060006919,
+      "max_endpoint_shift_km": 0.9999999928213659,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "7"
+    },
+    {
+      "from_core": 45,
+      "to_core": 50,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 54.89143576854728,
+      "worst_min_directional_overlap_5km_pct": 92.61850327300493,
+      "max_abs_cost_change_pct": 0.36182892353380236,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "16"
+    },
+    {
+      "from_core": 28,
+      "to_core": 38,
+      "worst_year": 2020,
+      "worst_min_directional_overlap_1km_pct": 55.00100451667442,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.5636297285064318,
+      "max_endpoint_shift_km": 1.9999999928288161,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 36,
+      "to_core": 43,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 56.14704497898396,
+      "worst_min_directional_overlap_5km_pct": 79.57279623558138,
+      "max_abs_cost_change_pct": 0.8730955093245729,
+      "max_endpoint_shift_km": 9.00000000717491,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "24"
+    },
+    {
+      "from_core": 18,
+      "to_core": 28,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 57.4822193072979,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.6689218109462658,
+      "max_endpoint_shift_km": 2.053140654404533e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "20"
+    },
+    {
+      "from_core": 40,
+      "to_core": 43,
+      "worst_year": 2020,
+      "worst_min_directional_overlap_1km_pct": 61.24161000923803,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.2552428955649888,
+      "max_endpoint_shift_km": 0.9999999807644635,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "10"
+    },
+    {
+      "from_core": 1,
+      "to_core": 13,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 63.746970468093565,
+      "worst_min_directional_overlap_5km_pct": 74.98240304615028,
+      "max_abs_cost_change_pct": 0.7068107952959091,
+      "max_endpoint_shift_km": 1.0000000071786346,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 50,
+      "to_core": 53,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 66.69244646738026,
+      "worst_min_directional_overlap_5km_pct": 72.13368325309752,
+      "max_abs_cost_change_pct": 0.3114710883609151,
+      "max_endpoint_shift_km": 2.0530976922847057e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "18"
+    },
+    {
+      "from_core": 36,
+      "to_core": 40,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 68.44934236335908,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.6711671051521151,
+      "max_endpoint_shift_km": 2.0529231730611176e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "12"
+    },
+    {
+      "from_core": 40,
+      "to_core": 45,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 68.59810992406793,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.43070663675282006,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 30,
+      "to_core": 40,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 69.63798816693023,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.058112586309766456,
+      "max_endpoint_shift_km": 1.0000000071749093,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "4"
+    },
+    {
+      "from_core": 43,
+      "to_core": 49,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 70.11498211315417,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.34608224237138163,
+      "max_endpoint_shift_km": 1.9999999928213656,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "13"
+    },
+    {
+      "from_core": 26,
+      "to_core": 31,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 71.42857142176995,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.10770790764662586,
+      "max_endpoint_shift_km": 2.053140654404533e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "29"
+    },
+    {
+      "from_core": 1,
+      "to_core": 17,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 73.06152702060326,
+      "worst_min_directional_overlap_5km_pct": 93.70261568156954,
+      "max_abs_cost_change_pct": 0.5815808196838468,
+      "max_endpoint_shift_km": 1.0000000071786346,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 27,
+      "to_core": 30,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 73.83327642099079,
+      "worst_min_directional_overlap_5km_pct": 94.29085236465203,
+      "max_abs_cost_change_pct": 0.5022794693289034,
+      "max_endpoint_shift_km": 1.0000000192346052,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 41,
+      "to_core": 45,
+      "worst_year": 2024,
+      "worst_min_directional_overlap_1km_pct": 75.05792170530172,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.2890432879817162,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "6"
+    },
+    {
+      "from_core": 18,
+      "to_core": 33,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 82.43139702887319,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.5194533386514433,
+      "max_endpoint_shift_km": 2.053140654404533e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "21"
+    },
+    {
+      "from_core": 38,
+      "to_core": 40,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 82.72752694745857,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.8722205429871233,
+      "max_endpoint_shift_km": 2.053140654404533e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "1"
+    },
+    {
+      "from_core": 41,
+      "to_core": 43,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 86.42927304351464,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.41856453693509543,
+      "max_endpoint_shift_km": 2.0530534005854702e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "15"
+    },
+    {
+      "from_core": 45,
+      "to_core": 49,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 87.10702701453887,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.4795260896911291,
+      "max_endpoint_shift_km": 1.9999999928213656,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "17"
+    },
+    {
+      "from_core": 27,
+      "to_core": 32,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 88.53322017549343,
+      "worst_min_directional_overlap_5km_pct": 99.99999999834375,
+      "max_abs_cost_change_pct": 0.20503707100818502,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 26,
+      "to_core": 27,
+      "worst_year": 2016,
+      "worst_min_directional_overlap_1km_pct": 92.56592413751633,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.38380663449566477,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "9"
+    },
+    {
+      "from_core": 27,
+      "to_core": 31,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 92.65732335216221,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.29941898013599033,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 49,
+      "to_core": 53,
+      "worst_year": 2020,
+      "worst_min_directional_overlap_1km_pct": 93.27627459733277,
+      "worst_min_directional_overlap_5km_pct": 99.99999999999999,
+      "max_abs_cost_change_pct": 0.2579797434006492,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "27"
+    },
+    {
+      "from_core": 26,
+      "to_core": 32,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 94.22075595513525,
+      "worst_min_directional_overlap_5km_pct": 99.99999999999999,
+      "max_abs_cost_change_pct": 0.5382812705311935,
+      "max_endpoint_shift_km": 2.0530534005854702e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "30"
+    },
+    {
+      "from_core": 9,
+      "to_core": 17,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 95.70750314592047,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.6704279452474537,
+      "max_endpoint_shift_km": 1.0000000071786346,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "8"
+    },
+    {
+      "from_core": 45,
+      "to_core": 53,
+      "worst_year": 2020,
+      "worst_min_directional_overlap_1km_pct": 96.86051091239804,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.28628869586238004,
+      "max_endpoint_shift_km": 1.0000000071786346,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 9,
+      "to_core": 13,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 99.99999996238465,
+      "worst_min_directional_overlap_5km_pct": 99.99999999999999,
+      "max_abs_cost_change_pct": 1.6760241025780553,
+      "max_endpoint_shift_km": 1.0000000071786346,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "28"
+    },
+    {
+      "from_core": 31,
+      "to_core": 32,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 99.99999998851975,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.19317382236287983,
+      "max_endpoint_shift_km": 2.0529661472829227e-08,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "32"
+    },
+    {
+      "from_core": 18,
+      "to_core": 24,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 100.0,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 1.962548541150777,
+      "max_endpoint_shift_km": 2.053227908740045e-08,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 38,
+      "to_core": 42,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 100.0,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.8303855578218888,
+      "max_endpoint_shift_km": 2.0530534005854702e-08,
+      "previous_priority_eligible": "not_in_priority_table",
+      "previous_importance_rank": ""
+    },
+    {
+      "from_core": 40,
+      "to_core": 42,
+      "worst_year": 2012,
+      "worst_min_directional_overlap_1km_pct": 100.0,
+      "worst_min_directional_overlap_5km_pct": 100.0,
+      "max_abs_cost_change_pct": 0.3339766417048029,
+      "max_endpoint_shift_km": 1.0000000071786346,
+      "previous_priority_eligible": "yes",
+      "previous_importance_rank": "14"
+    }
+  ],
+  "temporal": [
+    {
+      "from_core": 1,
+      "to_core": 9,
+      "old_change_pct": 18.628700435015432,
+      "candidate_change_pct": 17.989611655633087,
+      "difference_pp": -0.6390887793823445,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 1,
+      "to_core": 13,
+      "old_change_pct": 8.459589643224819,
+      "candidate_change_pct": 8.341680744764378,
+      "difference_pp": -0.11790889846044017,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 1,
+      "to_core": 17,
+      "old_change_pct": 4.921795659469486,
+      "candidate_change_pct": 4.740844831953295,
+      "difference_pp": -0.18095082751619085,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 9,
+      "to_core": 13,
+      "old_change_pct": -7.480048805083738,
+      "candidate_change_pct": -7.015830303987691,
+      "difference_pp": 0.4642185010960471,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 9,
+      "to_core": 17,
+      "old_change_pct": -8.713449662969596,
+      "candidate_change_pct": -8.494520505219738,
+      "difference_pp": 0.21892915774985866,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 13,
+      "to_core": 17,
+      "old_change_pct": -13.785759134719767,
+      "candidate_change_pct": -13.857611508792122,
+      "difference_pp": -0.07185237407235512,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 17,
+      "to_core": 24,
+      "old_change_pct": -9.802812894275515,
+      "candidate_change_pct": -10.775588877257647,
+      "difference_pp": -0.9727759829821316,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 18,
+      "to_core": 24,
+      "old_change_pct": 9.179456244777828,
+      "candidate_change_pct": 6.463867328737405,
+      "difference_pp": -2.7155889160404234,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 18,
+      "to_core": 28,
+      "old_change_pct": 12.577263746588297,
+      "candidate_change_pct": 12.401977025104372,
+      "difference_pp": -0.17528672148392488,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 18,
+      "to_core": 33,
+      "old_change_pct": 9.24738456494978,
+      "candidate_change_pct": 9.512139245168694,
+      "difference_pp": 0.264754680218914,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 24,
+      "to_core": 28,
+      "old_change_pct": -3.481650269501646,
+      "candidate_change_pct": -4.17373832639365,
+      "difference_pp": -0.692088056892004,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 24,
+      "to_core": 33,
+      "old_change_pct": 8.154664678961643,
+      "candidate_change_pct": 7.553957663773603,
+      "difference_pp": -0.60070701518804,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 24,
+      "to_core": 38,
+      "old_change_pct": 4.120036560356355,
+      "candidate_change_pct": 3.7509163897658127,
+      "difference_pp": -0.36912017059054225,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 26,
+      "to_core": 27,
+      "old_change_pct": -5.015568769176959,
+      "candidate_change_pct": -5.138716171265278,
+      "difference_pp": -0.12314740208831942,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 26,
+      "to_core": 31,
+      "old_change_pct": -5.731198974198504,
+      "candidate_change_pct": -5.811068845168554,
+      "difference_pp": -0.07986987097005027,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 26,
+      "to_core": 32,
+      "old_change_pct": -7.193007713727139,
+      "candidate_change_pct": -7.755857457177151,
+      "difference_pp": -0.5628497434500117,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 27,
+      "to_core": 30,
+      "old_change_pct": -6.477576276754771,
+      "candidate_change_pct": -6.335747488095745,
+      "difference_pp": 0.14182878865902637,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 27,
+      "to_core": 31,
+      "old_change_pct": -6.485598588128417,
+      "candidate_change_pct": -6.428897019584445,
+      "difference_pp": 0.05670156854397135,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 27,
+      "to_core": 32,
+      "old_change_pct": -6.345554974567891,
+      "candidate_change_pct": -6.332849442871025,
+      "difference_pp": 0.012705531696866501,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 27,
+      "to_core": 41,
+      "old_change_pct": -4.516632466290337,
+      "candidate_change_pct": -4.979476009189265,
+      "difference_pp": -0.46284354289892793,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 28,
+      "to_core": 33,
+      "old_change_pct": -0.7081403030091638,
+      "candidate_change_pct": -0.6019527013302328,
+      "difference_pp": 0.10618760167893093,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 28,
+      "to_core": 38,
+      "old_change_pct": 1.1227405627115994,
+      "candidate_change_pct": 0.2202278161067106,
+      "difference_pp": -0.9025127466048888,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 30,
+      "to_core": 36,
+      "old_change_pct": 5.251892730585506,
+      "candidate_change_pct": 5.176117259669022,
+      "difference_pp": -0.07577547091648373,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 30,
+      "to_core": 40,
+      "old_change_pct": -1.2759254017736699,
+      "candidate_change_pct": -1.2231457684492186,
+      "difference_pp": 0.052779633324451236,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 30,
+      "to_core": 41,
+      "old_change_pct": -8.712497497620442,
+      "candidate_change_pct": -8.737295600684348,
+      "difference_pp": -0.024798103063906396,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 31,
+      "to_core": 32,
+      "old_change_pct": -6.427000587002574,
+      "candidate_change_pct": -6.483575694336929,
+      "difference_pp": -0.056575107334355224,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 33,
+      "to_core": 38,
+      "old_change_pct": 14.252229369153246,
+      "candidate_change_pct": 13.782201991363996,
+      "difference_pp": -0.4700273777892505,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 36,
+      "to_core": 40,
+      "old_change_pct": 0.6510294297749963,
+      "candidate_change_pct": 1.1412848636328965,
+      "difference_pp": 0.49025543385790016,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 36,
+      "to_core": 41,
+      "old_change_pct": -10.286350296321212,
+      "candidate_change_pct": -10.440044974164175,
+      "difference_pp": -0.15369467784296376,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 36,
+      "to_core": 43,
+      "old_change_pct": -3.448484734702384,
+      "candidate_change_pct": -2.572205508079939,
+      "difference_pp": 0.8762792266224451,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 38,
+      "to_core": 40,
+      "old_change_pct": 2.62500390728555,
+      "candidate_change_pct": 1.0393173903869402,
+      "difference_pp": -1.58568651689861,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 38,
+      "to_core": 42,
+      "old_change_pct": 1.5481542372312251,
+      "candidate_change_pct": 1.7042351680794932,
+      "difference_pp": 0.15608093084826802,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 40,
+      "to_core": 42,
+      "old_change_pct": -5.545040147684466,
+      "candidate_change_pct": -5.808655915082261,
+      "difference_pp": -0.2636157673977957,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 40,
+      "to_core": 43,
+      "old_change_pct": -2.126847658383235,
+      "candidate_change_pct": -2.5291775671277716,
+      "difference_pp": -0.40232990874453645,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 40,
+      "to_core": 45,
+      "old_change_pct": 0.4714481425850181,
+      "candidate_change_pct": 0.8155774276078054,
+      "difference_pp": 0.3441292850227873,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 41,
+      "to_core": 43,
+      "old_change_pct": -6.2718923690499695,
+      "candidate_change_pct": -6.208244567907062,
+      "difference_pp": 0.06364780114290713,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 41,
+      "to_core": 45,
+      "old_change_pct": -5.809014369245046,
+      "candidate_change_pct": -5.350246089183619,
+      "difference_pp": 0.45876828006142745,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 42,
+      "to_core": 50,
+      "old_change_pct": 9.13212253119049,
+      "candidate_change_pct": 9.77884306225012,
+      "difference_pp": 0.6467205310596302,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 43,
+      "to_core": 45,
+      "old_change_pct": -10.671207142947503,
+      "candidate_change_pct": -10.324844383385068,
+      "difference_pp": 0.34636275956243523,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 43,
+      "to_core": 49,
+      "old_change_pct": -9.965120115565718,
+      "candidate_change_pct": -10.245513081878975,
+      "difference_pp": -0.28039296631325783,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 45,
+      "to_core": 49,
+      "old_change_pct": -6.8229340073075235,
+      "candidate_change_pct": -6.33575797525745,
+      "difference_pp": 0.48717603205007354,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 45,
+      "to_core": 50,
+      "old_change_pct": 5.433049266044243,
+      "candidate_change_pct": 5.783178871579686,
+      "difference_pp": 0.35012960553544303,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 45,
+      "to_core": 53,
+      "old_change_pct": -3.6347707903560234,
+      "candidate_change_pct": -3.7535842934151464,
+      "difference_pp": -0.11881350305912308,
+      "sign_changed": false,
+      "previous_priority_eligible": "not_in_priority_table"
+    },
+    {
+      "from_core": 49,
+      "to_core": 53,
+      "old_change_pct": -2.377972052165489,
+      "candidate_change_pct": -2.530926377196807,
+      "difference_pp": -0.15295432503131812,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    },
+    {
+      "from_core": 50,
+      "to_core": 53,
+      "old_change_pct": -0.49585634187429006,
+      "candidate_change_pct": -0.4574084189642891,
+      "difference_pp": 0.03844792291000099,
+      "sign_changed": false,
+      "previous_priority_eligible": "yes"
+    }
+  ],
+  "limits": [
+    "80% overlap is a descriptive review trigger, not a biological stability criterion.",
+    "Previous priority eligibility is contextual; no ranking or eligibility was recalculated.",
+    "Only balanced-weight diagnostic results are verified; no inference of final current-flow robustness.",
+    "No route touching fallback does not rule out alternative routes becoming cheaper if fallback cost is lowered."
+  ]
+}

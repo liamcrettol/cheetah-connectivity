@@ -1,5 +1,10 @@
 # Cheetah connectivity capstone — project context
 
+**September 4 update:** First read [the current handoff](handoff/2026-09-04/README.md).
+The original context below includes earlier plans and setup instructions that are
+now historical. The dated handoff distinguishes completed diagnostics from
+pending production decisions; do not rerun completed work or treat old plans as results.
+
 Read this before doing anything. It is the handoff from a previous session and
 should save you from re-deriving decisions or rebuilding work that already exists.
 

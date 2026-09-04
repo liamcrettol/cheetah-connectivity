@@ -1,0 +1,1261 @@
+[
+  {
+    "title": "Dashboard",
+    "data": [
+      {
+        "startRow": 2,
+        "startColumn": 1,
+        "rows": [
+          [
+            {
+              "stringValue": "Updated 4 Sep: balanced diagnostic 180/180 verified; water exports checked. Open Next Up for home/work handoff; production decisions remain pending."
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Next Up",
+    "data": [
+      {
+        "startRow": 0,
+        "startColumn": 0,
+        "rows": [
+          [
+            {
+              "stringValue": "Resume here: September 4 home/work handoff"
+            },
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          [
+            {
+              "stringValue": "Completed: balanced VCF comparison and four water-export QA checks. GitHub handoff/2026-09-04 has reports, figures and scripts. No new overnight run or production replacement yet."
+            }
+          ],
+          [],
+          [
+            {
+              "stringValue": "Step"
+            },
+            {
+              "stringValue": "Part of"
+            },
+            {
+              "stringValue": "Task"
+            },
+            {
+              "stringValue": "How"
+            },
+            {
+              "stringValue": "Check before moving on"
+            },
+            {
+              "stringValue": "Mins"
+            },
+            {
+              "stringValue": "Status"
+            }
+          ],
+          [
+            {
+              "stringValue": "Work 1"
+            },
+            {
+              "stringValue": "September 4 handoff"
+            },
+            {
+              "stringValue": "Open the GitHub handoff"
+            },
+            {
+              "stringValue": "Pull origin main, then read handoff/2026-09-04/README.md. Reports, figures, scripts and context are bundled; ArcGIS data remain at home."
+            },
+            {
+              "stringValue": "Use your own manuscript wording; no employer GIS license or another solver needed."
+            },
+            null,
+            {
+              "stringValue": "Next"
+            }
+          ],
+          [
+            {
+              "stringValue": "Work 2"
+            },
+            {
+              "stringValue": "Verified balanced diagnostic"
+            },
+            {
+              "stringValue": "Review cost stability versus route-location uncertainty"
+            },
+            {
+              "stringValue": "180/180 verified; median absolute cost change 0.2213%; 49 route-years below 80% minimum directional 1 km overlap; no endpoint temporal sign reversals."
+            },
+            {
+              "stringValue": "Report modeled structural connectivity, not validated movement. 80% is only a review trigger."
+            },
+            null,
+            {
+              "stringValue": "Not Started"
+            }
+          ],
+          [
+            {
+              "stringValue": "Home 1"
+            },
+            {
+              "stringValue": "Missing VCF / water policy"
+            },
+            {
+              "stringValue": "Interpret the newly verified water-class fractions"
+            },
+            {
+              "stringValue": "All four 11-band exports passed QA. Cross-tab covers 4866 missing cells: 715 persistently >=95% both-water, 14 both-land, 4137 other. Review spatial context next."
+            },
+            {
+              "stringValue": "95% is descriptive, not an adopted exclusion rule. Do not equate NoData or wetlands with barriers."
+            },
+            null,
+            {
+              "stringValue": "Not Started"
+            }
+          ],
+          [
+            {
+              "stringValue": "Home 2"
+            },
+            {
+              "stringValue": "Production decision"
+            },
+            {
+              "stringValue": "Decide what actually needs recomputing"
+            },
+            {
+              "stringValue": "Document final missing-data treatment, compare to candidate fallback, and identify impacted outputs before launching anything long."
+            },
+            {
+              "stringValue": "Balanced candidate remains diagnostic; low/high and current flow are not approved by this comparison."
+            },
+            null,
+            {
+              "stringValue": "Not Started"
+            }
+          ],
+          [
+            {
+              "stringValue": "Work/Home 3"
+            },
+            {
+              "stringValue": "Reporting arithmetic"
+            },
+            {
+              "stringValue": "Propagate the edge-normalization correction"
+            },
+            {
+              "stringValue": "Corrected versioned CSV is in the handoff: old scores x21/23; 38-40 = 0.4090909. All ranks/ties unchanged."
+            },
+            {
+              "stringValue": "Update production tables and manuscript consistently; no GIS solve needed."
+            },
+            null,
+            {
+              "stringValue": "Not Started"
+            }
+          ],
+          [
+            {
+              "stringValue": "Work/Home 4"
+            },
+            {
+              "stringValue": "Paper figures and conservation"
+            },
+            {
+              "stringValue": "Reconcile figure/table plan with verified evidence"
+            },
+            {
+              "stringValue": "Read bundled earlier figure/table plan and current README. Carry path-location uncertainty into priority interpretation; keep reference current flow distinct."
+            },
+            {
+              "stringValue": "Final maps/priority revisions and predictive extension remain pending; do not label them complete."
+            },
+            null,
+            {
+              "stringValue": "Not Started"
+            }
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Decision Log",
+    "data": [
+      {
+        "startRow": 0,
+        "startColumn": 0,
+        "rows": [
+          [
+            {
+              "stringValue": "Decision Log Cheetah Connectivity Analysis"
+            }
+          ],
+          [
+            {
+              "stringValue": "Consolidated methodological choices, rationale, implementation, and caveats. This is the project’s decision memory, not a claim that provisional assumptions are final truth."
+            }
+          ],
+          [],
+          [
+            {
+              "stringValue": "ID"
+            },
+            {
+              "stringValue": "Theme"
+            },
+            {
+              "stringValue": "Decision"
+            },
+            {
+              "stringValue": "Rationale"
+            },
+            {
+              "stringValue": "Implementation / parameter"
+            },
+            {
+              "stringValue": "Evidence / report"
+            },
+            {
+              "stringValue": "Limitation / sensitivity"
+            },
+            {
+              "stringValue": "Paper section"
+            },
+            {
+              "stringValue": "Status"
+            }
+          ],
+          [
+            {
+              "stringValue": "D01"
+            },
+            {
+              "stringValue": "Study extent"
+            },
+            {
+              "stringValue": "Use confirmed and likely cheetah range to define the analysis extent; exclude possible range from expanding the landscape."
+            },
+            {
+              "stringValue": "Keeps the study focused on defensible occurrence evidence while still including likely movement space."
+            },
+            {
+              "stringValue": "Range classes 3 and 2; 100 km buffer; class 1 retained only as contextual evidence."
+            },
+            {
+              "stringValue": "Dryad/Weise baseline; project framework"
+            },
+            {
+              "stringValue": "The extent is an analytical boundary, not a claim that cheetahs cannot occur outside it."
+            },
+            {
+              "stringValue": "Methods · Study area"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D02"
+            },
+            {
+              "stringValue": "Spatial framework"
+            },
+            {
+              "stringValue": "Use a common 1 km equal-area grid for every resistance predictor and output."
+            },
+            {
+              "stringValue": "Equal-area cells support comparable area, density, and cost calculations across southern Africa."
+            },
+            {
+              "stringValue": "Africa Albers Equal Area Conic (ESRI:102022); identical 1,000 m cells; grid verified at 2,310 × 2,200."
+            },
+            {
+              "stringValue": "Grid-alignment audit"
+            },
+            {
+              "stringValue": "Resampling must match data type; categorical layers require nearest neighbor."
+            },
+            {
+              "stringValue": "Methods · Spatial processing"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D03"
+            },
+            {
+              "stringValue": "Temporal design"
+            },
+            {
+              "stringValue": "Compare four snapshots: 2012, 2016, 2020, and 2024."
+            },
+            {
+              "stringValue": "Four-year spacing balances temporal comparison with dataset availability."
+            },
+            {
+              "stringValue": "All time-varying inputs aligned to target years; nominal VIIRS 2012 uses the nearest 2013 observation."
+            },
+            {
+              "stringValue": "Temporal alignment review"
+            },
+            {
+              "stringValue": "The 2012 lights layer has a +1-year offset and must be disclosed."
+            },
+            {
+              "stringValue": "Methods · Temporal design"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D04"
+            },
+            {
+              "stringValue": "Land cover and VCF"
+            },
+            {
+              "stringValue": "Use VCF for vegetation-cover measurements and categorical land cover for classification context; land-cover classes do not independently add resistance."
+            },
+            {
+              "stringValue": "The datasets answer different questions and adding both as penalties would risk double counting vegetation structure."
+            },
+            {
+              "stringValue": "Six-class land cover is descriptive context; VCF tree, non-tree, and bare support vegetation interpretation."
+            },
+            {
+              "stringValue": "Land-cover proportions and VCF review"
+            },
+            {
+              "stringValue": "Neither categorical land cover nor VCF is a causal resistance surface in the first model."
+            },
+            {
+              "stringValue": "Methods · Predictors"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D05"
+            },
+            {
+              "stringValue": "Rainfall"
+            },
+            {
+              "stringValue": "Do not include rainfall as an independent predictor in the first analysis."
+            },
+            {
+              "stringValue": "The current question is movement resistance; rainfall would expand scope without a clear independent mechanism beyond available vegetation context."
+            },
+            {
+              "stringValue": "CHIRPS step intentionally omitted, not failed."
+            },
+            {
+              "stringValue": "Workflow decision"
+            },
+            {
+              "stringValue": "Vegetation trends cannot be attributed to rainfall; rainfall variability was not independently controlled."
+            },
+            {
+              "stringValue": "Limitations"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D06"
+            },
+            {
+              "stringValue": "Change metrics"
+            },
+            {
+              "stringValue": "Use absolute change as the primary temporal result and proportional change as supplementary context."
+            },
+            {
+              "stringValue": "Absolute change is stable when baseline values are small; proportional change can explode near zero."
+            },
+            {
+              "stringValue": "Interval and 2012–2024 absolute differences for built-up, VCF, and flare-masked lights."
+            },
+            {
+              "stringValue": "Change-layer QC summary"
+            },
+            {
+              "stringValue": "Proportional VCF maps remain exploratory rather than headline maps."
+            },
+            {
+              "stringValue": "Methods · Change analysis"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D07"
+            },
+            {
+              "stringValue": "VCF proportional floor"
+            },
+            {
+              "stringValue": "Apply a 5% baseline floor before calculating proportional VCF change."
+            },
+            {
+              "stringValue": "Threshold review showed near-zero baselines created widespread unstable ratios."
+            },
+            {
+              "stringValue": "All proportional VCF outputs rebuilt using the 5% baseline threshold."
+            },
+            {
+              "stringValue": "VCF threshold trade-offs"
+            },
+            {
+              "stringValue": "Report threshold sensitivity and retain absolute maps as primary."
+            },
+            {
+              "stringValue": "Methods · Change analysis"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D08"
+            },
+            {
+              "stringValue": "Nighttime lights"
+            },
+            {
+              "stringValue": "Mask gas flares before using VIIRS as a human-pressure indicator."
+            },
+            {
+              "stringValue": "Flares can mimic settlements or infrastructure."
+            },
+            {
+              "stringValue": "Dissolved 5 km flare buffer; one intersecting site; masked copies retained with untouched originals."
+            },
+            {
+              "stringValue": "Flare-mask reports; change QC"
+            },
+            {
+              "stringValue": "Document VIIRS export scale before reporting brightness magnitudes."
+            },
+            {
+              "stringValue": "Methods · Human pressure"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D09"
+            },
+            {
+              "stringValue": "Roads"
+            },
+            {
+              "stringValue": "Represent roads with GRIP4 hierarchy and a 5 km neighborhood density surface."
+            },
+            {
+              "stringValue": "Road effects extend beyond exact lines; the 5 km option produced a coherent regional exposure surface."
+            },
+            {
+              "stringValue": "140,471 clipped GRIP4 features; hierarchy summaries; 5 km density selected."
+            },
+            {
+              "stringValue": "GRIP4 inventory; density review"
+            },
+            {
+              "stringValue": "Road density is a pressure proxy, not direct proof of avoidance or mortality."
+            },
+            {
+              "stringValue": "Methods · Human pressure"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D10"
+            },
+            {
+              "stringValue": "Terrain"
+            },
+            {
+              "stringValue": "Use mean slope as primary and maximum slope as supplementary context."
+            },
+            {
+              "stringValue": "Mean slope represents prevailing movement cost; maximum slope can overemphasize isolated rugged cells."
+            },
+            {
+              "stringValue": "Native 30 m SRTM aggregated to 1 km; resistance 1 through 10°, linear to 10 at 30°, capped."
+            },
+            {
+              "stringValue": "Terrain reports and literature"
+            },
+            {
+              "stringValue": "Transferred form is provisional; run an alternate terrain sensitivity."
+            },
+            {
+              "stringValue": "Methods · Terrain"
+            },
+            {
+              "stringValue": "Provisional"
+            }
+          ],
+          [
+            {
+              "stringValue": "D11"
+            },
+            {
+              "stringValue": "Livestock"
+            },
+            {
+              "stringValue": "Use GLW4 2020 cattle, goats, and sheep as a static livestock-exposure index."
+            },
+            {
+              "stringValue": "Livestock indicates pastoral exposure and associated people/fences but is not itself a conflict observation."
+            },
+            {
+              "stringValue": "Three aligned 1 km layers combined after redundancy review."
+            },
+            {
+              "stringValue": "Livestock summary; redundancy audit"
+            },
+            {
+              "stringValue": "Call it exposure, not conflict; static 2020 data cannot represent change."
+            },
+            {
+              "stringValue": "Methods · Livestock"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D12"
+            },
+            {
+              "stringValue": "Redundancy"
+            },
+            {
+              "stringValue": "Use correlation as screening and exclude VCF from the first weighted resistance model."
+            },
+            {
+              "stringValue": "Strong VCF compositional correlations and cattle–goat correlation warn against separate penalties."
+            },
+            {
+              "stringValue": "VCF tree–bare ρ=-0.877; non-tree–bare ρ=-0.836; cattle–goats r=0.774."
+            },
+            {
+              "stringValue": "predictor_redundancy_review.csv"
+            },
+            {
+              "stringValue": "Correlation does not prove ecological interchangeability or causation."
+            },
+            {
+              "stringValue": "Methods · Model construction"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D13"
+            },
+            {
+              "stringValue": "Human-pressure index"
+            },
+            {
+              "stringValue": "Weight built-up, flare-masked lights, and road density equally within human pressure."
+            },
+            {
+              "stringValue": "No defensible species-specific evidence supports privileging one proxy."
+            },
+            {
+              "stringValue": "Each standardized predictor receives one-third."
+            },
+            {
+              "stringValue": "human_pressure_index_decision.csv"
+            },
+            {
+              "stringValue": "Equal weighting is a transparent starting hypothesis requiring sensitivity testing."
+            },
+            {
+              "stringValue": "Methods · Model construction"
+            },
+            {
+              "stringValue": "Provisional"
+            }
+          ],
+          [
+            {
+              "stringValue": "D14"
+            },
+            {
+              "stringValue": "Resistance weights"
+            },
+            {
+              "stringValue": "Use 0.50 human pressure, 0.30 livestock exposure, and 0.20 terrain."
+            },
+            {
+              "stringValue": "Working hypothesis: human pressure dominates broad-scale resistance while livestock and terrain still matter."
+            },
+            {
+              "stringValue": "Weighted standardized components; VCF and land cover remain context."
+            },
+            {
+              "stringValue": "first_resistance_model_decision.csv"
+            },
+            {
+              "stringValue": "Weights are hypotheses, not fitted biological truth; compare alternatives."
+            },
+            {
+              "stringValue": "Methods · Model construction"
+            },
+            {
+              "stringValue": "Provisional"
+            }
+          ],
+          [
+            {
+              "stringValue": "D15"
+            },
+            {
+              "stringValue": "Veterinary fences"
+            },
+            {
+              "stringValue": "Model fences as scenarios because reference data are incomplete."
+            },
+            {
+              "stringValue": "Known veterinary fences may strongly constrain movement, but locations and permeability are unevenly documented."
+            },
+            {
+              "stringValue": "No-fence 1; main finite-crossing 25; near-barrier 1,000."
+            },
+            {
+              "stringValue": "Fence scenario report; literature"
+            },
+            {
+              "stringValue": "Conclusions must remain scenario-dependent."
+            },
+            {
+              "stringValue": "Methods · Barrier scenarios"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D16"
+            },
+            {
+              "stringValue": "Kruger boundary"
+            },
+            {
+              "stringValue": "Use finite-crossing documented-only and documented-plus-uncertain Kruger scenarios."
+            },
+            {
+              "stringValue": "Prevents invented transversal paths without claiming the entire boundary is impermeable."
+            },
+            {
+              "stringValue": "Fenced 621.85 km; open 240.95 km; uncertain 286.31 km; constrained multiplier 25."
+            },
+            {
+              "stringValue": "Kruger evidence and scenario report"
+            },
+            {
+              "stringValue": "Reference lines are not proof of current condition at every segment."
+            },
+            {
+              "stringValue": "Methods · Barrier scenarios"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D17"
+            },
+            {
+              "stringValue": "Core definition"
+            },
+            {
+              "stringValue": "Define cores at density ≥0.51 cheetahs/100 km² and retain patches ≥500 km² with 8-neighbor connectivity."
+            },
+            {
+              "stringValue": "Identifies meaningful-use areas while avoiding tiny fragments as equivalent cores."
+            },
+            {
+              "stringValue": "23 cores; 246,654 km² total; smallest 506 km²; largest 99,673 km²."
+            },
+            {
+              "stringValue": "Core threshold and primary-core reports"
+            },
+            {
+              "stringValue": "Report threshold trade-offs and test alternatives."
+            },
+            {
+              "stringValue": "Methods · Core areas"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D18"
+            },
+            {
+              "stringValue": "Temporal comparability"
+            },
+            {
+              "stringValue": "Keep the same core areas across temporal resistance comparisons."
+            },
+            {
+              "stringValue": "Changing cores and resistance together would confound interpretation."
+            },
+            {
+              "stringValue": "Fixed primary cores are endpoints for all snapshots and scenarios."
+            },
+            {
+              "stringValue": "Core-workflow decision"
+            },
+            {
+              "stringValue": "Results show changing resistance between fixed reference cores, not shifting populations."
+            },
+            {
+              "stringValue": "Methods · Comparative design"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D19"
+            },
+            {
+              "stringValue": "Candidate links"
+            },
+            {
+              "stringValue": "Use a 3-nearest-neighbor graph plus a minimum spanning tree."
+            },
+            {
+              "stringValue": "Limits implausible all-to-all routing while ensuring every core remains connected."
+            },
+            {
+              "stringValue": "45 candidate links among 23 cores; MST contributes 22 connectivity links."
+            },
+            {
+              "stringValue": "cheetah_core_neighbor_links.csv"
+            },
+            {
+              "stringValue": "Candidate pairs are not corridors; cost-distance analysis determines pathways."
+            },
+            {
+              "stringValue": "Methods · Connectivity network"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D20"
+            },
+            {
+              "stringValue": "Country summaries"
+            },
+            {
+              "stringValue": "Use country absolute-change summaries descriptively, not causally."
+            },
+            {
+              "stringValue": "Administrative summaries communicate where change occurs without claiming borders caused it."
+            },
+            {
+              "stringValue": "Eight countries; 160 rows across absolute built, VCF, and masked-light changes."
+            },
+            {
+              "stringValue": "country_absolute_change_summary.csv"
+            },
+            {
+              "stringValue": "Country means can conceal local heterogeneity and should accompany maps."
+            },
+            {
+              "stringValue": "Results · Regional summaries"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D21"
+            },
+            {
+              "stringValue": "Anthropogenic formulation"
+            },
+            {
+              "stringValue": "Combine built-up, roads, livestock exposure and nighttime lights into one anthropogenic-pressure component; keep terrain separate."
+            },
+            {
+              "stringValue": "Livestock presence usually implies pastoral human activity, so treating livestock as fully independent from human pressure would overstate conceptual independence."
+            },
+            {
+              "stringValue": "Top level: anthropogenic 80%, terrain 20%. Within anthropogenic: built 30%, roads 30%, livestock 30%, lights 10%."
+            },
+            {
+              "stringValue": "combined_anthropogenic_resistance_decision.csv"
+            },
+            {
+              "stringValue": "Weights are hypotheses; livestock exposure is not direct evidence of conflict and nighttime lights is a weak proxy in dark rural areas."
+            },
+            {
+              "stringValue": "Methods · Model construction"
+            },
+            {
+              "stringValue": "Provisional"
+            }
+          ],
+          [
+            {
+              "stringValue": "D22"
+            },
+            {
+              "stringValue": "Weight sensitivity"
+            },
+            {
+              "stringValue": "Compare the primary anthropogenic weights with equal and infrastructure-dominant alternatives."
+            },
+            {
+              "stringValue": "The literature supports cumulative pressure surfaces but does not provide uniquely correct cheetah-specific weights."
+            },
+            {
+              "stringValue": "Equal: 25% each. Infrastructure-dominant: built 35%, roads 35%, livestock 20%, lights 10%. Terrain remains 20% at the top level."
+            },
+            {
+              "stringValue": "full_weight_sensitivity_summary.csv"
+            },
+            {
+              "stringValue": "Sensitive links must be reported as model-dependent rather than hidden by a single preferred surface."
+            },
+            {
+              "stringValue": "Methods · Sensitivity analysis"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D23"
+            },
+            {
+              "stringValue": "Path robustness"
+            },
+            {
+              "stringValue": "Treat 34 core pairs as weight-robust and 11 as weight-sensitive under the tested alternatives."
+            },
+            {
+              "stringValue": "Robustness across plausible assumptions is stronger evidence than agreement with one arbitrary weighting."
+            },
+            {
+              "stringValue": "Ninety comparisons across 45 pairs and two alternatives; 34 pairs stable under both, 11 sensitive under at least one."
+            },
+            {
+              "stringValue": "full_weight_sensitivity_summary.csv"
+            },
+            {
+              "stringValue": "Robust here means robust to these two tested weight sets, not to every possible model structure."
+            },
+            {
+              "stringValue": "Results · Robustness"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D24"
+            },
+            {
+              "stringValue": "Fence screening"
+            },
+            {
+              "stringValue": "Recalculate only primary paths that cross cells whose resistance increases under a fence scenario."
+            },
+            {
+              "stringValue": "Adding nonnegative cost outside an unchanged primary path cannot make an alternative route cheaper than that unchanged path; screening avoids redundant runs."
+            },
+            {
+              "stringValue": "Five affected pairs: 1–13, 1–17, 9–13, 13–17 and 27–30. Forty unaffected paths are carried forward per scenario."
+            },
+            {
+              "stringValue": "primary_path_fence_crossing_screen.csv"
+            },
+            {
+              "stringValue": "After rerouting around KAZA fences, Kruger assumptions can still affect the new route, so all four scenarios are evaluated for the five links."
+            },
+            {
+              "stringValue": "Methods · Barrier analysis"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D25"
+            },
+            {
+              "stringValue": "Fence scenario networks"
+            },
+            {
+              "stringValue": "Retain four complete 45-link networks: fence main, fence near-barrier, Kruger documented and Kruger conservative."
+            },
+            {
+              "stringValue": "A complete network per assumption allows direct link-level and network-level comparison without treating incomplete fence mapping as truth."
+            },
+            {
+              "stringValue": "All 5 affected links succeeded in every scenario; 40 unaffected links were preserved. Four complete scenario networks assembled."
+            },
+            {
+              "stringValue": "fence_path_scenario_comparison.csv"
+            },
+            {
+              "stringValue": "Reference fence geometry is incomplete and uncertain; results describe scenario sensitivity, not verified present-day permeability."
+            },
+            {
+              "stringValue": "Results · Fence sensitivity"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D26"
+            },
+            {
+              "stringValue": "Predictive extension"
+            },
+            {
+              "stringValue": "Extend the analysis to 2030, 2040 and 2050 under conservation/low-growth, continuation and high-development scenarios."
+            },
+            {
+              "stringValue": "The project can support prospective conservation planning if forecast assumptions are explicit and externally grounded."
+            },
+            {
+              "stringValue": "Use published projections where available; use historical extrapolation only when no defensible projection exists. Keep the same 23 cores."
+            },
+            {
+              "stringValue": "Predictive-analysis plan"
+            },
+            {
+              "stringValue": "Nighttime lights should not be blindly extrapolated because of saturation and proxy limitations."
+            },
+            {
+              "stringValue": "Methods · Future scenarios"
+            },
+            {
+              "stringValue": "Planned"
+            }
+          ],
+          [
+            {
+              "stringValue": "D27"
+            },
+            {
+              "stringValue": "Predictive validation"
+            },
+            {
+              "stringValue": "Validate forecasting logic by using 2012–2020 to predict held-out 2024 before projecting beyond 2024."
+            },
+            {
+              "stringValue": "A hindcast tests whether the model reproduces an observed future state rather than only fitting the past."
+            },
+            {
+              "stringValue": "Compare predicted and observed 2024 predictors/resistance; also compare routes with independent GPS, occurrence, genetic or road-mortality evidence where legally available."
+            },
+            {
+              "stringValue": "Validation plan"
+            },
+            {
+              "stringValue": "External biological data may be spatially incomplete, proprietary or collected at a different scale."
+            },
+            {
+              "stringValue": "Methods · Validation"
+            },
+            {
+              "stringValue": "Planned"
+            }
+          ],
+          [
+            {
+              "stringValue": "D28"
+            },
+            {
+              "stringValue": "Conservation prioritization"
+            },
+            {
+              "stringValue": "Keep robust importance, future threat and intervention leverage as separate scores, then assign Protect, Defend, Restore or Mitigate-barrier actions."
+            },
+            {
+              "stringValue": "Separating value, threat and tractability prevents a single opaque index from hiding why a place is prioritized."
+            },
+            {
+              "stringValue": "Protect = robust; Defend = likely deterioration; Restore = degraded former connection; Mitigate = localized fence/road/development pinch point."
+            },
+            {
+              "stringValue": "Conservation-priority plan"
+            },
+            {
+              "stringValue": "Action labels are decision support, not proof that an intervention will succeed."
+            },
+            {
+              "stringValue": "Discussion · Management implications"
+            },
+            {
+              "stringValue": "Planned"
+            }
+          ],
+          [
+            {
+              "stringValue": "D29"
+            },
+            {
+              "stringValue": "Claim boundary"
+            },
+            {
+              "stringValue": "Frame results as temporally comparative, scenario-based structural connectivity among fixed cheetah cores—not verified animal movement corridors."
+            },
+            {
+              "stringValue": "The project is novel in its combination of retrospective change, fixed cores, explicit fence uncertainty, robustness testing and conservation actions, but cheetah connectivity models already exist."
+            },
+            {
+              "stringValue": "Working framing: changing anthropogenic pressure and uncertain fence permeability may alter modeled pathways among fixed southern African cheetah cores."
+            },
+            {
+              "stringValue": "Literature review and complete LCP workflow"
+            },
+            {
+              "stringValue": "Avoid claiming the first cheetah connectivity model or equating least-cost paths with realized dispersal or gene flow."
+            },
+            {
+              "stringValue": "Introduction; Discussion"
+            },
+            {
+              "stringValue": "Final"
+            }
+          ],
+          [
+            {
+              "stringValue": "D30"
+            },
+            {
+              "stringValue": "2026-09-04: balanced VCF diagnostic"
+            },
+            {
+              "stringValue": "Completed 180/180 pair-year comparisons and independent receipt review."
+            },
+            {
+              "stringValue": "Check revised VCF inputs before any production replacement."
+            },
+            {
+              "stringValue": "45 fixed pairs x4 years; 84 source checkpoints; no extra solver during review."
+            },
+            {
+              "stringValue": "handoff/2026-09-04/reports/vcf_completed_review_20260904_074611_029018.json"
+            },
+            {
+              "stringValue": "Balanced diagnostic only; not corrected low/high or final current flow."
+            },
+            {
+              "stringValue": "Methods / Results: sensitivity"
+            },
+            {
+              "stringValue": "Verified diagnostic"
+            }
+          ],
+          [
+            {
+              "stringValue": "D31"
+            },
+            {
+              "stringValue": "2026-09-04: route uncertainty"
+            },
+            {
+              "stringValue": "Separate cost/trend stability from exact path-location stability."
+            },
+            {
+              "stringValue": "Small optimized cost changes can accompany substantial displacement."
+            },
+            {
+              "stringValue": "Median absolute cost difference 0.2213%, max 1.9625%; no 45-pair temporal sign reversals. 49/180 below 80% min directional 1km overlap; 29 pairs, including 21/32 prior eligible pairs."
+            },
+            {
+              "stringValue": "handoff/2026-09-04/reports/comparisons.csv; figures/vcf_review_examples_20260904.png"
+            },
+            {
+              "stringValue": "80% overlap is descriptive, not biological or automatic priority exclusion. No observed-movement validation."
+            },
+            {
+              "stringValue": "Results / Discussion"
+            },
+            {
+              "stringValue": "Carry forward"
+            }
+          ],
+          [
+            {
+              "stringValue": "D32"
+            },
+            {
+              "stringValue": "2026-09-04: centrality correction"
+            },
+            {
+              "stringValue": "Use standard undirected EDGE normalization; propagate versioned correction later."
+            },
+            {
+              "stringValue": "Old node denominator 231 should be edge denominator 253 for 23 nodes."
+            },
+            {
+              "stringValue": "All45 scores x21/23; ranks/ties unchanged. Top38-40 =0.4090909, not0.4480519. Independently checked NetworkX3.6."
+            },
+            {
+              "stringValue": "handoff/2026-09-04/reports/edge_normalization_audit_20260904_074907_825273.csv; https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.centrality.edge_betweenness_centrality.html"
+            },
+            {
+              "stringValue": "Production tables/manuscript not yet changed. Fixed unweighted centrality is structural, not ecological validation."
+            },
+            {
+              "stringValue": "Methods / Results tables"
+            },
+            {
+              "stringValue": "Correction pending propagation"
+            }
+          ],
+          [
+            {
+              "stringValue": "D33"
+            },
+            {
+              "stringValue": "2026-09-04: water-fraction downloads"
+            },
+            {
+              "stringValue": "Four exports received and QA passed; final missing-data policy still open."
+            },
+            {
+              "stringValue": "Distinguish native classified-area fractions from old cell-center flags."
+            },
+            {
+              "stringValue": "2310x2200,1km,ESRI102022;11bands;bounds/accounting checked.4866missingVCF cells:715both-water>=95% all years,14both-land,4137other."
+            },
+            {
+              "stringValue": "handoff/2026-09-04/reports/water_fraction_download_qa_20260904_084317_357951.json and .csv"
+            },
+            {
+              "stringValue": "95% is a descriptive bin, not exclusion policy. Same-product LW/LC agreement is not independent validation; fractions are not measured inundation."
+            },
+            {
+              "stringValue": "Methods: QA / missing data"
+            },
+            {
+              "stringValue": "Files verified; policy pending"
+            }
+          ],
+          [
+            {
+              "stringValue": "D34"
+            },
+            {
+              "stringValue": "2026-09-04: scope / next computation"
+            },
+            {
+              "stringValue": "Do not automatically rerun everything or promote candidate results."
+            },
+            {
+              "stringValue": "No candidate path traverses fallback cells;8 touch <95% valid common coverage."
+            },
+            {
+              "stringValue": "Increasing costs only on unused cells preserves an optimum under identical graph/endpoint conventions; lowering costs may create alternatives."
+            },
+            {
+              "stringValue": "handoff/2026-09-04/context/VCF_POSTRUN_DECISIONS_20260904.md"
+            },
+            {
+              "stringValue": "Conditional computational result, not biological justification; does not cover current flow, other weights or other modified cells."
+            },
+            {
+              "stringValue": "Methods / Limitations"
+            },
+            {
+              "stringValue": "Decision gate"
+            }
+          ],
+          [
+            {
+              "stringValue": "D35"
+            },
+            {
+              "stringValue": "2026-09-04: home/work handoff"
+            },
+            {
+              "stringValue": "Resume from the dated GitHub bundle and Next Up; preserve completed runs."
+            },
+            {
+              "stringValue": "Avoid repeating analyses or losing context between computers."
+            },
+            {
+              "stringValue": "Work: review reports/write own paper. Home: interpret fractions, finalize policy, assess rerun scope, propagate correction. No production edits today."
+            },
+            {
+              "stringValue": "https://github.com/liamcrettol/cheetah-connectivity/tree/main/handoff/2026-09-04"
+            },
+            {
+              "stringValue": "Large GIS datasets/credentials are not in bundle; ArcPy scripts require home data. Older forecast/figure plans are not completed outputs."
+            },
+            {
+              "stringValue": "Project memory"
+            },
+            {
+              "stringValue": "Handoff prepared"
+            }
+          ]
+        ]
+      }
+    ]
+  }
+]

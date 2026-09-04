@@ -1,0 +1,1027 @@
+{
+  "policy": "DIAGNOSTIC ONLY: old resistance retained where candidate VCF is missing; no final water policy.",
+  "years": [
+    2012,
+    2016,
+    2020,
+    2024
+  ],
+  "pairs": [
+    [
+      1,
+      9
+    ],
+    [
+      1,
+      13
+    ],
+    [
+      1,
+      17
+    ],
+    [
+      9,
+      13
+    ],
+    [
+      9,
+      17
+    ],
+    [
+      13,
+      17
+    ],
+    [
+      17,
+      24
+    ],
+    [
+      18,
+      24
+    ],
+    [
+      18,
+      28
+    ],
+    [
+      18,
+      33
+    ],
+    [
+      24,
+      28
+    ],
+    [
+      24,
+      33
+    ],
+    [
+      24,
+      38
+    ],
+    [
+      26,
+      27
+    ],
+    [
+      26,
+      31
+    ],
+    [
+      26,
+      32
+    ],
+    [
+      27,
+      30
+    ],
+    [
+      27,
+      31
+    ],
+    [
+      27,
+      32
+    ],
+    [
+      27,
+      41
+    ],
+    [
+      28,
+      33
+    ],
+    [
+      28,
+      38
+    ],
+    [
+      30,
+      36
+    ],
+    [
+      30,
+      40
+    ],
+    [
+      30,
+      41
+    ],
+    [
+      31,
+      32
+    ],
+    [
+      33,
+      38
+    ],
+    [
+      36,
+      40
+    ],
+    [
+      36,
+      41
+    ],
+    [
+      36,
+      43
+    ],
+    [
+      38,
+      40
+    ],
+    [
+      38,
+      42
+    ],
+    [
+      40,
+      42
+    ],
+    [
+      40,
+      43
+    ],
+    [
+      40,
+      45
+    ],
+    [
+      41,
+      43
+    ],
+    [
+      41,
+      45
+    ],
+    [
+      42,
+      50
+    ],
+    [
+      43,
+      45
+    ],
+    [
+      43,
+      49
+    ],
+    [
+      45,
+      49
+    ],
+    [
+      45,
+      50
+    ],
+    [
+      45,
+      53
+    ],
+    [
+      49,
+      53
+    ],
+    [
+      50,
+      53
+    ]
+  ],
+  "core_hashes": {
+    "1": "9b9b4bb30470c57c0bde9d943b3cfcc5526162e54ee18aea850e49ed4a1dd4cf",
+    "9": "bd524108282efce00c95ed3d863365dd66aa1b7e95f3ac31159f5236ceffd019",
+    "13": "47709b41102e21595da0ac1f519aa6b607ea5890e1121943f6821bd00f51b9ba",
+    "17": "a26499305baa615dd345833e59a16ce459964f34e86d14d1b4e5c9b7e545615c",
+    "18": "d5a3ff728b4765b2dba646e542e543a204e55e85d26644efe4664bcf059a6a9d",
+    "24": "a0433d8e79ef3889b10c6efa8b8a3350e761eda96d3692e5ee2f568022b3df88",
+    "26": "142d77d4666ca764db84bfbdfd56fd95299efc6357a2df44e09b4e86906625a4",
+    "27": "9500687018ec98c255e15deb7c80e1f6703cc36981cabe3b1c4cc7bf8eec783b",
+    "28": "4d92caf603ebf09d85dd0d5e3cf7e00dbe4fcccf4eae4772c0818cc1382e8aed",
+    "30": "e520719ce087d889b10e178e77224d4415f9498d84c2ebfc414951e630df4647",
+    "31": "b0bda44d40be7a2f8446d2f2eca48c732d833633b3c729f3d23b1ff50da977b7",
+    "32": "c6b7626381824edc4b5b6e21be606d06dc9c44f3793db9765496a2ad5d2ee6ab",
+    "33": "750cfacc7a1dbfb3da2b4d4b1fcd324df92c7dcee23c10eb3d9586b38b383a39",
+    "36": "da3882ae438dac556ffdc9924b0060ea4d0e11f9bda0999f06a663eba8c08b11",
+    "38": "56f08c819cc281b2b3db3c7a53866f13acafd02d27c6f59a06ba3796f0dfaaa2",
+    "40": "d7b28ad25086ba1e9851c1eca1985bc3eae214d5d264ed30357ad20cd4806557",
+    "41": "de52eb0cc0e67b6b201a205e364f09852027e3f1e55ca0ae976aa02622f910a6",
+    "42": "4da6cc0a8e1bea23c3b1ae43c92cb83c60e5029dbdbe81fb6848d89b4774eb4b",
+    "43": "6732059ae6e70f9e709f73e0c8ea1cda47ecdebf52224bd566a2b1d35867afcf",
+    "45": "db3db3f6ba1ecd3cfe69a33e0b801d1ac73a363d3c3d2c824574dcb40574885b",
+    "49": "a7af2e8e8333a407240e18c5876ed3271b5460a41cc0fda1aef2ab8b9381be0e",
+    "50": "2b7f6e415f97f58e7eccc7a9838cef3c0e35bfb4ee8ad6a80f2a6a0a839207e6",
+    "53": "56b6b02c2bcd6cb24a787327caaf622a0aa98a61cacf1841563c0116c1a682f5"
+  },
+  "arcgis_version": "3.7.1",
+  "inputs": {
+    "2012": {
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "crs_code": 102022,
+        "xmin": -1443410.18670718,
+        "ymax": -1744096.102480766,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0
+      },
+      "old": "24d5476963b49a2c1a7fdf42cf8fc3eebf0813f5f200d5f9de134803989ef35c",
+      "old_v": "a32be2fd322229e832b5ec38e3f2ad81dfd66273757893c42272a01a328febe0",
+      "candidate": "a8aeae3f83aebc08118690002e51f6aaff2f0348ab73e6bf11618a9bb3dbce8a",
+      "coverage": "2a505a53a282042adbc6f3dfd15a8cfef89766fd5e6eefb9dbd094b3b0c91319",
+      "vcf_file": "558dc803cc85a41abda4f9659a0547cae6d1d0d0bf7bc7d1a1c1ac819dadd4f9",
+      "support": "21d07cf1ac169bbb62bc5b03d632c62f2e8aecd11d64abc337b515b457e550fc",
+      "routes": {
+        "1-9": {
+          "geometry": "be402ab1b1584fcafcb1c29fc30d06790fd155b932040bafc02e1f88774baf36",
+          "cost": 133465.09375
+        },
+        "1-13": {
+          "geometry": "66e24ce4231934c0b3a0b8a1317fed65668228b1e562e5945bc579f8a2a255fd",
+          "cost": 311715.03125
+        },
+        "1-17": {
+          "geometry": "492319fe7e4a003e3c44f4ef4a21e1d64277f5b4de4dafedfc4c72f28f23b4f0",
+          "cost": 366270.03125
+        },
+        "9-13": {
+          "geometry": "3b45844b8e07ff209ac6dce3206a6ec86b279607036375b0d677cc15f08ee047",
+          "cost": 50743.9453125
+        },
+        "9-17": {
+          "geometry": "403218b6aba63bdca53e2b55fc538482cfb5180321eded9ff929f1a203b29c9f",
+          "cost": 96538.2578125
+        },
+        "13-17": {
+          "geometry": "ca2212d3aaabb663f844a4d7873e4dafe87bf88af9fc53ca958928e64336d5cd",
+          "cost": 165013.015625
+        },
+        "17-24": {
+          "geometry": "07dc4e7388d3fb089de5a0ec41867492553057fc9892722d077a31ed3a3faf26",
+          "cost": 59862.44140625
+        },
+        "18-24": {
+          "geometry": "d15a6e8ae2638da2911047326fef7a2a1bae3168a768f48d667e20075458de21",
+          "cost": 23775.130859375
+        },
+        "18-28": {
+          "geometry": "843c8e7b57aa39935abaaf928b8b0e05996f71a09f7dfe60c20a9318225d8d77",
+          "cost": 252119.375
+        },
+        "18-33": {
+          "geometry": "0f0435cdb2668b5ac3d42d75a1276882c11fe767c34c5e9ad386f662795a8592",
+          "cost": 187789.921875
+        },
+        "24-28": {
+          "geometry": "f99b40921f8a5264f1a724ac5833a7d27e9ab354cff95b6a5e19dfe5858f16fc",
+          "cost": 33970.3984375
+        },
+        "24-33": {
+          "geometry": "ee1c02bd14c11e17142f71e967caa39682e4de6d2b73f5275b38a2c0c2578a87",
+          "cost": 62614.0859375
+        },
+        "24-38": {
+          "geometry": "218ce60428df35a610dfc1b3e7a49f4a4f87b8d1810ffaf9397dbbc7a2c5ea77",
+          "cost": 174864.953125
+        },
+        "26-27": {
+          "geometry": "5f1c8c6873e07e8cb8faba572d4f3a1f5b1abd34227b2ecb61333a40ccf9b4c3",
+          "cost": 223509.359375
+        },
+        "26-31": {
+          "geometry": "fd8d3942d1e32fdd948f6619ec0a3ad3fdca4e41b38ed7c2136d4637a6f427ec",
+          "cost": 50034.046875
+        },
+        "26-32": {
+          "geometry": "92943609b564e0800162a15937192f9210609b522bdf07fa54e4a514f7913c29",
+          "cost": 273497.8125
+        },
+        "27-30": {
+          "geometry": "e82d15a1140da60782ecf40cd7999853b10b7ca901214a6e2d453d27cd95fc82",
+          "cost": 372966.46875
+        },
+        "27-31": {
+          "geometry": "83c30bb1376921a57fefc66ac55d17ae27981426a6f39100a135320dd16bea57",
+          "cost": 695424.4375
+        },
+        "27-32": {
+          "geometry": "e0497e8daefb72afca682b6c1dc66cfb22df373399fa49de20243e1c9a5725a1",
+          "cost": 977860.6875
+        },
+        "27-41": {
+          "geometry": "eee2e265de1ff8dc6e6792fd3b99a3b44c3ef52ac5f9c72f51f0e82fb4d796a3",
+          "cost": 313532.125
+        },
+        "28-33": {
+          "geometry": "80115b763d115c7343782d3e0b37670b79b227937c214c00c7032aa99a57713f",
+          "cost": 36283.96875
+        },
+        "28-38": {
+          "geometry": "bb56d17bb97d8c490fe68e5252ecd4dde69826a00f9bd147fdd3357586a32064",
+          "cost": 69777.640625
+        },
+        "30-36": {
+          "geometry": "b0fd8650cb6870f0fac030718b92b63d7cfa54a002aa8ab4b1924afeac2e3701",
+          "cost": 50553.203125
+        },
+        "30-40": {
+          "geometry": "f44b6ea53ff162b2d2f9e46740efac2ae257a3f81571c9ed24fb6a1ba26cf0bf",
+          "cost": 237652.265625
+        },
+        "30-41": {
+          "geometry": "88cfd2b262290960e482cb3d6a9462e0a49ec614dd05b1e41081f7cb3109e316",
+          "cost": 314232.15625
+        },
+        "31-32": {
+          "geometry": "5593a19b2666eb45fb70f0de2c0b1326a410cc74d0ccd7ef06420be04c42d751",
+          "cost": 128552.9921875
+        },
+        "33-38": {
+          "geometry": "7ea2fbcb369fef2020a9b51257a1688860a447810ca689ccb734def6caf1a1f7",
+          "cost": 66737.8046875
+        },
+        "36-40": {
+          "geometry": "ca4a4ede063ef44669d8d53f4e93963dd54738697fe72024f0e7f70da9af36e2",
+          "cost": 118460.2265625
+        },
+        "36-41": {
+          "geometry": "51ec409793c1134646fee99f3138cf5fbb72f53df0ffcff351119a832ba63a54",
+          "cost": 276710.90625
+        },
+        "36-43": {
+          "geometry": "48cb86dd1c363d7e828b194bb6f8936a0322755d90280f52d249f0e7b6efd770",
+          "cost": 264659.71875
+        },
+        "38-40": {
+          "geometry": "d1e503ade9132e9a776fea5c74ca65788b9f177b7655f2bf3b327b48e3c8a360",
+          "cost": 49111.98046875
+        },
+        "38-42": {
+          "geometry": "f9902dc86a1aaf508eb69f72a0521672869f89c248347676402b22ab237442a7",
+          "cost": 53507.265625
+        },
+        "40-42": {
+          "geometry": "b51a7cc5905d18566ec5ea91045932410d021ef7e2d4c44ee52263e8677142a5",
+          "cost": 55018.05859375
+        },
+        "40-43": {
+          "geometry": "c2bb54d128ccdf8b155160bd94810bca163d18b0811a767092f2db9b3b63490c",
+          "cost": 295957.375
+        },
+        "40-45": {
+          "geometry": "3bcf2b1e04d6ee371351de9ac74e97ed417d91309838434236d3f2d0e127d3b8",
+          "cost": 299091.75
+        },
+        "41-43": {
+          "geometry": "f721b0ed4221e984503c6240911f4218ef912dbc13db87cbee3d5fec124a35e8",
+          "cost": 276021.90625
+        },
+        "41-45": {
+          "geometry": "b9522eabcb817d452a1eae80aad91f74085813994b359f907c5ed7ee1a1759af",
+          "cost": 415009.625
+        },
+        "42-50": {
+          "geometry": "6ee34a32483c776ccaee179f498637ae527adb851555b10593fb6f3c47aeeb5e",
+          "cost": 95022.234375
+        },
+        "43-45": {
+          "geometry": "702701414560d5bde4d6beac562ee4343529d11764bb2514aed924e8fc3b4651",
+          "cost": 73489.4453125
+        },
+        "43-49": {
+          "geometry": "9177bef63342c82634d5c26e08600538524eef6a8e0c59bf1f8a62232789b3cd",
+          "cost": 340498.90625
+        },
+        "45-49": {
+          "geometry": "0a4cf284ad6952d58bbe9e3d6ef2a9f864b03d4119f72ba6afb64c978cadb480",
+          "cost": 254831.71875
+        },
+        "45-50": {
+          "geometry": "6e864ed4c1e291d0c0443abeb73647237c18fcde1edb21f720607a0683682e38",
+          "cost": 512173.25
+        },
+        "45-53": {
+          "geometry": "274b285afc8644b0827d430556a1750024b8ce7e394fd58bb05c94cd5fe57bec",
+          "cost": 690801.8125
+        },
+        "49-53": {
+          "geometry": "c93981f4d01dd579e137865ccf6c1d51d89224fbc887f6990d4d19e0da457ef9",
+          "cost": 359500.125
+        },
+        "50-53": {
+          "geometry": "46a485c329ba1ea06dccfca39d446a64bcc64ee02ad41387445acd37597c26d2",
+          "cost": 640987.0625
+        }
+      },
+      "fallback_cells": 4866
+    },
+    "2016": {
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "crs_code": 102022,
+        "xmin": -1443410.18670718,
+        "ymax": -1744096.102480766,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0
+      },
+      "old": "268f5f03b1d626f5aa8daacccd1f3fd9fa4f3865545826c99b39f7e38eff25c7",
+      "old_v": "cf4c0d7666409cb51561ad35d261f000239e1c321b71cd17cbfff0c3d934bfdf",
+      "candidate": "db119230fa031d2be613eea0c43c7ff35323646954a6865c05a49f0cb8131c47",
+      "coverage": "2a505a53a282042adbc6f3dfd15a8cfef89766fd5e6eefb9dbd094b3b0c91319",
+      "vcf_file": "0cbbc9b09dcdd9cd402ec124ad8b107c13035a8590d841df5ee84e0cfc5fba15",
+      "support": "21d07cf1ac169bbb62bc5b03d632c62f2e8aecd11d64abc337b515b457e550fc",
+      "routes": {
+        "1-9": {
+          "geometry": "72931698f594c77a204da27b3bbadaf011b8cccb30be3246593a656135efc875",
+          "cost": 134277.71875
+        },
+        "1-13": {
+          "geometry": "84b3e701d7a296b978455b22a0e3b04bd58ebaaf5d9beb45e875018f83724620",
+          "cost": 303108.875
+        },
+        "1-17": {
+          "geometry": "7725d01e95d3c48047afeea30133cd3dd8715901e3aba408386973bebf22ced8",
+          "cost": 373830.21875
+        },
+        "9-13": {
+          "geometry": "4bf217f16c03c743334397289eb9f2041fc5db7458327607319d6f31891243fc",
+          "cost": 46481.77734375
+        },
+        "9-17": {
+          "geometry": "0b6caded43b12786063156eb875b9e0bcb300b39c3300fa5f19c72a79a65ec18",
+          "cost": 94059.4453125
+        },
+        "13-17": {
+          "geometry": "cdec37367206cdd280c10ee43bd00003cd24ad05417f2059822b01baec46aa74",
+          "cost": 154541.0
+        },
+        "17-24": {
+          "geometry": "65486cf1ca683bb361a02375cda08eb6f08d0d68d3127d0ff53fe92486a02151",
+          "cost": 56723.33203125
+        },
+        "18-24": {
+          "geometry": "d15a6e8ae2638da2911047326fef7a2a1bae3168a768f48d667e20075458de21",
+          "cost": 24805.3671875
+        },
+        "18-28": {
+          "geometry": "5d1b6e746a2379e886dc7a2ace1a596747f29a128bc1b20504e842f86bffc8a3",
+          "cost": 266926.75
+        },
+        "18-33": {
+          "geometry": "2a5de794ef88ded5a763a85aea3da76a08fee24beb7df9149e5df97b5f5ce0b0",
+          "cost": 193603.90625
+        },
+        "24-28": {
+          "geometry": "40f0639a5cd123d9f3b591c768e61201469868a750771e18b8f3a68ac91b1640",
+          "cost": 33950.2734375
+        },
+        "24-33": {
+          "geometry": "fc629fc9f07074b912557d0784a680880673cc343b5f553903f7b004500eee86",
+          "cost": 62942.08984375
+        },
+        "24-38": {
+          "geometry": "bce2ba93014a3d46d66f8db5733607cd126201fa7c723b40b9105f7e39532d9e",
+          "cost": 168877.484375
+        },
+        "26-27": {
+          "geometry": "465e1e1497b848f2bdccd1b35bbbb290e713245071f86cf2802828accfe5f97e",
+          "cost": 204681.828125
+        },
+        "26-31": {
+          "geometry": "ac7652448bc7a1459d9cfa1bf8ac36235165fdcb01ad3439de25d2a3cf0839a7",
+          "cost": 47066.75390625
+        },
+        "26-32": {
+          "geometry": "22ef1dbeb7c34df8c847ea1a8680f5a2868c662eb9f91b0f80723c0e8c3ffe0d",
+          "cost": 258412.015625
+        },
+        "27-30": {
+          "geometry": "ef6eb8ab2ef828ce80b9f9664e876d6327e2ce792118de0a7d725466f69d5c6b",
+          "cost": 353625.34375
+        },
+        "27-31": {
+          "geometry": "fd8ce9635ff8c30fb4940fd7b0abae6fc9c69cdc37ee177e5c9a68a752eb5175",
+          "cost": 644522.0
+        },
+        "27-32": {
+          "geometry": "8974704693ce20cdfd85fbd00610a9f60680b47d2ae95ece724c0f615b9d4069",
+          "cost": 915499.9375
+        },
+        "27-41": {
+          "geometry": "0ed7084c12a5e6eac4e10e5c902e692a8d6989e26d5a77c10dc0b22f917e11e8",
+          "cost": 283881.625
+        },
+        "28-33": {
+          "geometry": "f6c964949084f6e1b746ec549d84b06b13334bfe54b6773b07b13485a5f5da3a",
+          "cost": 37535.6171875
+        },
+        "28-38": {
+          "geometry": "070cf8796ea7689073d2600d4035fd0d654a388f98600936e15d248420f84e73",
+          "cost": 68052.3671875
+        },
+        "30-36": {
+          "geometry": "f59823699c77677cbc7e126f175bbecfb3d0ab7410db223a51841680b39d91cf",
+          "cost": 56857.703125
+        },
+        "30-40": {
+          "geometry": "89d626551c38499ba610862da5bcef587e62d73514c5b89a3c58f593bd396e68",
+          "cost": 227381.0
+        },
+        "30-41": {
+          "geometry": "4542a4a09a164e74aee260fe86462438c9ae35b4e0f8636a8c4c90218bf9b650",
+          "cost": 309789.125
+        },
+        "31-32": {
+          "geometry": "3d0265fe84f0f4488cd4f6e6cfea371fa4e45c557611a306f3a77a31ca93baa0",
+          "cost": 123799.609375
+        },
+        "33-38": {
+          "geometry": "d85771f765f6bddd20594e657cb855079ea845f973769bee2101c78eb1270013",
+          "cost": 67194.828125
+        },
+        "36-40": {
+          "geometry": "5adafe7af49e73be52bce4447765282f0ac321645852a21827457149adc7a1fc",
+          "cost": 118513.6015625
+        },
+        "36-41": {
+          "geometry": "f30c7fe33668d615513355748c89679dc4ff011fd5c0597e5be63ccffdae1ac8",
+          "cost": 268134.40625
+        },
+        "36-43": {
+          "geometry": "5586dc75564f8493dc999af9d14cc461f1416eb22fa096803e6f45e96afd0154",
+          "cost": 263504.46875
+        },
+        "38-40": {
+          "geometry": "6dcfc1699c658950b2c128179717fedc092ef5c96c04222e36df6f7c8812bc00",
+          "cost": 41868.34375
+        },
+        "38-42": {
+          "geometry": "f9902dc86a1aaf508eb69f72a0521672869f89c248347676402b22ab237442a7",
+          "cost": 56593.78515625
+        },
+        "40-42": {
+          "geometry": "b51a7cc5905d18566ec5ea91045932410d021ef7e2d4c44ee52263e8677142a5",
+          "cost": 49848.08984375
+        },
+        "40-43": {
+          "geometry": "bbc64362e6faa15b1680b27cd1b9982fd15e7834aeaa34a05e2d8e894adfe709",
+          "cost": 297846.21875
+        },
+        "40-45": {
+          "geometry": "baa94fec986e824131a9101790b3c53016e9f66f83c8bcc1f8c7a04a396bbce2",
+          "cost": 286591.5625
+        },
+        "41-43": {
+          "geometry": "cbea93ca67485ef9c4b2601fa6fe20bd42acd278e51678cf4987c112cf1e40f7",
+          "cost": 269723.9375
+        },
+        "41-45": {
+          "geometry": "8957a7efed646135471309394fe2606c75063647c3f82394696be77e8e55e030",
+          "cost": 411539.5
+        },
+        "42-50": {
+          "geometry": "69101b24628d5d6dbe4f73d71482fc4991f64ce11050064807159e5f45c18da9",
+          "cost": 98952.328125
+        },
+        "43-45": {
+          "geometry": "897993ca4c45a1b369ec5e7c1841eb3fcdeca62785b97e40e33afb81f1e01358",
+          "cost": 76188.078125
+        },
+        "43-49": {
+          "geometry": "70d4d896bf5786025f9d4c057ffa881e4886faa23f6b963f4685de2848292faa",
+          "cost": 337373.5
+        },
+        "45-49": {
+          "geometry": "ea9106ea41b532b3affdaf1a6e957eddca3cea31fc3119828b7c3f9243931c94",
+          "cost": 256926.375
+        },
+        "45-50": {
+          "geometry": "2d0a33bd18440d4ea915513831d51795806acadb65ea3a81cd406354ad478685",
+          "cost": 512509.125
+        },
+        "45-53": {
+          "geometry": "6e52fb6b6f4dc63b97a99e5e5016aadb8f9e0e23a90167302c3c802960249e7b",
+          "cost": 688632.8125
+        },
+        "49-53": {
+          "geometry": "7eec22f23433ba462906faf6c65ddd0104a9b94f27af6123878a07644e6aa486",
+          "cost": 359771.9375
+        },
+        "50-53": {
+          "geometry": "77118a1cf591ec5961d65a3a5618da785a3b3e7a44c538337fe632d2b5c8a33e",
+          "cost": 666005.375
+        }
+      },
+      "fallback_cells": 4866
+    },
+    "2020": {
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "crs_code": 102022,
+        "xmin": -1443410.18670718,
+        "ymax": -1744096.102480766,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0
+      },
+      "old": "4fe1a0d9bb82e1a8157a0dcd9d1016c48f47cb0bceaaf844f8001eaedd62b81a",
+      "old_v": "f3dd1b6746ba5ef3fb8e5e8ee9d823152b43d8a65a162d55560c14ca2d646ddc",
+      "candidate": "f59301dd206e2cf882cf647f37723c7a869f0e6a4b5aec825222e506dd656531",
+      "coverage": "2a505a53a282042adbc6f3dfd15a8cfef89766fd5e6eefb9dbd094b3b0c91319",
+      "vcf_file": "9bbbdcbc43af897bc6f83d076b3d8cf6efbce02c4c2d9fb8f1ed447269d82998",
+      "support": "21d07cf1ac169bbb62bc5b03d632c62f2e8aecd11d64abc337b515b457e550fc",
+      "routes": {
+        "1-9": {
+          "geometry": "c8244d0eb8d98399ed1ed5545406660e5bcdf51f013eb5fd09dc77e745082cf3",
+          "cost": 127228.984375
+        },
+        "1-13": {
+          "geometry": "05daefe869f7eb123686e8b85af243bb8a7ce11a238732361fd60aa3a71d2ac6",
+          "cost": 283807.1875
+        },
+        "1-17": {
+          "geometry": "96d6680c2dd60f805a926d8df0a7d7daa3463e715c8533e9d528f60c5a21c41d",
+          "cost": 360643.15625
+        },
+        "9-13": {
+          "geometry": "8cdfd2dda36eebc13121d1f707a4c96977123a1da0507ed11343a2db54e979a0",
+          "cost": 43928.1328125
+        },
+        "9-17": {
+          "geometry": "0e974fb40666a05bb8afb456a08fa56a00269c25456a3b62a9b89f3c8597b6d4",
+          "cost": 92298.7890625
+        },
+        "13-17": {
+          "geometry": "91e1924c94ff5084ce6a9764dbb9b4bdb81cd4c9a2d4f11a2679e3f86db0dfcd",
+          "cost": 149698.390625
+        },
+        "17-24": {
+          "geometry": "66e0206926619d8b68475dbc75b749d8a61b71d96c564641dbf976136836f5fc",
+          "cost": 53852.23828125
+        },
+        "18-24": {
+          "geometry": "d15a6e8ae2638da2911047326fef7a2a1bae3168a768f48d667e20075458de21",
+          "cost": 23813.447265625
+        },
+        "18-28": {
+          "geometry": "509d0d3dbd6b7a91c289f63c9d0aaa752584322ca273e78a1aaaa95d26b81d61",
+          "cost": 257074.671875
+        },
+        "18-33": {
+          "geometry": "9577b841cd0cc0b5c3f6eb029f20a60503690015c25579da43b98091ed519779",
+          "cost": 193014.03125
+        },
+        "24-28": {
+          "geometry": "b239fa7c05026c83611b72bc67ee764c55547d8dbecec45f2b9b4090d8275cdb",
+          "cost": 31310.826171875
+        },
+        "24-33": {
+          "geometry": "91c8bb5f817b37ede3e4ae2846f2835a158ce45398f7bb440104be66ea8522a7",
+          "cost": 62727.453125
+        },
+        "24-38": {
+          "geometry": "7586276fd4d3909fca5e2d6db0e4c9b2aca610445b5ba259604a04681853855c",
+          "cost": 161990.515625
+        },
+        "26-27": {
+          "geometry": "8474ea475f7005fd891a331d24927135f98d06d2288e75ef930edba051ae3fcc",
+          "cost": 205056.625
+        },
+        "26-31": {
+          "geometry": "3e0ad9b50a288cb7ddaa8b2a3bfdabc60bac4ef6854a8093e5d31dca0c07a3e5",
+          "cost": 44784.984375
+        },
+        "26-32": {
+          "geometry": "5543c653d84be630431e015a4ed4d6563b8e22b618ab36c68b79d38ef7da6d67",
+          "cost": 239837.046875
+        },
+        "27-30": {
+          "geometry": "adaa1b3bb471d26723239a64f206fa2ce1ef6f0372bacfb41251e9f18564488f",
+          "cost": 330923.28125
+        },
+        "27-31": {
+          "geometry": "6ce82ff66b770c0fc79a915d14a7c978ffbe21365116b5d72bb77c7b55529b9c",
+          "cost": 627627.5
+        },
+        "27-32": {
+          "geometry": "bfa908a9743913a20eaa97dc49f1c152efc3000fb19dcec952be46941cd6e574",
+          "cost": 884418.0
+        },
+        "27-41": {
+          "geometry": "d9e8def8e1424dd2a3ca23bc109678fedd00378bdc00858650d990801d7682e4",
+          "cost": 289308.5
+        },
+        "28-33": {
+          "geometry": "05c84efa3afab39a36e27f660aa952b528b924e17ea319ba724efc409df3639a",
+          "cost": 35992.265625
+        },
+        "28-38": {
+          "geometry": "90a166c54ae4741bcce749065f251a797a5eae6977fb3f726f305f41498e9755",
+          "cost": 62567.73828125
+        },
+        "30-36": {
+          "geometry": "468c70552f706d1f8bcb349de5a18d3c73b9e956c14a07944c581b38584f1402",
+          "cost": 46143.203125
+        },
+        "30-40": {
+          "geometry": "27b92c55b9c1336f182da67c5fe657c7487180adfa5fbf60c3ea2ab71354b94e",
+          "cost": 212580.21875
+        },
+        "30-41": {
+          "geometry": "c9d51c9ddedb5357a98f90da257892e11679d93b2b3906942ef4e6cef9a4c698",
+          "cost": 282551.28125
+        },
+        "31-32": {
+          "geometry": "e5877be8af7c9999f68966f0f0dd9afa4ca698f9e628fe90e7821d8d60136527",
+          "cost": 116792.046875
+        },
+        "33-38": {
+          "geometry": "2924cb32225f67f29f4b5bb744292012b874ed2eebdabe5d8d6d9b3c54df2749",
+          "cost": 66421.8671875
+        },
+        "36-40": {
+          "geometry": "25022484afe0152ef72518527004e6bed549a5dbc835973981c242a47abb0ec3",
+          "cost": 106041.2734375
+        },
+        "36-41": {
+          "geometry": "952530d1ff8e7e6005e2130d88066f7b2600dca93b00582860e63811867cc6e2",
+          "cost": 240797.453125
+        },
+        "36-43": {
+          "geometry": "88d89db0dfcaabde63b34cf50daa6ff6a7dbdd8997779bdbe719a868b1c29a55",
+          "cost": 245200.375
+        },
+        "38-40": {
+          "geometry": "6dcfc1699c658950b2c128179717fedc092ef5c96c04222e36df6f7c8812bc00",
+          "cost": 42405.1796875
+        },
+        "38-42": {
+          "geometry": "f9902dc86a1aaf508eb69f72a0521672869f89c248347676402b22ab237442a7",
+          "cost": 53316.67578125
+        },
+        "40-42": {
+          "geometry": "1ba35b0c95c0edec45d8453e399651eea639202218884ba694fcb8eefc7950b6",
+          "cost": 50722.1328125
+        },
+        "40-43": {
+          "geometry": "3f313dc9339bd6eafce9e8adc6f18a10f0bdf4a1ef76e6410f7b7d39ee4d603e",
+          "cost": 280097.5
+        },
+        "40-45": {
+          "geometry": "17f936153c07e28a2a0dd07d0096a81520efec45b1f0814faa45e7e83aca93fc",
+          "cost": 281541.3125
+        },
+        "41-43": {
+          "geometry": "3027e084b3b50df8bc8f8d84c2d3a173a326304bdd1abab073899cfac2f5ea9f",
+          "cost": 257233.515625
+        },
+        "41-45": {
+          "geometry": "5f24c3ac1ca8d6860909078cca331c37f49c9601570e04fb873d5c7ace450fcf",
+          "cost": 414047.21875
+        },
+        "42-50": {
+          "geometry": "374fc46a3a2f1a5535813d37c484ec512958aec71ffb7188bdd5473ca43ad241",
+          "cost": 97096.4765625
+        },
+        "43-45": {
+          "geometry": "26e7e34368080433283af4337cce48b71a9c106aeb3dae53f18a8a1950408a9b",
+          "cost": 71703.15625
+        },
+        "43-49": {
+          "geometry": "2fe2934d7c24cf93f3e77cf4d1a42bbf2dd6d5804a6966e90a68d2943db5d0fa",
+          "cost": 314540.84375
+        },
+        "45-49": {
+          "geometry": "e39f6befba6ae69a363bbc91be3a8b7a34b4ad337c69ea7763ce1d3836dae5fe",
+          "cost": 236849.875
+        },
+        "45-50": {
+          "geometry": "ccb1fd49321d7b656d2802581d6fd3ef4511b08794e969c9c601e653392e66a1",
+          "cost": 507947.1875
+        },
+        "45-53": {
+          "geometry": "27c16a5d36059afd3731227739f52874a6452ba0dcbced75fec6601c7cc1d25b",
+          "cost": 653113.1875
+        },
+        "49-53": {
+          "geometry": "0b3f7c9d36f10645ca4badde5fb68f0a5302032714cfab2ad13e2e1cc1b1a829",
+          "cost": 346942.9375
+        },
+        "50-53": {
+          "geometry": "04280aafecf69ef66dcdbc4b226f6064fb36c45774839b28dcefa01bfc42bb31",
+          "cost": 635171.3125
+        }
+      },
+      "fallback_cells": 4866
+    },
+    "2024": {
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "crs_code": 102022,
+        "xmin": -1443410.18670718,
+        "ymax": -1744096.102480766,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0
+      },
+      "old": "d7f07f1c409187f5bf50a0c81af09903292cad91c7f306c547d08fe0284826ac",
+      "old_v": "3a3bc90ce4f8393dc05bb7e2a19274ab6c23e29a05d4865cf003f349ae8e8faf",
+      "candidate": "0cf3543aef5c99f9b0364e3833d94e1e18bad343bf69afb4ae66a71c4753c612",
+      "coverage": "2a505a53a282042adbc6f3dfd15a8cfef89766fd5e6eefb9dbd094b3b0c91319",
+      "vcf_file": "6f383bff89f8b8a09a5cf8d87c91307ef0e3ce96403d264d2533e4eeaccce416",
+      "support": "21d07cf1ac169bbb62bc5b03d632c62f2e8aecd11d64abc337b515b457e550fc",
+      "routes": {
+        "1-9": {
+          "geometry": "8ad056bc2a44fbbea8143cd7a35714ebab20e805a0d54c87b4c090a998320d2c",
+          "cost": 158327.90625
+        },
+        "1-13": {
+          "geometry": "432932e17816d248e2e49ea1ab2e21d627b326b29060ea2352c1eb17d5792fa6",
+          "cost": 338084.84375
+        },
+        "1-17": {
+          "geometry": "6f8fe23bdc6d64dec0f59b7372acbf1301cb9b9c23b67f6e81da5109b443fc84",
+          "cost": 384297.09375
+        },
+        "9-13": {
+          "geometry": "a836c3af181606d313f3adcc4463e079a275f2a4903a5fc4de4acc4ab0282a90",
+          "cost": 46948.2734375
+        },
+        "9-17": {
+          "geometry": "52f985d6caae6c42befdc1e7db24f3ecb74477d1f51c5ad24046b868b6f8a8f7",
+          "cost": 88126.4453125
+        },
+        "13-17": {
+          "geometry": "e18a5a544380e3dd0413a3e2352132daded600a444fe39ceba08f379187545b4",
+          "cost": 142264.71875
+        },
+        "17-24": {
+          "geometry": "afe6e0b2b06330aeedc42400e87fe080972363338fa3170febd58bd3c2255c98",
+          "cost": 53994.23828125
+        },
+        "18-24": {
+          "geometry": "59e4b1b4f68b92bab1143e9c241b6e010ed42a88503d700f3000e44c1cfe992b",
+          "cost": 25957.55859375
+        },
+        "18-28": {
+          "geometry": "57839846025f4a0ce8fb4b35fb2229eefadf7a54f18800b2da3a513c7f89752a",
+          "cost": 283829.09375
+        },
+        "18-33": {
+          "geometry": "c7adcdcfbae48bb5099d35362d25af30cb857e1bcf04df147d59cb82f41a1e42",
+          "cost": 205155.578125
+        },
+        "24-28": {
+          "geometry": "08313dc0f6c4f79a910028205095b66d04183bce573efe340fb90e382f2732ef",
+          "cost": 32787.66796875
+        },
+        "24-33": {
+          "geometry": "746a82ad86855343745391c5d7f5e8113602fb7cb32b3fe31bfa0ef4c0013661",
+          "cost": 67720.0546875
+        },
+        "24-38": {
+          "geometry": "8442caed7350b66383387513b0ef07acb6af83a15cb328c2b3d7911742106f3c",
+          "cost": 182069.453125
+        },
+        "26-27": {
+          "geometry": "186c00a59c8ef406b0d6e70daeec410075630b5da2e4fbd34da38c6e0d03f798",
+          "cost": 212299.09375
+        },
+        "26-31": {
+          "geometry": "3e0ad9b50a288cb7ddaa8b2a3bfdabc60bac4ef6854a8093e5d31dca0c07a3e5",
+          "cost": 47166.49609375
+        },
+        "26-32": {
+          "geometry": "e9cb49f0f68746fff0fd07058f283c538156623e71fbfcc8a9e3a46e018163a7",
+          "cost": 253825.09375
+        },
+        "27-30": {
+          "geometry": "a23068662e08eb8b5b51ed04b36654fb4dba709affafd14c3d29fb3da4fc5d38",
+          "cost": 348807.28125
+        },
+        "27-31": {
+          "geometry": "b2fa35a240e2e35ca71d994cbda267f886362496f03b620b90a748ac710f725a",
+          "cost": 650322.0
+        },
+        "27-32": {
+          "geometry": "8f82c3888498aaea48e63c0849a073eec8fb47ce84e854b278a058ac443fe988",
+          "cost": 915810.0
+        },
+        "27-41": {
+          "geometry": "13de8bc6b2cfa8897528c926a833ad4ff91ab365f968b13e4d65ecef86c36003",
+          "cost": 299371.03125
+        },
+        "28-33": {
+          "geometry": "cf0f08bf565358f1834a38a0f6c3b656dfa0a78a64fab4992302a40a45444697",
+          "cost": 36027.02734375
+        },
+        "28-38": {
+          "geometry": "6245404a0ee15f39854209941c522125594b6ddd199662eb5ef02cb9671345a1",
+          "cost": 70561.0625
+        },
+        "30-36": {
+          "geometry": "3ec6ad11bc2a907cd1954477776b83f47dc8d68dbe724f32e6072495e9b76aff",
+          "cost": 53208.203125
+        },
+        "30-40": {
+          "geometry": "541e60ac59981167c076bf01ff1ffea87f786b3c442c0a28fe73e659c00b6424",
+          "cost": 234620.0
+        },
+        "30-41": {
+          "geometry": "189f58c8f38d16e73b7146657457082122d8455dd08ca6a843417a03d895f976",
+          "cost": 286854.6875
+        },
+        "31-32": {
+          "geometry": "0c6bf2605ba6bd261157a1d30f5beb139d0350e2daa52d7dda5f7da2cdd17b23",
+          "cost": 120290.890625
+        },
+        "33-38": {
+          "geometry": "af60f730200d40ce9fa74b8cd13f882f8f8e62465ff378509066eca6c1a786c1",
+          "cost": 76249.4296875
+        },
+        "36-40": {
+          "geometry": "ac89970e76c863a6f2de5e364f060da32294ab445cbae4af3897d56db3a49261",
+          "cost": 119231.4375
+        },
+        "36-41": {
+          "geometry": "4030c8f47a1fee08a7632ff4673672d9f4ae2ec7ef14b6f86b07f2b27fb8e3f8",
+          "cost": 248247.453125
+        },
+        "36-43": {
+          "geometry": "461393fb5929a1bba165008c0df76e1630cf2c6de70ce3eadd6761b82e6f1b06",
+          "cost": 255532.96875
+        },
+        "38-40": {
+          "geometry": "8c142bff9969cceac0ed282f1204401ba07f4278b95bf01a1d86ce3f99453149",
+          "cost": 50401.171875
+        },
+        "38-42": {
+          "geometry": "0ffda614e08eeabfad0cd11e3753919f03c58ccaec4262a4aff6ba36a20412f5",
+          "cost": 54335.640625
+        },
+        "40-42": {
+          "geometry": "590cead2f26fd403f7b3e7b83d04c4b08152ea5f90a2af942d76646b67689b1f",
+          "cost": 51967.28515625
+        },
+        "40-43": {
+          "geometry": "507ed9edc977d84cca7746a56e467a01b54620e45956b0a07167919de6d21656",
+          "cost": 289662.8125
+        },
+        "40-45": {
+          "geometry": "71bdb4104877fe488ca72aebd053ce5b99fd8fc481f3d9374b0564f71b27de63",
+          "cost": 300501.8125
+        },
+        "41-43": {
+          "geometry": "8122637ef6c68c14cb3cb9004b5522bb72efaf77c9bb114577f512ec01433ad9",
+          "cost": 258710.109375
+        },
+        "41-45": {
+          "geometry": "a659a3422af7ed1ad55de6b822dbd03b209f2611ae21aa4a6597437f774fbe2c",
+          "cost": 390901.65625
+        },
+        "42-50": {
+          "geometry": "ac86135c391749c97e9f8fa57746616984502f53882419e03b23c869daedacbb",
+          "cost": 103699.78125
+        },
+        "43-45": {
+          "geometry": "702701414560d5bde4d6beac562ee4343529d11764bb2514aed924e8fc3b4651",
+          "cost": 65647.234375
+        },
+        "43-49": {
+          "geometry": "8bac35b7121e43015b14bf25ce4b1a38b95ee808080cf94c1807317c5f07bfb0",
+          "cost": 306567.78125
+        },
+        "45-49": {
+          "geometry": "2e54a0114887f120a4e9e7b3934d16e08a6090a2080bff97213584d6d713ad2f",
+          "cost": 237444.71875
+        },
+        "45-50": {
+          "geometry": "68449dd0d6c2ca33252465be94eee31ef237dbe8b2e5c91bb89dd96ea7debf2f",
+          "cost": 539999.875
+        },
+        "45-53": {
+          "geometry": "b187731d55c5fcd9bfd0298793a985d03130596b94ce4f31e82455849218f19d",
+          "cost": 665692.75
+        },
+        "49-53": {
+          "geometry": "fc7131eba9b08f550d1da3b2e57f20e65fc36fcfa98c712de646154c820dc442",
+          "cost": 350951.3125
+        },
+        "50-53": {
+          "geometry": "19d0becb73e64cf698d59783ab5d3a0105474ec83501d2fe9e1c1a4b271d1d73",
+          "cost": 637808.6875
+        }
+      },
+      "fallback_cells": 4866
+    }
+  },
+  "scripts": {
+    "run_vcf_v2_balanced_overnight.py": "d810c9f48da4eb39686cc2dfbf26552283a0a503796a61b0bfea8a9af858da85",
+    "audit_downloaded_gee_validity.py": "20ca7d1a4f23376f38b77d00f364138f2418f6c85cea38a3fcd1e0349ff93385",
+    "compare_vcf_v2_candidate_inputs.py": "abcc7dc9c743fce09ec13e7233fe8f2dc14042dba7d85e930e2e7fc92a3607a6",
+    "screen_existing_routes_vcf_v2.py": "573ea83e3aacab3386847ef2bf4baeb6ea1733173d1f1463890aebd3da149849"
+  },
+  "cost_distance_runs_maximum": 84,
+  "comparisons_expected": 180
+}

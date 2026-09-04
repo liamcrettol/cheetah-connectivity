@@ -1,5 +1,9 @@
 # Cheetah connectivity project
 
+**Current handoff (4 September 2026):** [Resume at work or home](handoff/2026-09-04/README.md).
+Includes verified diagnostic reports, map examples, scripts, spreadsheet context,
+and pending decisions. Read this before starting another analysis run.
+
 Manuscript, predeclared protocol, and analysis code for a study of temporal
 structural connectivity, unprotected pinch points, and monitoring priorities for
 free-ranging cheetahs in southern Africa.

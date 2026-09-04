@@ -1,0 +1,410 @@
+{
+  "pairs": [
+    {
+      "from_core": 1,
+      "to_core": 9,
+      "old_2012_2024_change_pct": 18.628700435015432,
+      "candidate_2012_2024_change_pct": 17.989611655633087,
+      "difference_percentage_points": -0.6390887793823445,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 1,
+      "to_core": 13,
+      "old_2012_2024_change_pct": 8.459589643224819,
+      "candidate_2012_2024_change_pct": 8.341680744764378,
+      "difference_percentage_points": -0.11790889846044017,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 1,
+      "to_core": 17,
+      "old_2012_2024_change_pct": 4.921795659469486,
+      "candidate_2012_2024_change_pct": 4.740844831953295,
+      "difference_percentage_points": -0.18095082751619085,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 9,
+      "to_core": 13,
+      "old_2012_2024_change_pct": -7.480048805083738,
+      "candidate_2012_2024_change_pct": -7.015830303987691,
+      "difference_percentage_points": 0.4642185010960471,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 9,
+      "to_core": 17,
+      "old_2012_2024_change_pct": -8.713449662969596,
+      "candidate_2012_2024_change_pct": -8.494520505219738,
+      "difference_percentage_points": 0.21892915774985866,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 13,
+      "to_core": 17,
+      "old_2012_2024_change_pct": -13.785759134719767,
+      "candidate_2012_2024_change_pct": -13.857611508792122,
+      "difference_percentage_points": -0.07185237407235512,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 17,
+      "to_core": 24,
+      "old_2012_2024_change_pct": -9.802812894275515,
+      "candidate_2012_2024_change_pct": -10.775588877257647,
+      "difference_percentage_points": -0.9727759829821316,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 18,
+      "to_core": 24,
+      "old_2012_2024_change_pct": 9.179456244777828,
+      "candidate_2012_2024_change_pct": 6.463867328737405,
+      "difference_percentage_points": -2.7155889160404234,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 18,
+      "to_core": 28,
+      "old_2012_2024_change_pct": 12.577263746588297,
+      "candidate_2012_2024_change_pct": 12.401977025104372,
+      "difference_percentage_points": -0.17528672148392488,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 18,
+      "to_core": 33,
+      "old_2012_2024_change_pct": 9.24738456494978,
+      "candidate_2012_2024_change_pct": 9.512139245168694,
+      "difference_percentage_points": 0.264754680218914,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 24,
+      "to_core": 28,
+      "old_2012_2024_change_pct": -3.481650269501646,
+      "candidate_2012_2024_change_pct": -4.17373832639365,
+      "difference_percentage_points": -0.692088056892004,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 24,
+      "to_core": 33,
+      "old_2012_2024_change_pct": 8.154664678961643,
+      "candidate_2012_2024_change_pct": 7.553957663773603,
+      "difference_percentage_points": -0.60070701518804,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 24,
+      "to_core": 38,
+      "old_2012_2024_change_pct": 4.120036560356355,
+      "candidate_2012_2024_change_pct": 3.7509163897658127,
+      "difference_percentage_points": -0.36912017059054225,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 26,
+      "to_core": 27,
+      "old_2012_2024_change_pct": -5.015568769176959,
+      "candidate_2012_2024_change_pct": -5.138716171265278,
+      "difference_percentage_points": -0.12314740208831942,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 26,
+      "to_core": 31,
+      "old_2012_2024_change_pct": -5.731198974198504,
+      "candidate_2012_2024_change_pct": -5.811068845168554,
+      "difference_percentage_points": -0.07986987097005027,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 26,
+      "to_core": 32,
+      "old_2012_2024_change_pct": -7.193007713727139,
+      "candidate_2012_2024_change_pct": -7.755857457177151,
+      "difference_percentage_points": -0.5628497434500117,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 27,
+      "to_core": 30,
+      "old_2012_2024_change_pct": -6.477576276754771,
+      "candidate_2012_2024_change_pct": -6.335747488095745,
+      "difference_percentage_points": 0.14182878865902637,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 27,
+      "to_core": 31,
+      "old_2012_2024_change_pct": -6.485598588128417,
+      "candidate_2012_2024_change_pct": -6.428897019584445,
+      "difference_percentage_points": 0.05670156854397135,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 27,
+      "to_core": 32,
+      "old_2012_2024_change_pct": -6.345554974567891,
+      "candidate_2012_2024_change_pct": -6.332849442871025,
+      "difference_percentage_points": 0.012705531696866501,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 27,
+      "to_core": 41,
+      "old_2012_2024_change_pct": -4.516632466290337,
+      "candidate_2012_2024_change_pct": -4.979476009189265,
+      "difference_percentage_points": -0.46284354289892793,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 28,
+      "to_core": 33,
+      "old_2012_2024_change_pct": -0.7081403030091638,
+      "candidate_2012_2024_change_pct": -0.6019527013302328,
+      "difference_percentage_points": 0.10618760167893093,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 28,
+      "to_core": 38,
+      "old_2012_2024_change_pct": 1.1227405627115994,
+      "candidate_2012_2024_change_pct": 0.2202278161067106,
+      "difference_percentage_points": -0.9025127466048888,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 30,
+      "to_core": 36,
+      "old_2012_2024_change_pct": 5.251892730585506,
+      "candidate_2012_2024_change_pct": 5.176117259669022,
+      "difference_percentage_points": -0.07577547091648373,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 30,
+      "to_core": 40,
+      "old_2012_2024_change_pct": -1.2759254017736699,
+      "candidate_2012_2024_change_pct": -1.2231457684492186,
+      "difference_percentage_points": 0.052779633324451236,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 30,
+      "to_core": 41,
+      "old_2012_2024_change_pct": -8.712497497620442,
+      "candidate_2012_2024_change_pct": -8.737295600684348,
+      "difference_percentage_points": -0.024798103063906396,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 31,
+      "to_core": 32,
+      "old_2012_2024_change_pct": -6.427000587002574,
+      "candidate_2012_2024_change_pct": -6.483575694336929,
+      "difference_percentage_points": -0.056575107334355224,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 33,
+      "to_core": 38,
+      "old_2012_2024_change_pct": 14.252229369153246,
+      "candidate_2012_2024_change_pct": 13.782201991363996,
+      "difference_percentage_points": -0.4700273777892505,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 36,
+      "to_core": 40,
+      "old_2012_2024_change_pct": 0.6510294297749963,
+      "candidate_2012_2024_change_pct": 1.1412848636328965,
+      "difference_percentage_points": 0.49025543385790016,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 36,
+      "to_core": 41,
+      "old_2012_2024_change_pct": -10.286350296321212,
+      "candidate_2012_2024_change_pct": -10.440044974164175,
+      "difference_percentage_points": -0.15369467784296376,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 36,
+      "to_core": 43,
+      "old_2012_2024_change_pct": -3.448484734702384,
+      "candidate_2012_2024_change_pct": -2.572205508079939,
+      "difference_percentage_points": 0.8762792266224451,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 38,
+      "to_core": 40,
+      "old_2012_2024_change_pct": 2.62500390728555,
+      "candidate_2012_2024_change_pct": 1.0393173903869402,
+      "difference_percentage_points": -1.58568651689861,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 38,
+      "to_core": 42,
+      "old_2012_2024_change_pct": 1.5481542372312251,
+      "candidate_2012_2024_change_pct": 1.7042351680794932,
+      "difference_percentage_points": 0.15608093084826802,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 40,
+      "to_core": 42,
+      "old_2012_2024_change_pct": -5.545040147684466,
+      "candidate_2012_2024_change_pct": -5.808655915082261,
+      "difference_percentage_points": -0.2636157673977957,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 40,
+      "to_core": 43,
+      "old_2012_2024_change_pct": -2.126847658383235,
+      "candidate_2012_2024_change_pct": -2.5291775671277716,
+      "difference_percentage_points": -0.40232990874453645,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 40,
+      "to_core": 45,
+      "old_2012_2024_change_pct": 0.4714481425850181,
+      "candidate_2012_2024_change_pct": 0.8155774276078054,
+      "difference_percentage_points": 0.3441292850227873,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 41,
+      "to_core": 43,
+      "old_2012_2024_change_pct": -6.2718923690499695,
+      "candidate_2012_2024_change_pct": -6.208244567907062,
+      "difference_percentage_points": 0.06364780114290713,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 41,
+      "to_core": 45,
+      "old_2012_2024_change_pct": -5.809014369245046,
+      "candidate_2012_2024_change_pct": -5.350246089183619,
+      "difference_percentage_points": 0.45876828006142745,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 42,
+      "to_core": 50,
+      "old_2012_2024_change_pct": 9.13212253119049,
+      "candidate_2012_2024_change_pct": 9.77884306225012,
+      "difference_percentage_points": 0.6467205310596302,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 43,
+      "to_core": 45,
+      "old_2012_2024_change_pct": -10.671207142947503,
+      "candidate_2012_2024_change_pct": -10.324844383385068,
+      "difference_percentage_points": 0.34636275956243523,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 43,
+      "to_core": 49,
+      "old_2012_2024_change_pct": -9.965120115565718,
+      "candidate_2012_2024_change_pct": -10.245513081878975,
+      "difference_percentage_points": -0.28039296631325783,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 45,
+      "to_core": 49,
+      "old_2012_2024_change_pct": -6.8229340073075235,
+      "candidate_2012_2024_change_pct": -6.33575797525745,
+      "difference_percentage_points": 0.48717603205007354,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 45,
+      "to_core": 50,
+      "old_2012_2024_change_pct": 5.433049266044243,
+      "candidate_2012_2024_change_pct": 5.783178871579686,
+      "difference_percentage_points": 0.35012960553544303,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 45,
+      "to_core": 53,
+      "old_2012_2024_change_pct": -3.6347707903560234,
+      "candidate_2012_2024_change_pct": -3.7535842934151464,
+      "difference_percentage_points": -0.11881350305912308,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 49,
+      "to_core": 53,
+      "old_2012_2024_change_pct": -2.377972052165489,
+      "candidate_2012_2024_change_pct": -2.530926377196807,
+      "difference_percentage_points": -0.15295432503131812,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    },
+    {
+      "from_core": 50,
+      "to_core": 53,
+      "old_2012_2024_change_pct": -0.49585634187429006,
+      "candidate_2012_2024_change_pct": -0.4574084189642891,
+      "difference_percentage_points": 0.03844792291000099,
+      "sign_differs_no_tolerance": false,
+      "endpoint_year_paths_use_fallback": false
+    }
+  ],
+  "caveat": "Sign differences are arithmetic, not significance tests. Domain remains diagnostic."
+}
