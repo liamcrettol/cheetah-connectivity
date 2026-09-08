@@ -1,9 +1,10 @@
 # Makgadikgadi missing-VCF cells: evidence memo
 
-**Status: evidence review completed; final production policy is pending the
-analyst's explicit approval.** This memo is deliberately separate from the
-model specification so that a map-display diagnosis cannot silently become a
-resistance-model assumption.
+**Status: policy adopted for the 8 September 2026 final structural baseline.**
+All-zero VCF triplets remain finite baseline values; they are reported as
+water-context uncertainty and are not converted to permanent barriers. This
+memo remains deliberately separate from the model specification so that a
+map-display diagnosis cannot silently become a resistance-model assumption.
 
 ## What the diagnostic shows
 
@@ -21,6 +22,14 @@ These are *classified-area fractions*, not direct measurements of inundation or
 of whether a cheetah could cross a cell. Both land-cover schemes derive from the
 same MODIS MCD12Q1 product, so their agreement is useful internal evidence but
 is not independent validation.
+
+An additional all-zero-triplet audit is stronger contextual evidence for the
+actual VCF formula: 174,975 cells had persistent zero tree/non-tree/bare
+triplets; 169,283 (96.7%) had persistent water-class context, zero had
+persistent land context, and 5,692 had unresolved/mixed context. The formula
+assigns a finite midpoint vegetation score (5.5/10) to these triplets. That
+score is retained as a cautious structural baseline, **not** interpreted as a
+measured cheetah water-permeability value.
 
 The resulting map shows the largest concentration around the Makgadikgadi Pans
 system in northeastern Botswana. It is an uncertainty map, not a map of known
@@ -43,7 +52,7 @@ impassable water.
 
 ## Recommended model treatment
 
-Keep the production historical resistance surface unchanged for this issue and
+Keep finite VCF-zero values in the final historical resistance baseline and
 retain the cells as a documented **data-uncertainty layer**. Do not:
 
 - convert every missing-VCF cell to NoData;
