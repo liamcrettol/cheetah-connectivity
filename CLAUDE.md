@@ -60,22 +60,21 @@ There is a claim dictionary in the protocol listing prohibited phrasings
 - **Repo** `cheetah-connectivity`, developed in a GitHub Codespace. Liam is on
   Windows and has the Student Developer Pack (GitHub Pro, 3,000 Actions
   minutes, 180 Codespaces core-hours).
-- **`protocol/protocol.tex`** — 10-page predeclared analysis protocol, drafted,
-  **not yet signed**. Contains nine open decisions marked `\dec{}` in orange.
-- **`tex/`** — LaTeX manuscript scaffold, capstone-first with a `\capstonetrue`
-  flag for a journal version later. Compiles clean via `make`. Sections are
-  scaffolded with `\TODO{}` markers that render red.
-- **`refs/methods_canon.bib`** — 17 verified entries (McRae, Zeller ×2,
-  Adriaensen, Beier, Saura ×2, Keeley, Roberts, Circuitscape.jl, Omniscape.jl,
-  Naidoo, Brennan, Osipova, Melzheimer, Meijer, Kennedy). **Every DOI was
-  resolved against the publisher record in August 2026. Do not re-verify.**
-  Two entries need full author lists confirmed: `naidoo2024kaza`,
-  `brennan2020multispecies`.
-- **`refs/cheetah_lit.bib`** — empty, awaiting a Zotero export.
+- **UPDATE 8 Sept 2026: the manuscript moved out of this repo.**
+  `tex/`, `protocol/` (including `protocol.tex`, `landcover_crosswalk.csv`,
+  `temporal_alignment.csv`), `refs/`, the CI workflow, the devcontainer, and
+  the Makefile now live in a separate repo,
+  [cheetah-connectivity-manuscript](https://github.com/liamcrettol/cheetah-connectivity-manuscript),
+  connected to Overleaf. This repo (`cheetah-connectivity`) carries a full
+  ArcGIS geodatabase and Git LFS binaries that Overleaf's GitHub sync can't
+  handle, which is why the split happened. The bibliography and protocol
+  content itself as of the split is unchanged, everything below this note
+  describes that content but you now need the other repo to see or edit it.
+  The 18 Aug `protocol-v1.0` tag stays here as the historical lock record;
+  any future protocol tag belongs in the manuscript repo instead.
 - **`tools/manifest.py`** — regenerates `manifest.csv`, an inventory of analysis
   outputs. Replaces a hand-maintained output register. Liam must edit
   `OUTPUT_ROOTS` to match his machine.
-- **`.github/workflows/build.yml`** — CI builds both PDFs on push.
 - **Execution guide spreadsheet** — 28 steps, 111 sub-steps, with ArcGIS Pro
   procedures, parameters, verification checks, output names, time estimates
   (~108 hours total), paper sections and sentence starters. Now a Google Sheet.

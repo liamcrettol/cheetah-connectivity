@@ -4,41 +4,24 @@
 Includes verified diagnostic reports, map examples, scripts, spreadsheet context,
 and pending decisions. Read this before starting another analysis run.
 
-Manuscript, predeclared protocol, and analysis code for a study of temporal
-structural connectivity, unprotected pinch points, and monitoring priorities for
+Analysis code, decision log, and GIS project for a study of temporal structural
+connectivity, unprotected pinch points, and monitoring priorities for
 free-ranging cheetahs in southern Africa.
+
+**The manuscript, predeclared protocol, and bibliography live in a separate
+repo:** [cheetah-connectivity-manuscript](https://github.com/liamcrettol/cheetah-connectivity-manuscript),
+connected to Overleaf. This repo carries the ArcGIS project and Git LFS
+binaries that Overleaf's GitHub sync can't handle, which is why the split
+exists.
 
 ## Layout
 
-    tex/          manuscript (main.tex + sections/)
-    protocol/     predeclared analysis protocol
-    refs/         bibliography (methods_canon.bib verified; cheetah_lit.bib from Zotero)
-    figures/      figure inputs, PDF preferred over PNG
-    tables/       generated tables
-    tools/        flatten.py builds the single-file paste version
-    .github/      CI: builds both PDFs on every push
-
-## Building
-
-    make            # both PDFs
-    make watch      # continuous rebuild while writing
-    make clean
-
-Requires TeX Live with biblatex-apa and biber. Or open the repo in a GitHub
-Codespace and the devcontainer supplies both.
-
-## Protocol lock
-
-The protocol is fixed before any connectivity result is generated. When it is
-signed, tag it:
-
-    git tag -a protocol-v1.0 -m "protocol locked"
-    git push origin protocol-v1.0
-
-Amendments after that point go in the protocol's amendment log AND get their own
-commit, so the sequence of changes is externally checkable.
+    gis/          ArcGIS Pro project, geodatabase, raw archive, exports (LFS)
+    raw/          arcpy/GEE processing scripts
+    handoff/      dated session handoffs, diagnostic reports, QC evidence
+    tools/        manifest.py inventories analysis outputs
 
 ## What must never be committed
 
-Spatial inputs. Occurrence data is sensitive and WDPA cannot be redistributed
-under its licence. See .gitignore. Code and derived summaries only.
+Spatial inputs outside this repo's own conventions. Occurrence data is
+sensitive and WDPA cannot be redistributed under its licence. See .gitignore.

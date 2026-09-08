@@ -1,8 +1,0 @@
-covariate,source,treatment,nominal_2012,nominal_2016,nominal_2020,nominal_2024,notes
-Built-up fraction,GHSL,dynamic,2010 (-2),2015 (-1),2020 (0),2025 (+1),Epochal product; all offsets satisfy the +/-2-year rule
-Nighttime radiance,VIIRS VNL V2,dynamic,2013 (+1),2016 (0),2020 (0),2024 (0),V21 used through 2020 and V22 for 2024; average_masked band throughout
-Percent tree cover,MODIS/061/MOD44B,dynamic,2012 (0),2016 (0),2020 (0),2024 (0),Collection 6.1 pinned across all snapshots
-Percent non-tree vegetation,MODIS/061/MOD44B,dynamic,2012 (0),2016 (0),2020 (0),2024 (0),Collection 6.1 pinned across all snapshots
-Percent bare ground,MODIS/061/MOD44B,dynamic,2012 (0),2016 (0),2020 (0),2024 (0),Collection 6.1 pinned across all snapshots
-Land cover (categorical),MODIS/061/MCD12Q1,context only,2012 (0),2016 (0),2020 (0),2024 (0),Retain four year-specific maps for landscape context; no additional resistance penalty based on land-cover class alone.
-Annual precipitation,CHIRPS annual,deferred diagnostic,2012 (0),2016 (0),2020 (0),2024 (0),Not yet acquired; necessity and analysis method to be decided before attributing vegetation change to human activity.
