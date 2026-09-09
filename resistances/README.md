@@ -102,6 +102,56 @@ The defensible reporting is the descriptive comparison against the matched
 background, with the direction shown to be robust across years and buffers, and
 the scale dependence of any formal test stated plainly.
 
+## Figures
+
+`scripts/build_outside_core_figures.py` rebuilds the current-derived figures on
+the outside-core domain and replaces the straight-line link figure with real
+least-cost geometry.
+
+| Figure | Replaces | What changed |
+|---|---|---|
+| fig1, current outside cores 2024 | Figure 1, high-current concentration | Core plateau removed, cores drawn as outlines, classed by percentile of outside-core current |
+| fig2, current change 2012 to 2024 | Figure 2, temporal current evidence | The old one was near-uniform because it was showing fixed core geometry. This shows real regional structure |
+| fig3, priority links as least-cost paths | Figure 3, robust priority links | The old figure drew `final_priority_core_links_paper`, which has exactly two vertices per feature, i.e. straight centroid-to-centroid lines. This draws `conservation_priority_paths_temporal`, the actual modelled routes |
+| coverage curve | Figure 4, protected-area context | Replaced by the percentile curve above |
+
+All four now carry a legend, a scale bar, the analysis-domain boundary and a
+consistent palette. Protected areas are clipped to the analysis domain, because
+the WDPA raster spans the whole grid and drawing designations the model never
+evaluated implies a coverage claim outside the study extent.
+
+There is deliberately no north arrow. Across a 2,310 km extent in Africa Albers
+Equal Area Conic, grid north and true north diverge visibly away from the
+central meridian, so one arrow would be wrong over most of the map. A graticule
+is drawn instead.
+
+### On the change figure
+
+It reports percent change, not absolute. Absolute change is on the order of
+7e-6 against a median current of 2.8e-4, which is unreadable. Median relative
+change is 4.3% and the 90th percentile 10.7%.
+
+That is comfortably above solver noise, so the fine texture is signal. The run
+used double precision with CG-accelerated AMG; a default relative tolerance
+would put convergence error around 1e-10 in absolute terms, four orders below
+the changes being mapped.
+
+Percent change is not inflated at low baseline current, which was the obvious
+thing to suspect. Binned by 2012 baseline decile, the share of cells changing by
+more than 20% is 0.1 to 0.6% in every band and the 95th percentile of absolute
+change sits near 12% throughout. The green western strip is therefore real in
+the model rather than a small-denominator artefact. It is still not a
+conservation signal, because absolute flow there is negligible; read it against
+figure 1.
+
+## Also worth knowing
+
+The Circuitscape logs record that the resistance graph has **34 connected
+components**, and per-pair node counts vary from 2,500,425 to 2,502,163 out of
+2,503,870. All core pairs returned finite effective resistance, so the pairs
+themselves sit in the main component, but the fragmentation is undocumented
+elsewhere and should be stated in Methods.
+
 ## Limits
 
 Post-hoc masking removes the core plateau from the reported statistics. It does
