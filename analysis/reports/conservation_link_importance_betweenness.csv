@@ -1,0 +1,46 @@
+﻿from_core,to_core,link_type,straight_line_distance_km,edge_betweenness_normalized,weight_robust,fence_robust,primary_priority_eligible,priority_use
+1,9,KNN+MST,154.41537944395492,0.004329004329004329,no,yes,no,retain as uncertainty/data-collection link
+1,13,KNN,244.90902790061494,0.004329004329004329,no,no,no,retain as uncertainty/data-collection link
+1,17,KNN,252.023878037409,0.08658008658008658,no,no,no,retain as uncertainty/data-collection link
+9,13,KNN+MST,105.35426837856497,0.004329004329004329,yes,yes,yes,rank for primary conservation priority
+9,17,KNN+MST,109.03888247059191,0.08658008658008658,yes,yes,yes,rank for primary conservation priority
+13,17,KNN,129.20797251521878,0.08658008658008658,yes,no,no,retain as uncertainty/data-collection link
+17,24,KNN+MST,208.02239497192116,0.329004329004329,yes,yes,yes,rank for primary conservation priority
+18,24,KNN,446.90719459908183,0.04329004329004326,no,yes,no,retain as uncertainty/data-collection link
+18,28,KNN,432.96852346378984,0.025974025974025986,yes,yes,yes,rank for primary conservation priority
+18,33,KNN+MST,384.4174573305163,0.025974025974025983,yes,yes,yes,rank for primary conservation priority
+24,28,KNN+MST,104.12519339210519,0.021645021645021644,yes,yes,yes,rank for primary conservation priority
+24,33,KNN,160.96893450405088,0.021645021645021644,yes,yes,yes,rank for primary conservation priority
+24,38,KNN,202.2921104231828,0.3463203463203463,yes,yes,yes,rank for primary conservation priority
+26,27,KNN+MST,221.81772699410638,0.08658008658008658,yes,yes,yes,rank for primary conservation priority
+26,31,KNN+MST,121.00278122526332,0.004329004329004329,yes,yes,yes,rank for primary conservation priority
+26,32,KNN,335.0181108628207,0.004329004329004329,yes,yes,yes,rank for primary conservation priority
+27,30,KNN,248.17797350617687,0.21645021645021645,yes,no,no,retain as uncertainty/data-collection link
+27,31,KNN,341.4807536063997,0.08658008658008658,no,yes,no,retain as uncertainty/data-collection link
+27,32,KNN,533.6622988362743,0.08658008658008658,no,yes,no,retain as uncertainty/data-collection link
+27,41,KNN+MST,196.80123827895895,0.11255411255411256,yes,yes,yes,rank for primary conservation priority
+28,33,KNN+MST,70.30402292850765,0.004329004329004329,yes,yes,yes,rank for primary conservation priority
+28,38,KNN+MST,104.14205682594715,0.08658008658008658,no,yes,no,retain as uncertainty/data-collection link
+30,36,KNN+MST,76.6116857229216,0.015295815295815295,yes,yes,yes,rank for primary conservation priority
+30,40,KNN,169.18924315688355,0.2601731601731602,yes,yes,yes,rank for primary conservation priority
+30,41,KNN,205.86217719521227,0.024963924963924963,no,yes,no,retain as uncertainty/data-collection link
+31,32,KNN+MST,228.94228132522787,0.004329004329004329,yes,yes,yes,rank for primary conservation priority
+33,38,KNN,108.1286078313024,0.08658008658008659,yes,yes,yes,rank for primary conservation priority
+36,40,KNN+MST,103.57509881015027,0.06399711399711398,yes,yes,yes,rank for primary conservation priority
+36,41,KNN,175.51672721125522,0.028282828282828278,yes,yes,yes,rank for primary conservation priority
+36,43,KNN+MST,154.59570528646879,0.015656565656565653,yes,yes,yes,rank for primary conservation priority
+38,40,KNN+MST,120.57913223622226,0.44805194805194803,yes,yes,yes,rank for primary conservation priority
+38,42,KNN+MST,198.24476336813916,0.09740259740259741,no,yes,no,retain as uncertainty/data-collection link
+40,42,KNN,222.0399549515233,0.047113997113997115,yes,yes,yes,rank for primary conservation priority
+40,43,KNN,159.56452874268538,0.08434343434343435,yes,yes,yes,rank for primary conservation priority
+40,45,KNN,163.2482771731408,0.11608946608946609,no,yes,no,retain as uncertainty/data-collection link
+41,43,KNN+MST,128.08581031303578,0.04646464646464646,yes,yes,yes,rank for primary conservation priority
+41,45,KNN,183.56920892986318,0.09855699855699855,yes,yes,yes,rank for primary conservation priority
+42,50,KNN+MST,141.59480393774714,0.07698412698412699,yes,yes,yes,rank for primary conservation priority
+43,45,KNN+MST,57.42828237815441,0.014430014430014428,yes,yes,yes,rank for primary conservation priority
+43,49,KNN,177.12475837865634,0.04805194805194805,yes,yes,yes,rank for primary conservation priority
+45,49,KNN+MST,139.2838827718412,0.04285714285714286,yes,yes,yes,rank for primary conservation priority
+45,50,KNN,276.1340254296822,0.04487734487734488,yes,yes,yes,rank for primary conservation priority
+45,53,KNN,280.0446392988118,0.05952380952380952,no,yes,no,retain as uncertainty/data-collection link
+49,53,KNN+MST,156.6045976336604,0.010822510822510822,yes,yes,yes,rank for primary conservation priority
+50,53,KNN,275.3633962602896,0.031385281385281384,yes,yes,yes,rank for primary conservation priority

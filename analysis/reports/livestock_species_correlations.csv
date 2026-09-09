@@ -1,0 +1,4 @@
+species_1,species_2,pearson_correlation,common_valid_cells
+cattle,goats,0.6502686271402921,2503949
+cattle,sheep,0.18705220939700964,2503949
+goats,sheep,0.10901151486421498,2503949

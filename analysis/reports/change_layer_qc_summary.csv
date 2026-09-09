@@ -1,0 +1,37 @@
+raster,change_type,variable,period,minimum,maximum,mean,standard_deviation,qc_note
+d_built_2012_2016_1km,absolute,built,2012-2016,-4483.0,8686.0,1.174049,51.007527,
+d_built_2016_2020_1km,absolute,built,2016-2020,-4312.0,9874.0,1.167619,48.857863,
+d_built_2020_2024_1km,absolute,built,2020-2024,-3812.0,10000.0,1.483256,55.370765,
+d_built_2012_2024_1km,absolute,built,2012-2024,-4483.0,10000.0,3.824923,91.439631,
+d_vcf_tree_2012_2016_1km,absolute,tree,2012-2016,-65.0,67.0,0.151279,3.35807,
+d_vcf_tree_2016_2020_1km,absolute,tree,2016-2020,-65.0,64.0,0.979963,4.102839,
+d_vcf_tree_2020_2024_1km,absolute,tree,2020-2024,-72.0,65.0,-0.063756,3.942994,
+d_vcf_tree_2012_2024_1km,absolute,tree,2012-2024,-76.0,75.0,1.067486,4.161469,
+d_vcf_nontree_2012_2016_1km,absolute,nontree,2012-2016,-71.0,85.0,-2.819001,10.794446,
+d_vcf_nontree_2016_2020_1km,absolute,nontree,2016-2020,-70.0,74.0,1.706919,9.677254,
+d_vcf_nontree_2020_2024_1km,absolute,nontree,2020-2024,-91.0,79.0,-2.778696,9.422186,
+d_vcf_nontree_2012_2024_1km,absolute,nontree,2012-2024,-87.0,89.0,-3.890779,10.588642,
+d_vcf_bare_2012_2016_1km,absolute,bare,2012-2016,-82.0,73.0,2.669246,10.689817,
+d_vcf_bare_2016_2020_1km,absolute,bare,2016-2020,-80.0,77.0,-2.676324,9.329519,
+d_vcf_bare_2020_2024_1km,absolute,bare,2020-2024,-98.0,94.0,2.81604,9.726075,
+d_vcf_bare_2012_2024_1km,absolute,bare,2012-2024,-96.0,94.0,2.808962,10.815892,
+p_built_2012_2016_1km,proportional,built,2012-2016,-100.0,132900.0,20.393234,1191.931107,
+p_built_2016_2020_1km,proportional,built,2016-2020,-100.0,35500.0,30.80861,354.466388,
+p_built_2020_2024_1km,proportional,built,2020-2024,-100.0,164600.0,85.479703,2397.453698,
+p_built_2012_2024_1km,proportional,built,2012-2024,-100.0,175800.0,91.572372,2994.289507,
+p_vcf_tree_2012_2016_1km,proportional,tree,2012-2016,-100.0,1120.0,4.755507,54.000155,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_tree_2016_2020_1km,proportional,tree,2016-2020,-100.0,1050.0,18.191509,57.805993,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_tree_2020_2024_1km,proportional,tree,2020-2024,-100.0,1220.0,2.686366,54.874067,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_tree_2012_2024_1km,proportional,tree,2012-2024,-100.0,1400.0,32.396691,70.136482,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_nontree_2012_2016_1km,proportional,nontree,2012-2016,-100.0,1620.000122,-5.791526,23.778491,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_nontree_2016_2020_1km,proportional,nontree,2016-2020,-100.0,1280.0,7.361401,30.228359,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_nontree_2020_2024_1km,proportional,nontree,2020-2024,-100.0,820.0,-2.356259,25.0461,
+p_vcf_nontree_2012_2024_1km,proportional,nontree,2012-2024,-100.0,1620.000122,-6.459599,23.632948,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_bare_2012_2016_1km,proportional,bare,2012-2016,-100.0,1060.0,16.24051,54.211523,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_bare_2016_2020_1km,proportional,bare,2016-2020,-98.684212,1060.0,-7.679648,44.407636,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_bare_2020_2024_1km,proportional,bare,2020-2024,-100.0,1120.0,24.367058,61.36836,"REVIEW: high proportional change remains; use as supplementary context, not the main map"
+p_vcf_bare_2012_2024_1km,proportional,bare,2012-2024,-100.0,920.0,20.793252,60.45496,
+d_lights_2012_2016_1km,absolute,lights,2012-2016,-775.284668,255.544495,-0.002007,0.651821,CONTEXT: values are flare-masked absolute VIIRS brightness change; document the export scale before reporting magnitude
+d_lights_2016_2020_1km,absolute,lights,2016-2020,-197.996552,594.083496,0.006943,0.514025,CONTEXT: values are flare-masked absolute VIIRS brightness change; document the export scale before reporting magnitude
+d_lights_2020_2024_1km,absolute,lights,2020-2024,-683.122986,651.632812,0.012404,0.661694,CONTEXT: values are flare-masked absolute VIIRS brightness change; document the export scale before reporting magnitude
+d_lights_2012_2024_1km,absolute,lights,2012-2024,-864.324158,652.667908,0.017339,0.924834,CONTEXT: values are flare-masked absolute VIIRS brightness change; document the export scale before reporting magnitude

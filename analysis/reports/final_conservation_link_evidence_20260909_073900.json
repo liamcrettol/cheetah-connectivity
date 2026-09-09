@@ -1,0 +1,19 @@
+{
+  "created": "2026-09-09T07:39:00",
+  "source_priority_table": "C:\\cheetah\\reports\\conservation_priority_links_temporal.csv",
+  "source_final_effective_resistance_table": "C:\\cheetah\\reports\\final_effective_resistance_change_2012_2024_20260909_073544.csv",
+  "selected_link_count": 32,
+  "primary_priority_link_count": 32,
+  "priority_rule": "Existing 32-link robust-priority designation retained; final effective resistance appended as temporal context, not a new ranking criterion.",
+  "centrality_note": "Normalized edge-betweenness values were corrected by 21/23 because the graph has 253 undirected pairs; ranks are unchanged.",
+  "primary_link_final_effective_resistance_change": {
+    "median_percent": -2.6177615682838233,
+    "increased": 12,
+    "decreased": 20
+  },
+  "interpretation_limits": [
+    "Priority status reflects modelled structural-connectivity evidence, not observed cheetah use or a legal conservation designation.",
+    "Effective-resistance change is reported continuously; no arbitrary biological change threshold was imposed.",
+    "Final current and endpoint high-current maps provide complementary screening context and do not replace the link evidence table."
+  ]
+}

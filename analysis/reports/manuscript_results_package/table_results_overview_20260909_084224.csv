@@ -1,0 +1,10 @@
+﻿metric,value,unit_or_note
+Final current-flow snapshots,"4 (2012, 2016, 2020, 2024)",253/253 pairwise focal-region pairs connected each year
+Fixed density cores,23,historical baseline; fixed across snapshots
+Selected neighboring core links,45,fixed core-pair comparison set
+Primary-priority links,32,robust under stated weight/fence screens; not literal routes
+"All-pair median modeled effective-resistance change, 2012–2024",-1.224,percent
+"Selected-link median modeled effective-resistance change, 2012–2024",-1.557,percent
+"Primary-priority median modeled effective-resistance change, 2012–2024",-2.618,percent
+Largest all-pair increase,33–38: +13.119,percent
+Largest all-pair decrease,43–45: -8.243,percent

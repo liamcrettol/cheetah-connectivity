@@ -1,0 +1,4 @@
+﻿status,segments,length_km,geometry_source,classification_source,warning
+DOCUMENTED_FENCED,5595,621.8509077264964,https://dpmegis.dpme.gov.za/arcgis/rest/services/Environmental1/MapServer/1,https://www.sanparks.org/wp-content/uploads/2021/03/knp-elephant-management-plan.pdf,interpretive boundary classification; not surveyed fence geometry
+DOCUMENTED_OPEN,1420,240.94871160242775,https://dpmegis.dpme.gov.za/arcgis/rest/services/Environmental1/MapServer/1,https://www.sanparks.org/wp-content/uploads/2021/03/knp-elephant-management-plan.pdf,interpretive boundary classification; not surveyed fence geometry
+UNCERTAIN,383,286.3075777152397,https://dpmegis.dpme.gov.za/arcgis/rest/services/Environmental1/MapServer/1,https://www.sanparks.org/wp-content/uploads/2021/03/knp-elephant-management-plan.pdf,interpretive boundary classification; not surveyed fence geometry

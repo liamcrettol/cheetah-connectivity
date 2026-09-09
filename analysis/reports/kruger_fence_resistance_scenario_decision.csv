@@ -1,0 +1,4 @@
+﻿scenario,penalized_status,multiplier,role,methodological_basis
+documented,DOCUMENTED_FENCED,25,main Kruger scenario,finite penalty because cheetah fence permeability can exceed 50%; exact Kruger permeability is unresolved
+conservative,DOCUMENTED_FENCED + UNCERTAIN,25,spatial-uncertainty sensitivity test,tests whether uncertain boundary sections create implausible modeled shortcuts
+excluded from both,DOCUMENTED_OPEN,1,known open/transfrontier connections,SANParks documents unfenced and fence-removed boundary sections

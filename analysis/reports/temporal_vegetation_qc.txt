@@ -1,0 +1,6 @@
+Temporal vegetation least-cost path QC
+Reports checked: 12
+Successful paths checked: 540
+Unique core pairs: 45
+Directionally consistent pairs, 2012-2024: 43/45
+No biological cutoff was assigned by this reporting script.

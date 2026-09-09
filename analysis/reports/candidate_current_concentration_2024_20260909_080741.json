@@ -1,0 +1,9 @@
+{
+  "source": "C:\\cheetah\\circuitscape\\derived\\current_final_balanced_fence.gdb\\current_final_balanced_fence_2024_mean",
+  "output": "C:\\cheetah\\circuitscape\\derived\\current_final_balanced_fence.gdb\\current_final_candidate_concentration_2024",
+  "positive_current_p95": 0.0872951865196228,
+  "positive_current_p99": 0.08775335550308228,
+  "p95_to_p99_cell_count": 93523,
+  "top_p1_cell_count": 23383,
+  "interpretation": "Descriptive high-current concentration screen for candidate structural pinch areas; neither class is a biological cutoff or observed cheetah movement evidence."
+}

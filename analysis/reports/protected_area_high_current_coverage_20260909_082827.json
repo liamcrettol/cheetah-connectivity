@@ -1,0 +1,35 @@
+{
+  "created": "2026-09-09T08:30:46",
+  "source_service": "https://data-gis.unep-wcmc.org/server/rest/services/ProtectedSites/The_World_Database_of_Protected_Areas/FeatureServer/1",
+  "source_citation": "UNEP-WCMC and IUCN (2026), Protected Planet: The World Database on Protected Areas (WDPA) [Online], August 2026, Cambridge, UK. https://doi.org/10.34892/6fwd-af11",
+  "study_extent_eligible_pa_polygons_before_clip": 2301,
+  "valid_model_cells": 2503870,
+  "protected_valid_model_cells": 748864,
+  "protected_valid_model_percent": 29.90826201040789,
+  "primary_inclusion": "WDPA polygon records with realm Terrestrial or Coastal and status other than Proposed",
+  "excluded": "WDPA point records, marine-only polygons, and Proposed polygons",
+  "null": "999 uniform equal-area samples from valid model-support cells; seed 20260909",
+  "null_limit": "The null does not preserve spatial autocorrelation or patch geometry; use as descriptive area-standardized context, not causal inference.",
+  "status_inventory": [
+    {
+      "realm": "Coastal",
+      "status": "Designated",
+      "feature_count": 24
+    },
+    {
+      "realm": "Coastal",
+      "status": "Inscribed",
+      "feature_count": 1
+    },
+    {
+      "realm": "Terrestrial",
+      "status": "Designated",
+      "feature_count": 2268
+    },
+    {
+      "realm": "Terrestrial",
+      "status": "Inscribed",
+      "feature_count": 8
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+﻿output,source,aligned_path,resampling,grid_signature
+built_2024_aligned_1km,C:\cheetah\github_repo\gis\cheetah_connectivity\cheetah\rasters\gee_exports\built_2024_1km.tif,C:\cheetah\gdb\cheetah_working.gdb\built_2024_aligned_1km,BILINEAR,"(2310, 2200, 1000.0, 1000.0, (-1443410.187, -3944096.102, 866589.813, -1744096.102))"
+vcf_tree_2024_aligned_1km,C:\cheetah\github_repo\gis\cheetah_connectivity\cheetah\rasters\gee_exports\vcf_tree_2024_1km.tif,C:\cheetah\gdb\cheetah_working.gdb\vcf_tree_2024_aligned_1km,BILINEAR,"(2310, 2200, 1000.0, 1000.0, (-1443410.187, -3944096.102, 866589.813, -1744096.102))"
+vcf_nontree_2024_aligned_1km,C:\cheetah\github_repo\gis\cheetah_connectivity\cheetah\rasters\gee_exports\vcf_nontree_2024_1km.tif,C:\cheetah\gdb\cheetah_working.gdb\vcf_nontree_2024_aligned_1km,BILINEAR,"(2310, 2200, 1000.0, 1000.0, (-1443410.187, -3944096.102, 866589.813, -1744096.102))"
+vcf_bare_2024_aligned_1km,C:\cheetah\github_repo\gis\cheetah_connectivity\cheetah\rasters\gee_exports\vcf_bare_2024_1km.tif,C:\cheetah\gdb\cheetah_working.gdb\vcf_bare_2024_aligned_1km,BILINEAR,"(2310, 2200, 1000.0, 1000.0, (-1443410.187, -3944096.102, 866589.813, -1744096.102))"

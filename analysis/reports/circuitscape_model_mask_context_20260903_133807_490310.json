@@ -1,0 +1,86 @@
+{
+  "notes": [
+    "Diagnostic raw codes, not a validated permanent-water classification.",
+    "No inference that all-zero triplets are missing without source QA.",
+    "Category lookup uses nearest source pixel at model cell center; no data edits."
+  ],
+  "results": [
+    {
+      "year": 2012,
+      "model_cells": 2503870,
+      "all_zero_vcf_inside_model": 5519,
+      "raw_landcover_codes_at_zero_triplets": {
+        "7": 190,
+        "9": 1,
+        "10": 228,
+        "11": 465,
+        "13": 2,
+        "16": 1917,
+        "17": 2716
+      },
+      "missing_landcover_at_zero_triplets": 0,
+      "class_17_cells_inside_model": 3926,
+      "class_0_cells_inside_model": 0,
+      "class_11_cells_inside_model": 5818
+    },
+    {
+      "year": 2016,
+      "model_cells": 2503870,
+      "all_zero_vcf_inside_model": 5519,
+      "raw_landcover_codes_at_zero_triplets": {
+        "7": 168,
+        "9": 3,
+        "10": 288,
+        "11": 662,
+        "13": 2,
+        "16": 1296,
+        "17": 3100
+      },
+      "missing_landcover_at_zero_triplets": 0,
+      "class_17_cells_inside_model": 4251,
+      "class_0_cells_inside_model": 0,
+      "class_11_cells_inside_model": 4755
+    },
+    {
+      "year": 2020,
+      "model_cells": 2503870,
+      "all_zero_vcf_inside_model": 5519,
+      "raw_landcover_codes_at_zero_triplets": {
+        "4": 1,
+        "7": 135,
+        "9": 1,
+        "10": 310,
+        "11": 780,
+        "12": 1,
+        "13": 3,
+        "15": 2,
+        "16": 1168,
+        "17": 3118
+      },
+      "missing_landcover_at_zero_triplets": 0,
+      "class_17_cells_inside_model": 4232,
+      "class_0_cells_inside_model": 0,
+      "class_11_cells_inside_model": 4408
+    },
+    {
+      "year": 2024,
+      "model_cells": 2503870,
+      "all_zero_vcf_inside_model": 5632,
+      "raw_landcover_codes_at_zero_triplets": {
+        "6": 4,
+        "7": 95,
+        "9": 7,
+        "10": 360,
+        "11": 1083,
+        "12": 12,
+        "13": 1,
+        "16": 1379,
+        "17": 2691
+      },
+      "missing_landcover_at_zero_triplets": 0,
+      "class_17_cells_inside_model": 3889,
+      "class_0_cells_inside_model": 0,
+      "class_11_cells_inside_model": 4249
+    }
+  ]
+}

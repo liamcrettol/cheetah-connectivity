@@ -1,0 +1,225 @@
+{
+  "assessment": "Share with caveats: file QA passed, ecological policy unresolved",
+  "annual": [
+    {
+      "year": 2012,
+      "filename": "water_class_fractions_v1_2012.tif",
+      "sha256": "6f06202173b60e9350561e44607317829da92edf911384bb5eba4a5fed8c26f2",
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "crs_code": 102022,
+        "xmin": -1443410.18670718,
+        "ymax": -1744096.102480766,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0
+      },
+      "band_names": [
+        "lw_water_fraction",
+        "lw_land_fraction",
+        "lw_valid_fraction",
+        "lc_water_fraction",
+        "lc_wetland_fraction",
+        "lc_barren_fraction",
+        "lc_valid_fraction",
+        "both_water_fraction",
+        "both_land_fraction",
+        "disagreement_fraction",
+        "both_valid_fraction"
+      ],
+      "checks": {
+        "lw_sum": 2.9802322387695312e-08,
+        "both_sum": 4.470348358154297e-08,
+        "joint_exceeds_lw": 0.0,
+        "joint_exceeds_lc": 0.0,
+        "lc_classes_exceed_valid": 4.470348358154297e-08
+      },
+      "missing_vcf_cells": 4866,
+      "missing_vcf_cells_joint_valid_below_0999999": 0,
+      "both_water_ge_095": 1134,
+      "both_land_ge_095": 14,
+      "any_disagreement_gt_000001": 3854,
+      "mean_fractions_in_missing_cells": {
+        "lw_water_fraction": 0.9846704272630648,
+        "lw_land_fraction": 0.015329572908215629,
+        "lw_valid_fraction": 1.0,
+        "lc_water_fraction": 0.4741783420065885,
+        "lc_wetland_fraction": 0.1017176150018438,
+        "lc_barren_fraction": 0.3537329223330799,
+        "lc_valid_fraction": 1.0,
+        "both_water_fraction": 0.47405174509124387,
+        "both_land_fraction": 0.01520297597602835,
+        "disagreement_fraction": 0.5107452790682409,
+        "both_valid_fraction": 1.0
+      }
+    },
+    {
+      "year": 2016,
+      "filename": "water_class_fractions_v1_2016.tif",
+      "sha256": "7a1909bcd5724ed0b2239a098b82901f513064c714bb2aa525398a86e319dfb0",
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "crs_code": 102022,
+        "xmin": -1443410.18670718,
+        "ymax": -1744096.102480766,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0
+      },
+      "band_names": [
+        "lw_water_fraction",
+        "lw_land_fraction",
+        "lw_valid_fraction",
+        "lc_water_fraction",
+        "lc_wetland_fraction",
+        "lc_barren_fraction",
+        "lc_valid_fraction",
+        "both_water_fraction",
+        "both_land_fraction",
+        "disagreement_fraction",
+        "both_valid_fraction"
+      ],
+      "checks": {
+        "lw_sum": 2.9802322387695312e-08,
+        "both_sum": 4.470348358154297e-08,
+        "joint_exceeds_lw": 0.0,
+        "joint_exceeds_lc": 0.0,
+        "lc_classes_exceed_valid": 4.470348358154297e-08
+      },
+      "missing_vcf_cells": 4866,
+      "missing_vcf_cells_joint_valid_below_0999999": 0,
+      "both_water_ge_095": 1631,
+      "both_land_ge_095": 14,
+      "any_disagreement_gt_000001": 3390,
+      "mean_fractions_in_missing_cells": {
+        "lw_water_fraction": 0.9846704272630648,
+        "lw_land_fraction": 0.015329572908215629,
+        "lw_valid_fraction": 1.0,
+        "lc_water_fraction": 0.5512164411910654,
+        "lc_wetland_fraction": 0.1244209021906041,
+        "lc_barren_fraction": 0.24904714347811643,
+        "lc_valid_fraction": 1.0,
+        "both_water_fraction": 0.5508863869826067,
+        "both_land_fraction": 0.014999518700328151,
+        "disagreement_fraction": 0.43411409443884785,
+        "both_valid_fraction": 1.0
+      }
+    },
+    {
+      "year": 2020,
+      "filename": "water_class_fractions_v1_2020.tif",
+      "sha256": "d5f5ea24f33c23336ab4afded8c35b69507718fbc806a1175a625a10745686bd",
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "crs_code": 102022,
+        "xmin": -1443410.18670718,
+        "ymax": -1744096.102480766,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0
+      },
+      "band_names": [
+        "lw_water_fraction",
+        "lw_land_fraction",
+        "lw_valid_fraction",
+        "lc_water_fraction",
+        "lc_wetland_fraction",
+        "lc_barren_fraction",
+        "lc_valid_fraction",
+        "both_water_fraction",
+        "both_land_fraction",
+        "disagreement_fraction",
+        "both_valid_fraction"
+      ],
+      "checks": {
+        "lw_sum": 2.9802322387695312e-08,
+        "both_sum": 4.470348358154297e-08,
+        "joint_exceeds_lw": 0.0,
+        "joint_exceeds_lc": 0.0,
+        "lc_classes_exceed_valid": 4.470348358154297e-08
+      },
+      "missing_vcf_cells": 4866,
+      "missing_vcf_cells_joint_valid_below_0999999": 0,
+      "both_water_ge_095": 1606,
+      "both_land_ge_095": 14,
+      "any_disagreement_gt_000001": 3435,
+      "mean_fractions_in_missing_cells": {
+        "lw_water_fraction": 0.9846704272630648,
+        "lw_land_fraction": 0.015329572908215629,
+        "lw_valid_fraction": 1.0,
+        "lc_water_fraction": 0.5558918888782874,
+        "lc_wetland_fraction": 0.15120958913748547,
+        "lc_barren_fraction": 0.2233804239696921,
+        "lc_valid_fraction": 1.0,
+        "both_water_fraction": 0.5557592674366401,
+        "both_land_fraction": 0.015196951456232968,
+        "disagreement_fraction": 0.42904378118218306,
+        "both_valid_fraction": 1.0
+      }
+    },
+    {
+      "year": 2024,
+      "filename": "water_class_fractions_v1_2024.tif",
+      "sha256": "e7934bcc771d6795997ea07b9b92e42c0c2b0b9aa0a76633b1ca11e7328eab4b",
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "crs_code": 102022,
+        "xmin": -1443410.18670718,
+        "ymax": -1744096.102480766,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0
+      },
+      "band_names": [
+        "lw_water_fraction",
+        "lw_land_fraction",
+        "lw_valid_fraction",
+        "lc_water_fraction",
+        "lc_wetland_fraction",
+        "lc_barren_fraction",
+        "lc_valid_fraction",
+        "both_water_fraction",
+        "both_land_fraction",
+        "disagreement_fraction",
+        "both_valid_fraction"
+      ],
+      "checks": {
+        "lw_sum": 2.9802322387695312e-08,
+        "both_sum": 4.470348358154297e-08,
+        "joint_exceeds_lw": 0.0,
+        "joint_exceeds_lc": 0.0,
+        "lc_classes_exceed_valid": 4.470348358154297e-08
+      },
+      "missing_vcf_cells": 4866,
+      "missing_vcf_cells_joint_valid_below_0999999": 0,
+      "both_water_ge_095": 1251,
+      "both_land_ge_095": 14,
+      "any_disagreement_gt_000001": 3748,
+      "mean_fractions_in_missing_cells": {
+        "lw_water_fraction": 0.9846704272630648,
+        "lw_land_fraction": 0.015329572908215629,
+        "lw_valid_fraction": 1.0,
+        "lc_water_fraction": 0.469844124603342,
+        "lc_wetland_fraction": 0.1927596620902577,
+        "lc_barren_fraction": 0.26145155254130625,
+        "lc_valid_fraction": 1.0,
+        "both_water_fraction": 0.46970205575047136,
+        "both_land_fraction": 0.015187504056110517,
+        "disagreement_fraction": 0.5151104402288038,
+        "both_valid_fraction": 1.0
+      }
+    }
+  ],
+  "cross_year": {
+    "missing_cells": 4866,
+    "both_water_ge_095_all_years": 715,
+    "both_land_ge_095_all_years": 14,
+    "other_cells": 4137
+  },
+  "limits": [
+    "0.95 is a descriptive bin, not an adopted exclusion threshold.",
+    "Fractions are native classified-area fractions, not direct inundation measurements.",
+    "LW and LC_Type1 are from the same product, not independent validation.",
+    "No imputation, production edit, resistance transformation or solver was run."
+  ]
+}

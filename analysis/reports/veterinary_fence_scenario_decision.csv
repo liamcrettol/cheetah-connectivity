@@ -1,0 +1,4 @@
+﻿scenario,background_multiplier,fence_cell_multiplier,interpretation
+none,1,1,baseline comparison; fences omitted
+main,1,25,strong but crossable; assumption for scenario testing
+nearbarrier,1,1000,near-barrier sensitivity test; not a claim of universal impermeability

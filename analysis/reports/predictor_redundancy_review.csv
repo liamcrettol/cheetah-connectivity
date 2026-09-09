@@ -1,0 +1,46 @@
+﻿predictor_a,predictor_b,spearman_rho,flag,interpretation
+vcf_tree_2024,vcf_bare_2024,-0.8767,REVIEW,possible redundant weighting; inspect concept and maps
+vcf_nontree_2024,vcf_bare_2024,-0.8360,REVIEW,possible redundant weighting; inspect concept and maps
+livestock_cattle,livestock_goats,0.7744,REVIEW,possible redundant weighting; inspect concept and maps
+vcf_tree_2024,vcf_nontree_2024,0.6180,WATCH,moderate overlap; retain only with distinct mechanism
+livestock_goats,livestock_sheep,0.5315,WATCH,moderate overlap; retain only with distinct mechanism
+livestock_cattle,vcf_tree_2024,0.5262,WATCH,moderate overlap; retain only with distinct mechanism
+livestock_cattle,vcf_bare_2024,-0.5026,WATCH,moderate overlap; retain only with distinct mechanism
+livestock_cattle,livestock_sheep,0.4878,OK,limited rank overlap
+livestock_cattle,vcf_nontree_2024,0.4351,OK,limited rank overlap
+livestock_goats,vcf_tree_2024,0.4326,OK,limited rank overlap
+built_2024,lights_2024_flaremasked,0.4296,OK,limited rank overlap
+road_density_5km,livestock_cattle,0.4057,OK,limited rank overlap
+road_density_5km,livestock_sheep,0.3974,OK,limited rank overlap
+road_density_5km,livestock_goats,0.3680,OK,limited rank overlap
+livestock_goats,vcf_bare_2024,-0.3628,OK,limited rank overlap
+road_density_5km,vcf_tree_2024,0.3272,OK,limited rank overlap
+road_density_5km,vcf_bare_2024,-0.3090,OK,limited rank overlap
+livestock_goats,vcf_nontree_2024,0.2832,OK,limited rank overlap
+lights_2024_flaremasked,road_density_5km,0.2730,OK,limited rank overlap
+road_density_5km,vcf_nontree_2024,0.2690,OK,limited rank overlap
+lights_2024_flaremasked,livestock_cattle,0.2637,OK,limited rank overlap
+lights_2024_flaremasked,livestock_goats,0.2131,OK,limited rank overlap
+lights_2024_flaremasked,livestock_sheep,0.2120,OK,limited rank overlap
+lights_2024_flaremasked,vcf_tree_2024,0.1768,OK,limited rank overlap
+built_2024,livestock_cattle,0.1676,OK,limited rank overlap
+built_2024,road_density_5km,0.1543,OK,limited rank overlap
+terrain_resistance,vcf_tree_2024,0.1534,OK,limited rank overlap
+lights_2024_flaremasked,vcf_bare_2024,-0.1525,OK,limited rank overlap
+built_2024,livestock_goats,0.1411,OK,limited rank overlap
+terrain_resistance,vcf_nontree_2024,-0.1298,OK,limited rank overlap
+terrain_resistance,livestock_sheep,0.1275,OK,limited rank overlap
+built_2024,livestock_sheep,0.1079,OK,limited rank overlap
+lights_2024_flaremasked,vcf_nontree_2024,0.1027,OK,limited rank overlap
+built_2024,vcf_tree_2024,0.0699,OK,limited rank overlap
+terrain_resistance,livestock_goats,0.0679,OK,limited rank overlap
+livestock_sheep,vcf_tree_2024,0.0593,OK,limited rank overlap
+built_2024,vcf_bare_2024,-0.0565,OK,limited rank overlap
+built_2024,vcf_nontree_2024,0.0534,OK,limited rank overlap
+terrain_resistance,livestock_cattle,0.0512,OK,limited rank overlap
+terrain_resistance,vcf_bare_2024,-0.0461,OK,limited rank overlap
+livestock_sheep,vcf_nontree_2024,-0.0451,OK,limited rank overlap
+road_density_5km,terrain_resistance,-0.0385,OK,limited rank overlap
+built_2024,terrain_resistance,-0.0130,OK,limited rank overlap
+lights_2024_flaremasked,terrain_resistance,0.0021,OK,limited rank overlap
+livestock_sheep,vcf_bare_2024,0.0013,OK,limited rank overlap

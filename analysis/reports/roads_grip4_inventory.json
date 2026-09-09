@@ -1,0 +1,67 @@
+{
+  "source": "C:\\cheetah\\raw\\roads\\grip4\\GRIP4_Region3_vector_fgdb\\GRIP4_region3.gdb\\GRIP4_region3",
+  "output": "C:\\cheetah\\gdb\\cheetah_working.gdb\\roads_grip4",
+  "feature_count": 140471,
+  "fields": [
+    {
+      "name": "GP_RTP",
+      "alias": "RoadType",
+      "type": "Integer",
+      "length": 4
+    },
+    {
+      "name": "GP_REX",
+      "alias": "RoadExistence",
+      "type": "Integer",
+      "length": 4
+    },
+    {
+      "name": "GP_RAV",
+      "alias": "RoadAvailability",
+      "type": "Integer",
+      "length": 4
+    },
+    {
+      "name": "GP_RRG",
+      "alias": "RoadRegion",
+      "type": "Integer",
+      "length": 4
+    },
+    {
+      "name": "GP_RCY",
+      "alias": "RoadCountry",
+      "type": "Integer",
+      "length": 4
+    },
+    {
+      "name": "GP_RSE",
+      "alias": "RoadSurface",
+      "type": "Integer",
+      "length": 4
+    },
+    {
+      "name": "GP_RSI",
+      "alias": "RoadSourceId",
+      "type": "Integer",
+      "length": 4
+    },
+    {
+      "name": "GP_RSY",
+      "alias": "RoadYear",
+      "type": "Integer",
+      "length": 4
+    },
+    {
+      "name": "gp_gripreg",
+      "alias": "RoadRegionGRIP",
+      "type": "SmallInteger",
+      "length": 2
+    },
+    {
+      "name": "Shape_Length",
+      "alias": "Shape_Length",
+      "type": "Double",
+      "length": 8
+    }
+  ]
+}

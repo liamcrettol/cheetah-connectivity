@@ -1,0 +1,102 @@
+{
+  "created": "2026-09-09T07:10:26",
+  "scenario": "final vegetation-balanced + documented finite KAZA/Kruger fences",
+  "completion_receipt": "completed=2026-09-08T13:00:23.821\nscenario=vegetation-balanced + documented finite KAZA/Kruger fence\nyears=2012,2016,2020,2024\nfixed_core_count=23\npairs_per_year=253\nsolver=cg+amg; precision=Double; neighbors=8\n",
+  "expected_pairs_per_year": 253,
+  "records": [
+    {
+      "year": 2012,
+      "current_raster": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2012_cum_curmap.tif",
+      "log": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2012.log",
+      "matrix": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2012_resistances.out",
+      "pair_253_logged": true,
+      "error_like_log_records": 0,
+      "matrix_rows": 24,
+      "minimum": 0.0,
+      "maximum": 22.314682889045176,
+      "mean": 2.250897935939099,
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0,
+        "xmin": -1443410.1867072,
+        "ymin": -3944096.1024808,
+        "xmax": 866589.8132928,
+        "ymax": -1744096.1024808,
+        "wkid": 0
+      }
+    },
+    {
+      "year": 2016,
+      "current_raster": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2016_cum_curmap.tif",
+      "log": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2016.log",
+      "matrix": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2016_resistances.out",
+      "pair_253_logged": true,
+      "error_like_log_records": 0,
+      "matrix_rows": 24,
+      "minimum": 0.0,
+      "maximum": 22.322339557599804,
+      "mean": 2.250101854022608,
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0,
+        "xmin": -1443410.1867072,
+        "ymin": -3944096.1024808,
+        "xmax": 866589.8132928,
+        "ymax": -1744096.1024808,
+        "wkid": 0
+      }
+    },
+    {
+      "year": 2020,
+      "current_raster": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2020_cum_curmap.tif",
+      "log": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2020.log",
+      "matrix": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2020_resistances.out",
+      "pair_253_logged": true,
+      "error_like_log_records": 0,
+      "matrix_rows": 24,
+      "minimum": 0.0,
+      "maximum": 22.316529888118886,
+      "mean": 2.2499690439741182,
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0,
+        "xmin": -1443410.1867072,
+        "ymin": -3944096.1024808,
+        "xmax": 866589.8132928,
+        "ymax": -1744096.1024808,
+        "wkid": 0
+      }
+    },
+    {
+      "year": 2024,
+      "current_raster": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2024_cum_curmap.tif",
+      "log": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2024.log",
+      "matrix": "C:\\cheetah\\circuitscape\\outputs\\final_balanced_fence_documented\\current_final_balanced_fence_documented_2024_resistances.out",
+      "pair_253_logged": true,
+      "error_like_log_records": 0,
+      "matrix_rows": 24,
+      "minimum": 0.0,
+      "maximum": 22.320192814635686,
+      "mean": 2.249992155159669,
+      "grid": {
+        "columns": 2310,
+        "rows": 2200,
+        "cell_width": 1000.0,
+        "cell_height": 1000.0,
+        "xmin": -1443410.1867072,
+        "ymin": -3944096.1024808,
+        "xmax": 866589.8132928,
+        "ymax": -1744096.1024808,
+        "wkid": 0
+      }
+    }
+  ],
+  "failures": [],
+  "scope": "Execution and structural output QC only; not biological validation, current normalization, priority ranking, or map interpretation."
+}

@@ -1,0 +1,4 @@
+species,output,reference_year,unit,minimum,maximum,mean,standard_deviation,role
+cattle,C:\cheetah\gdb\cheetah_working.gdb\livestock_cattle_2020_1km,2020,head_per_square_kilometre,0.0,142.803024291992,6.20591047837159,8.73240206416096,exposure_context_not_resistance
+goats,C:\cheetah\gdb\cheetah_working.gdb\livestock_goats_2020_1km,2020,head_per_square_kilometre,0.0,151.485198974609,4.51894010550516,7.79901365071799,exposure_context_not_resistance
+sheep,C:\cheetah\gdb\cheetah_working.gdb\livestock_sheep_2020_1km,2020,head_per_square_kilometre,0.0,126.187316894531,3.25828214528051,7.3774120652953,exposure_context_not_resistance

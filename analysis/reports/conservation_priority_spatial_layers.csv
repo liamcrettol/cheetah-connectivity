@@ -1,0 +1,3 @@
+﻿layer,feature_count,geometry_basis,interpretation
+C:\cheetah\gdb\cheetah_working.gdb\conservation_priority_paths_temporal,32,balanced 2024 representative least-cost path,"weight-, fence-, and vegetation-direction-robust primary links"
+C:\cheetah\gdb\cheetah_working.gdb\conservation_uncertainty_paths_temporal,13,balanced 2024 representative least-cost path,retain for uncertainty and data collection; exclude from primary priorities

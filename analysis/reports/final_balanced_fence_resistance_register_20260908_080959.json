@@ -1,0 +1,64 @@
+{
+  "created": "2026-09-08T08:09:59",
+  "purpose": "Final structural-connectivity resistance inputs; not calibrated empirical movement resistance.",
+  "grid": [
+    2310,
+    2200,
+    1000.0,
+    1000.0,
+    -1443410.18670718,
+    -3944096.102480766,
+    866589.81329282,
+    -1744096.102480766,
+    102022
+  ],
+  "fixed_core_count": 23,
+  "water_context_policy": "No permanent water barrier introduced. VCF all-zero triplets remain finite in the baseline; audit found 169283 of 174975 persistent all-zero triplets (96.7%) in persistent water-class context and 5692 unresolved/mixed.",
+  "fence_policy": "KAZA and documented Kruger fence penalties are finite/crossable and combined with cell-wise maximum, avoiding a double penalty where they overlap.",
+  "records": [
+    {
+      "year": 2012,
+      "output": "C:\\cheetah\\gdb\\cheetah_working.gdb\\resistance_final_balanced_fence_documented_2012",
+      "minimum": 1.00902267360687,
+      "maximum": 108.206985044479,
+      "fence_multiplier_minimum": 1.0,
+      "fence_multiplier_maximum": 25.0,
+      "fixed_cores_retained": 23,
+      "vcf_zero_policy": "Retained finite midpoint vegetation score (5.5/10); persistent all-zero VCF cells are water-context uncertainty, not permanent barriers.",
+      "scenario": "vegetation-balanced (0.60 anthropogenic, 0.20 vegetation, 0.20 terrain) x finite documented KAZA+Kruger fence multiplier"
+    },
+    {
+      "year": 2016,
+      "output": "C:\\cheetah\\gdb\\cheetah_working.gdb\\resistance_final_balanced_fence_documented_2016",
+      "minimum": 1.00902267360687,
+      "maximum": 110.009273862839,
+      "fence_multiplier_minimum": 1.0,
+      "fence_multiplier_maximum": 25.0,
+      "fixed_cores_retained": 23,
+      "vcf_zero_policy": "Retained finite midpoint vegetation score (5.5/10); persistent all-zero VCF cells are water-context uncertainty, not permanent barriers.",
+      "scenario": "vegetation-balanced (0.60 anthropogenic, 0.20 vegetation, 0.20 terrain) x finite documented KAZA+Kruger fence multiplier"
+    },
+    {
+      "year": 2020,
+      "output": "C:\\cheetah\\gdb\\cheetah_working.gdb\\resistance_final_balanced_fence_documented_2020",
+      "minimum": 1.00902267360687,
+      "maximum": 108.200088787079,
+      "fence_multiplier_minimum": 1.0,
+      "fence_multiplier_maximum": 25.0,
+      "fixed_cores_retained": 23,
+      "vcf_zero_policy": "Retained finite midpoint vegetation score (5.5/10); persistent all-zero VCF cells are water-context uncertainty, not permanent barriers.",
+      "scenario": "vegetation-balanced (0.60 anthropogenic, 0.20 vegetation, 0.20 terrain) x finite documented KAZA+Kruger fence multiplier"
+    },
+    {
+      "year": 2024,
+      "output": "C:\\cheetah\\gdb\\cheetah_working.gdb\\resistance_final_balanced_fence_documented_2024",
+      "minimum": 1.00902267360687,
+      "maximum": 106.506536722183,
+      "fence_multiplier_minimum": 1.0,
+      "fence_multiplier_maximum": 25.0,
+      "fixed_cores_retained": 23,
+      "vcf_zero_policy": "Retained finite midpoint vegetation score (5.5/10); persistent all-zero VCF cells are water-context uncertainty, not permanent barriers.",
+      "scenario": "vegetation-balanced (0.60 anthropogenic, 0.20 vegetation, 0.20 terrain) x finite documented KAZA+Kruger fence multiplier"
+    }
+  ]
+}

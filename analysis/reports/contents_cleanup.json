@@ -1,0 +1,124 @@
+{
+  "completed_at": "2026-09-01T07:58:37",
+  "backup": "C:\\cheetah\\backups\\Resistance_before_contents_tidy_20260901_075825.aprx",
+  "moved_root_layers": [
+    {
+      "layer": "resistance_scenario_kruger_conservative",
+      "destination": "13 Resistance surfaces \u00b7 scenarios"
+    },
+    {
+      "layer": "resistance_scenario_kruger_documented",
+      "destination": "13 Resistance surfaces \u00b7 scenarios"
+    },
+    {
+      "layer": "fence_multiplier_main_kruger_conservative_1km",
+      "destination": "11 Veterinary fences \u00b7 scenarios"
+    },
+    {
+      "layer": "fence_multiplier_main_kruger_documented_1km",
+      "destination": "11 Veterinary fences \u00b7 scenarios"
+    },
+    {
+      "layer": "cheetah_core_neighbor_links",
+      "destination": "15 Connectivity links \u00b7 selected"
+    },
+    {
+      "layer": "cheetah_core_primary_density051_min500",
+      "destination": "14 Connectivity cores \u00b7 selected"
+    },
+    {
+      "layer": "cheetah_core_primary_density051_min500_1km",
+      "destination": "14 Connectivity cores \u00b7 selected"
+    },
+    {
+      "layer": "core_top30_min500km2_1km",
+      "destination": "14 Connectivity cores \u00b7 candidates"
+    },
+    {
+      "layer": "core_top20_min500km2_1km",
+      "destination": "14 Connectivity cores \u00b7 candidates"
+    },
+    {
+      "layer": "core_top10_min500km2_1km",
+      "destination": "14 Connectivity cores \u00b7 candidates"
+    }
+  ],
+  "removed_duplicate_references": [
+    "kruger_fence_documented_reference",
+    "kruger_boundary_fence_status_reference",
+    "kruger_fence_multiplier_conservative_1km",
+    "kruger_fence_multiplier_documented_1km",
+    "kruger_fence_presence_conservative_1km",
+    "kruger_fence_presence_documented_1km"
+  ],
+  "removed_nested_duplicate_references": [
+    {
+      "layer": "cheetah_core_neighbor_links",
+      "group": "15 Connectivity links \u00b7 selected"
+    },
+    {
+      "layer": "cheetah_core_primary_density051_min500",
+      "group": "14 Connectivity cores \u00b7 selected"
+    },
+    {
+      "layer": "cheetah_core_primary_density051_min500_1km",
+      "group": "14 Connectivity cores \u00b7 selected"
+    },
+    {
+      "layer": "core_top30_min500km2_1km",
+      "group": "14 Connectivity cores \u00b7 candidates"
+    },
+    {
+      "layer": "core_top20_min500km2_1km",
+      "group": "14 Connectivity cores \u00b7 candidates"
+    },
+    {
+      "layer": "core_top10_min500km2_1km",
+      "group": "14 Connectivity cores \u00b7 candidates"
+    },
+    {
+      "layer": "fence_multiplier_main_kruger_conservative_1km",
+      "group": "11 Veterinary fences \u00b7 scenarios"
+    },
+    {
+      "layer": "fence_multiplier_main_kruger_documented_1km",
+      "group": "11 Veterinary fences \u00b7 scenarios"
+    },
+    {
+      "layer": "resistance_scenario_kruger_conservative",
+      "group": "13 Resistance surfaces \u00b7 scenarios"
+    },
+    {
+      "layer": "resistance_scenario_kruger_documented",
+      "group": "13 Resistance surfaces \u00b7 scenarios"
+    }
+  ],
+  "final_direct_child_order": [
+    "01 Project framework",
+    "02 Baseline evidence",
+    "03 Built-up \u00b7 GHSL",
+    "04 Nighttime lights \u00b7 VIIRS",
+    "08 Nighttime lights \u00b7 flare mask source",
+    "08 Nighttime lights \u00b7 flare-masked",
+    "05 Land cover \u00b7 MCD12Q1",
+    "06 Land cover \u00b7 six-class context",
+    "06 Vegetation \u00b7 tree cover",
+    "07 Vegetation \u00b7 non-tree",
+    "08 Vegetation \u00b7 bare",
+    "08 Continuous change \u00b7 absolute",
+    "08 Continuous change \u00b7 proportional",
+    "09 Roads \u00b7 GRIP4",
+    "09 Hydrology \u00b7 HydroSHEDS",
+    "09 Terrain \u00b7 SRTM",
+    "10 Livestock exposure \u00b7 GLW4 2020",
+    "11 Veterinary fences \u00b7 reference",
+    "11 Veterinary fences \u00b7 scenarios",
+    "12 Resistance components \u00b7 standardized",
+    "13 Resistance surfaces \u00b7 scenarios",
+    "14 Connectivity cores \u00b7 candidates",
+    "14 Connectivity cores \u00b7 selected",
+    "15 Connectivity links \u00b7 selected",
+    "99 Other"
+  ],
+  "datasets_deleted": 0
+}

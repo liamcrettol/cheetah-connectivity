@@ -1,0 +1,50 @@
+{
+  "created": "2026-09-08T08:02:40",
+  "scope": "Read-only VCF all-zero-triplet context audit; no resistance or map changes.",
+  "threshold_note": "0.95 is a descriptive classified-area context threshold, not an inundation or movement cutoff.",
+  "annual": [
+    {
+      "year": 2012,
+      "valid_vcf_triplets": 2680307,
+      "all_zero_triplets": 175419,
+      "zero_triplets_both_water_ge95pct": 170302,
+      "zero_triplets_both_land_ge95pct": 0,
+      "zero_triplets_unresolved_or_mixed": 5117
+    },
+    {
+      "year": 2016,
+      "valid_vcf_triplets": 2680307,
+      "all_zero_triplets": 175420,
+      "zero_triplets_both_water_ge95pct": 170469,
+      "zero_triplets_both_land_ge95pct": 0,
+      "zero_triplets_unresolved_or_mixed": 4951
+    },
+    {
+      "year": 2020,
+      "valid_vcf_triplets": 2680307,
+      "all_zero_triplets": 175419,
+      "zero_triplets_both_water_ge95pct": 170404,
+      "zero_triplets_both_land_ge95pct": 0,
+      "zero_triplets_unresolved_or_mixed": 5015
+    },
+    {
+      "year": 2024,
+      "valid_vcf_triplets": 2680307,
+      "all_zero_triplets": 175990,
+      "zero_triplets_both_water_ge95pct": 170099,
+      "zero_triplets_both_land_ge95pct": 61,
+      "zero_triplets_unresolved_or_mixed": 5830
+    }
+  ],
+  "persistent_all_four_years": {
+    "all_zero_triplets": 174975,
+    "both_water_ge95pct_each_year": 169283,
+    "both_land_ge95pct_each_year": 0,
+    "unresolved_or_mixed": 5692
+  },
+  "interpretation_boundary": [
+    "An all-zero VCF triplet is not automatically bare ground because the bare band is also zero.",
+    "MCD12Q1 fractions are land-cover classifications, not measured inundation.",
+    "This audit does not select a missing-data policy or change the final resistance surface."
+  ]
+}

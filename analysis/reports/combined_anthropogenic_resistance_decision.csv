@@ -1,0 +1,16 @@
+﻿model,level,component,weight,interpretation
+primary,within_anthropogenic,built,0.3,explicit hypothesis; compare sensitivity models
+primary,within_anthropogenic,roads,0.3,explicit hypothesis; compare sensitivity models
+primary,within_anthropogenic,livestock,0.3,explicit hypothesis; compare sensitivity models
+primary,within_anthropogenic,lights,0.1,explicit hypothesis; compare sensitivity models
+equal,within_anthropogenic,built,0.25,explicit hypothesis; compare sensitivity models
+equal,within_anthropogenic,roads,0.25,explicit hypothesis; compare sensitivity models
+equal,within_anthropogenic,livestock,0.25,explicit hypothesis; compare sensitivity models
+equal,within_anthropogenic,lights,0.25,explicit hypothesis; compare sensitivity models
+infrastructure,within_anthropogenic,built,0.35,explicit hypothesis; compare sensitivity models
+infrastructure,within_anthropogenic,roads,0.35,explicit hypothesis; compare sensitivity models
+infrastructure,within_anthropogenic,livestock,0.2,explicit hypothesis; compare sensitivity models
+infrastructure,within_anthropogenic,lights,0.1,explicit hypothesis; compare sensitivity models
+all,top_level,anthropogenic_pressure,0.8,"built, roads, livestock, and lights combined"
+all,top_level,terrain,0.2,separate physical movement-cost mechanism
+all,context_only,VCF and categorical land cover,0,interpretation and validation; no independent penalty

@@ -1,0 +1,4 @@
+﻿scenario,projection_fraction_of_2012_2024_change,output,minimum,maximum,built_scaling_bounds,lights_scaling_bounds,fixed_cores_retained
+low_growth,0.0,C:\cheetah\gdb\cheetah_working.gdb\resistance_future2030_low_growth_balanced_fence,1.00902265300941,104.299277438954,"[0.0, 10000.0]","[-0.0273736622184515, 652.667907714844]",23
+continuation,0.5,C:\cheetah\gdb\cheetah_working.gdb\resistance_future2030_continuation_balanced_fence,1.00002266457271,105.799142443748,"[0.0, 10000.0]","[-0.0273736622184515, 652.667907714844]",23
+high_development,1.0,C:\cheetah\gdb\cheetah_working.gdb\resistance_future2030_high_development_balanced_fence,1.00002266457271,109.856584069776,"[0.0, 10000.0]","[-0.0273736622184515, 652.667907714844]",23

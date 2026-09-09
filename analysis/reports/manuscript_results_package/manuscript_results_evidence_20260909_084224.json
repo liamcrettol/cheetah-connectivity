@@ -1,0 +1,68 @@
+{
+  "generated": "2026-09-09T08:42:24",
+  "source_reports": {
+    "effective_resistance": "C:\\cheetah\\reports\\final_effective_resistance_change_2012_2024_20260909_073544.csv",
+    "current_temporal": "C:\\cheetah\\reports\\final_current_temporal_evidence_20260909_071641.csv",
+    "priority_links": "C:\\cheetah\\reports\\final_conservation_link_evidence_20260909_073900.csv",
+    "protected_area": "C:\\cheetah\\reports\\protected_area_high_current_coverage_20260909_082827.csv"
+  },
+  "overview": [
+    {
+      "metric": "Final current-flow snapshots",
+      "value": "4 (2012, 2016, 2020, 2024)",
+      "unit_or_note": "253/253 pairwise focal-region pairs connected each year"
+    },
+    {
+      "metric": "Fixed density cores",
+      "value": "23",
+      "unit_or_note": "historical baseline; fixed across snapshots"
+    },
+    {
+      "metric": "Selected neighboring core links",
+      "value": "45",
+      "unit_or_note": "fixed core-pair comparison set"
+    },
+    {
+      "metric": "Primary-priority links",
+      "value": "32",
+      "unit_or_note": "robust under stated weight/fence screens; not literal routes"
+    },
+    {
+      "metric": "All-pair median modeled effective-resistance change, 2012\u20132024",
+      "value": "-1.224",
+      "unit_or_note": "percent"
+    },
+    {
+      "metric": "Selected-link median modeled effective-resistance change, 2012\u20132024",
+      "value": "-1.557",
+      "unit_or_note": "percent"
+    },
+    {
+      "metric": "Primary-priority median modeled effective-resistance change, 2012\u20132024",
+      "value": "-2.618",
+      "unit_or_note": "percent"
+    },
+    {
+      "metric": "Largest all-pair increase",
+      "value": "33\u201338: +13.119",
+      "unit_or_note": "percent"
+    },
+    {
+      "metric": "Largest all-pair decrease",
+      "value": "43\u201345: -8.243",
+      "unit_or_note": "percent"
+    }
+  ],
+  "writing_guardrails": [
+    "Call outputs modeled structural connectivity, modeled current concentration, or modeled effective resistance\u2014not observed cheetah occurrence, movement, or validated corridors.",
+    "Treat protected-area overlay as descriptive legal-protection context; it does not measure management effectiveness or conservation outcomes.",
+    "Core-pair links identify network relationships and priority evidence; they are not literal animal routes.",
+    "Use the final vegetation-balanced, finite-fence model for primary results; reference/alternative scenarios remain sensitivity context."
+  ],
+  "figure_set": [
+    "Figure 1: High-current concentration areas under final 2024 model.",
+    "Figure 2: Persistence and endpoint change in high modeled current, 2012\u20132024.",
+    "Figure 3: Robust conservation-priority core-pair links.",
+    "Figure 4: Protected-area context of high-current concentration, 2024."
+  ]
+}

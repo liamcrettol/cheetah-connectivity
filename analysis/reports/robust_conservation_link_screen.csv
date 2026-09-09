@@ -1,0 +1,46 @@
+﻿from_core,to_core,weight_robust,fence_robust,fence_result,primary_priority_eligible,uncertainty_class,rationale
+1,9,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+1,13,no,no,Route-shifted but still low-cost,no,Sensitive to both weights and fences,Retain for discussion/data collection; exclude from primary priorities.
+1,17,no,no,Materially constrained: strong near-barrier cost effect,no,Sensitive to both weights and fences,Retain for discussion/data collection; exclude from primary priorities.
+9,13,yes,yes,Stable under fence scenarios,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+9,17,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+13,17,yes,no,Materially constrained: strong near-barrier cost effect,no,Fence-sensitive or route-geometry-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+17,24,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+18,24,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+18,28,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+18,33,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+24,28,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+24,33,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+24,38,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+26,27,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+26,31,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+26,32,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+27,30,yes,no,Route-shifted but still low-cost,no,Fence-sensitive or route-geometry-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+27,31,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+27,32,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+27,41,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+28,33,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+28,38,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+30,36,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+30,40,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+30,41,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+31,32,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+33,38,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+36,40,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+36,41,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+36,43,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+38,40,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+38,42,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+40,42,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+40,43,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+40,45,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+41,43,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+41,45,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+42,50,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+43,45,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+43,49,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+45,49,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+45,50,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+45,53,no,yes,Not affected by tested fence cells,no,Weight-sensitive,Retain for discussion/data collection; exclude from primary priorities.
+49,53,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.
+50,53,yes,yes,Not affected by tested fence cells,yes,Primary priority eligible,Robust under both tested weight alternatives and fence scenarios.

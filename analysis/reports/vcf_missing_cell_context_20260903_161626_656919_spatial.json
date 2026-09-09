@@ -1,0 +1,55 @@
+{
+  "top_100km_bins": [
+    {
+      "xmin_m": 0,
+      "ymin_m": -2500000,
+      "ambiguous_cells": 1549
+    },
+    {
+      "xmin_m": 100000,
+      "ymin_m": -2500000,
+      "ambiguous_cells": 757
+    },
+    {
+      "xmin_m": 100000,
+      "ymin_m": -2400000,
+      "ambiguous_cells": 288
+    },
+    {
+      "xmin_m": 0,
+      "ymin_m": -2400000,
+      "ambiguous_cells": 151
+    },
+    {
+      "xmin_m": -500000,
+      "ymin_m": -3100000,
+      "ambiguous_cells": 98
+    },
+    {
+      "xmin_m": 300000,
+      "ymin_m": -2000000,
+      "ambiguous_cells": 71
+    },
+    {
+      "xmin_m": -100000,
+      "ymin_m": -2500000,
+      "ambiguous_cells": 51
+    },
+    {
+      "xmin_m": 200000,
+      "ymin_m": -2100000,
+      "ambiguous_cells": 37
+    },
+    {
+      "xmin_m": 200000,
+      "ymin_m": -2000000,
+      "ambiguous_cells": 14
+    },
+    {
+      "xmin_m": 600000,
+      "ymin_m": -2400000,
+      "ambiguous_cells": 8
+    }
+  ],
+  "note": "Bins are descriptive, grid-origin dependent, not ecological regions."
+}

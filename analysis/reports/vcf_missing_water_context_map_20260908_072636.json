@@ -1,0 +1,10 @@
+{
+  "created": "20260908_072636",
+  "output": "C:\\cheetah\\gdb\\cheetah_working.gdb\\vcf_missing_water_context_v1",
+  "threshold": 0.95,
+  "missing_cells": 4866,
+  "persistent_water_context": 715,
+  "persistent_land_context": 14,
+  "unresolved_or_mixed_context": 4137,
+  "interpretation": "Diagnostic classes only; no resistance or missing-data policy changed."
+}

@@ -1,0 +1,4 @@
+﻿cliffs_delta_late_minus_early,early_median,early_n,early_proportion,late_median,late_n,late_proportion,method,odds_ratio,p_bonferroni_3_tests,p_raw,test
+0.1148991121872478,2.1262399102151393,413,,2.278534332275391,450,,Mann-Whitney U,,0.010546617606279004,0.0035155392020930014,resistance_2012_early_vs_2016_late
+,,413,0.4576271186440678,,450,0.6777777777777778,Fisher exact,0.4011270491803279,2.390340751506211e-10,7.967802505020704e-11,inside_fixed_historical_core
+,,413,0.0,,450,0.006666666666666667,Fisher exact,0.0,0.7515304352969325,0.2505101450989775,within_10km_robust_priority_path

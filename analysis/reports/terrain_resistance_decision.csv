@@ -1,0 +1,11 @@
+parameter,value
+input,C:\cheetah\gdb\cheetah_working.gdb\slope_mean_1km
+output,C:\cheetah\gdb\cheetah_working.gdb\terrain_resistance_1_10
+resistance_min,1
+resistance_max,10
+no_penalty_through_degrees,10
+linear_increase_ends_degrees,30
+formula,"1 + 9 * clamp((slope_degrees - 10) / 20, 0, 1)"
+interpretation,Conservative transferred assumption: low-to-intermediate slopes remain permeable; steep terrain progressively raises movement cost.
+literature_caution,"Some cheetah research reports selection for moderately rugged, hilly, or mountainous terrain. Test alternate terrain responses during sensitivity analysis."
+main_use,Use slope_mean_1km for the primary model; retain slope_max_1km as supplementary sensitivity context.

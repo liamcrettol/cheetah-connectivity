@@ -1,0 +1,11 @@
+source_dem,C:\Users\lcrettol\Downloads\slope_mean_native_to_1km_wgs84.tif; C:\Users\lcrettol\Downloads\slope_max_native_to_1km_wgs84.tif
+method,"Slope derived from native approximately 30 m SRTM in Google Earth Engine, aggregated to mean and maximum slope near 1 km, then projected and snapped to the authoritative ArcGIS 1 km grid."
+slope_min_degrees,0.0
+slope_max_degrees,42.9842071533203
+slope_mean_degrees,3.55848086902134
+
+threshold_degrees,cells_at_or_above,percent_of_valid_cells
+5,443766,16.845376220083217
+10,187327,7.110940881409411
+20,24199,0.9185950684590386
+30,1074,0.04076908564506829

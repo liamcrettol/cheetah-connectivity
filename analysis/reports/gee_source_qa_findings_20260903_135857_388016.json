@@ -1,0 +1,197 @@
+{
+  "records": 32,
+  "unique_locations": 14,
+  "original_fields_match": true,
+  "local_allzero": {
+    "records": 16,
+    "native_all_three_valid": 0,
+    "native_all_three_masked": 16,
+    "land_water_codes": {
+      "1.0": 14,
+      "2.0": 2
+    }
+  },
+  "local_nonzero": {
+    "records": 16,
+    "native_all_three_valid": 15,
+    "native_all_three_masked": 1,
+    "land_water_codes": {
+      "2.0": 12,
+      "1.0": 4
+    }
+  },
+  "by_year": {
+    "2012": {
+      "zero_water": {
+        "records": 2,
+        "native_all_three_valid": 0,
+        "native_all_three_masked": 2,
+        "land_water_codes": {
+          "1.0": 2
+        }
+      },
+      "zero_other": {
+        "records": 2,
+        "native_all_three_valid": 0,
+        "native_all_three_masked": 2,
+        "land_water_codes": {
+          "1.0": 2
+        }
+      },
+      "nonzero_water": {
+        "records": 2,
+        "native_all_three_valid": 2,
+        "native_all_three_masked": 0,
+        "land_water_codes": {
+          "2.0": 1,
+          "1.0": 1
+        }
+      },
+      "nonzero_other": {
+        "records": 2,
+        "native_all_three_valid": 2,
+        "native_all_three_masked": 0,
+        "land_water_codes": {
+          "2.0": 2
+        }
+      }
+    },
+    "2016": {
+      "zero_water": {
+        "records": 2,
+        "native_all_three_valid": 0,
+        "native_all_three_masked": 2,
+        "land_water_codes": {
+          "1.0": 2
+        }
+      },
+      "zero_other": {
+        "records": 2,
+        "native_all_three_valid": 0,
+        "native_all_three_masked": 2,
+        "land_water_codes": {
+          "1.0": 2
+        }
+      },
+      "nonzero_water": {
+        "records": 2,
+        "native_all_three_valid": 2,
+        "native_all_three_masked": 0,
+        "land_water_codes": {
+          "2.0": 1,
+          "1.0": 1
+        }
+      },
+      "nonzero_other": {
+        "records": 2,
+        "native_all_three_valid": 2,
+        "native_all_three_masked": 0,
+        "land_water_codes": {
+          "2.0": 2
+        }
+      }
+    },
+    "2020": {
+      "zero_water": {
+        "records": 2,
+        "native_all_three_valid": 0,
+        "native_all_three_masked": 2,
+        "land_water_codes": {
+          "1.0": 2
+        }
+      },
+      "zero_other": {
+        "records": 2,
+        "native_all_three_valid": 0,
+        "native_all_three_masked": 2,
+        "land_water_codes": {
+          "1.0": 2
+        }
+      },
+      "nonzero_water": {
+        "records": 2,
+        "native_all_three_valid": 2,
+        "native_all_three_masked": 0,
+        "land_water_codes": {
+          "2.0": 1,
+          "1.0": 1
+        }
+      },
+      "nonzero_other": {
+        "records": 2,
+        "native_all_three_valid": 2,
+        "native_all_three_masked": 0,
+        "land_water_codes": {
+          "2.0": 2
+        }
+      }
+    },
+    "2024": {
+      "zero_water": {
+        "records": 2,
+        "native_all_three_valid": 0,
+        "native_all_three_masked": 2,
+        "land_water_codes": {
+          "1.0": 1,
+          "2.0": 1
+        }
+      },
+      "zero_other": {
+        "records": 2,
+        "native_all_three_valid": 0,
+        "native_all_three_masked": 2,
+        "land_water_codes": {
+          "1.0": 1,
+          "2.0": 1
+        }
+      },
+      "nonzero_water": {
+        "records": 2,
+        "native_all_three_valid": 1,
+        "native_all_three_masked": 1,
+        "land_water_codes": {
+          "2.0": 1,
+          "1.0": 1
+        }
+      },
+      "nonzero_other": {
+        "records": 2,
+        "native_all_three_valid": 2,
+        "native_all_three_masked": 0,
+        "land_water_codes": {
+          "2.0": 2
+        }
+      }
+    }
+  },
+  "masked_zero_but_land_ids": [
+    "2024_zero_water_2",
+    "2024_zero_other_4"
+  ],
+  "nonzero_but_native_masked_ids": [
+    "2024_nonzero_water_6"
+  ],
+  "local_lc_vs_native_lc_disagreement_ids": [
+    "2012_zero_other_3",
+    "2012_nonzero_water_5",
+    "2016_zero_other_4",
+    "2016_nonzero_water_5",
+    "2020_nonzero_water_5",
+    "2024_zero_water_2",
+    "2024_nonzero_water_5"
+  ],
+  "valid_cover_missing_quality": 7,
+  "valid_cover_missing_cloud": 12,
+  "missing_csv_fields": {},
+  "interpretation": "All 16 local all-zero examples have masked native cover at the sampled location. Missing-value handling upstream of ArcGIS alignment is implicated, but the exact export operation is not established.",
+  "limitations": [
+    "Purposive 32 sample-year records, with repeated locations; not a random prevalence sample.",
+    "Native center sampling is not an exact reproduction of unknown 1 km export aggregation or resampling.",
+    "Missing VCF is not equivalent to water or an ecological barrier.",
+    "Ancillary quality/cloud masks are separate from cover-band validity.",
+    "This does not quantify effects on paths, currents or conservation rankings."
+  ],
+  "gate": "Do not launch production current-flow runs until source validity, water treatment and common temporal support are reconciled.",
+  "source": "C:\\Users\\lcrettol\\Downloads\\cheetah_input_source_qa_20260903.csv",
+  "source_sha256": "615047f6969ebf584a82171819d7c4eae744d3ba3a65cb764fec0d0dafd35fb4"
+}

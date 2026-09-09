@@ -1,0 +1,102 @@
+{
+  "grid": {
+    "columns": 2310,
+    "rows": 2200,
+    "crs_code": 102022,
+    "xmin": -1443410.18670718,
+    "ymax": -1744096.102480766,
+    "cell_width": 1000.0,
+    "cell_height": 1000.0
+  },
+  "totals": {
+    "missing_common_mean_cells": 4866,
+    "both_flags_water_all_four_years": 1712,
+    "both_flags_land_all_four_years": 57,
+    "mixed_disagreeing_or_unknown": 3097,
+    "annual_usable_coverage_zero_all_years": 3984,
+    "annual_usable_coverage_positive_every_year_but_no_common_support": 9
+  },
+  "annual": [
+    {
+      "year": 2012,
+      "both_water": 2373,
+      "both_land": 58,
+      "disagree": 2435,
+      "unknown": 0,
+      "LC_Type1_codes": {
+        "7": 153,
+        "10": 181,
+        "11": 458,
+        "12": 3,
+        "16": 1698,
+        "17": 2373
+      },
+      "annual_usable_coverage_zero": 4432,
+      "annual_source_coverage_zero": 4432
+    },
+    {
+      "year": 2016,
+      "both_water": 2704,
+      "both_land": 57,
+      "disagree": 2105,
+      "unknown": 0,
+      "LC_Type1_codes": {
+        "7": 122,
+        "10": 222,
+        "11": 609,
+        "12": 4,
+        "16": 1204,
+        "17": 2705
+      },
+      "annual_usable_coverage_zero": 4432,
+      "annual_source_coverage_zero": 4432
+    },
+    {
+      "year": 2020,
+      "both_water": 2737,
+      "both_land": 58,
+      "disagree": 2071,
+      "unknown": 0,
+      "LC_Type1_codes": {
+        "6": 1,
+        "7": 89,
+        "9": 1,
+        "10": 209,
+        "11": 764,
+        "12": 3,
+        "15": 2,
+        "16": 1060,
+        "17": 2737
+      },
+      "annual_usable_coverage_zero": 4432,
+      "annual_source_coverage_zero": 4432
+    },
+    {
+      "year": 2024,
+      "both_water": 2338,
+      "both_land": 58,
+      "disagree": 2470,
+      "unknown": 0,
+      "LC_Type1_codes": {
+        "6": 2,
+        "7": 110,
+        "10": 224,
+        "11": 933,
+        "12": 4,
+        "16": 1255,
+        "17": 2338
+      },
+      "annual_usable_coverage_zero": 4409,
+      "annual_source_coverage_zero": 4409
+    }
+  ],
+  "missing_cells_in_cores": {
+    "18": 1
+  },
+  "limits": [
+    "Water/land labels are cell-center classification evidence, not full-cell water fractions or verified barriers.",
+    "No common usable vegetation support is not equivalent to no annual usable support.",
+    "Missing land requires explicit treatment; old-value fallback has not been adopted for production.",
+    "No raster, layer, project, path or priority was changed. No solver was run."
+  ]
+}

@@ -1,0 +1,5 @@
+﻿year,valid_vcf_triplets,all_zero_triplets,zero_triplets_both_water_ge95pct,zero_triplets_both_land_ge95pct,zero_triplets_unresolved_or_mixed
+2012,2680307,175419,170302,0,5117
+2016,2680307,175420,170469,0,4951
+2020,2680307,175419,170404,0,5015
+2024,2680307,175990,170099,61,5830

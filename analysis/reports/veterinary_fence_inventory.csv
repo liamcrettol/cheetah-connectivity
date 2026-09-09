@@ -1,0 +1,3 @@
+source,dataset,features,length_km,recommended_use,source_url,supporting_research
+KAZA_WWF,C:\cheetah\gdb\cheetah_working.gdb\vet_fence_kaza_wwf_reference,33,4270.956094639378,regional primary reference,https://wwfke-giscoe.wwfkenya.org/arcgis/rest/services/KAZA_Landscape_Socioecological_Data/MapServer/19,https://doi.org/10.3389/fvets.2025.1702631
+Namibia_Atlas_2002,C:\cheetah\gdb\cheetah_working.gdb\vet_fence_namibia_atlas2002_reference,0,0.0,historical cross-check,https://the-eis.com/elibrary/search/1771,

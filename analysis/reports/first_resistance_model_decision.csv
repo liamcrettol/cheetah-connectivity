@@ -1,0 +1,8 @@
+﻿role,input_or_output,weight_or_operation,status
+component,C:\cheetah\gdb\cheetah_working.gdb\pressure_human_index_1_10,0.5,initial hypothesis; sensitivity required
+component,C:\cheetah\gdb\cheetah_working.gdb\pressure_livestock_index_1_10,0.3,initial hypothesis; sensitivity required
+component,C:\cheetah\gdb\cheetah_working.gdb\terrain_resistance_1_10,0.2,initial hypothesis; sensitivity required
+context,VCF and categorical land cover,not added,retained for interpretation and validation
+scenario,C:\cheetah\gdb\cheetah_working.gdb\resistance_base_unfenced_1_10,unfenced weighted base,created
+scenario,C:\cheetah\gdb\cheetah_working.gdb\resistance_scenario_fence_main,base multiplied by main fence surface,created
+scenario,C:\cheetah\gdb\cheetah_working.gdb\resistance_scenario_fence_nearbarrier,base multiplied by near-barrier fence surface,created

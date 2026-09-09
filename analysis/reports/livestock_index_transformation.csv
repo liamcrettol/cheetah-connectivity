@@ -1,0 +1,4 @@
+﻿species,source,positive_p95,combination
+cattle,C:\cheetah\gdb\cheetah_working.gdb\livestock_cattle_2020_1km,25.347007751464844,equal mean after separate 0-1 standardization
+goats,C:\cheetah\gdb\cheetah_working.gdb\livestock_goats_2020_1km,18.74321746826172,equal mean after separate 0-1 standardization
+sheep,C:\cheetah\gdb\cheetah_working.gdb\livestock_sheep_2020_1km,18.951030731201172,equal mean after separate 0-1 standardization

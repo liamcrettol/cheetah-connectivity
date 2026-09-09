@@ -1,0 +1,6 @@
+gp_rtp,road_type,feature_count,length_km,recommended_group
+1,Highways,1552,3974.78,major
+2,Primary roads,2684,39454.07,major
+3,Secondary roads,7668,75485.51,minor
+4,Tertiary roads,22183,186849.12,minor
+5,Local roads,106384,26116.27,minor

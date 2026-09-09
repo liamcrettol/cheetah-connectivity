@@ -1,0 +1,70 @@
+{
+  "created": "2026-09-09T12:03:31",
+  "primary_periods": {
+    "early": "2010-2012 exact-year records",
+    "late": "2013-2016 exact-year records"
+  },
+  "raw_records": {
+    "early_2010_2012": 5395,
+    "late_2013_2016": 7062
+  },
+  "unique_sources": {
+    "early_2010_2012": 47,
+    "late_2013_2016": 61
+  },
+  "excluded_non_exact_or_outside_period": 3835,
+  "excluded_invalid_coordinates": 3236,
+  "spatial_thinning": "one occupied cell per period on a 10-km projected lattice",
+  "unique_cells": {
+    "early": 684,
+    "late": 721,
+    "shared": 271,
+    "early_only": 413,
+    "late_only": 450,
+    "jaccard": 0.23897707231040563
+  },
+  "tests": [
+    {
+      "test": "resistance_2012_early_vs_2016_late",
+      "method": "Mann-Whitney U",
+      "early_n": 413,
+      "late_n": 450,
+      "early_median": 2.1262399102151393,
+      "late_median": 2.278534332275391,
+      "cliffs_delta_late_minus_early": 0.1148991121872478,
+      "p_raw": 0.0035155392020930014,
+      "p_bonferroni_3_tests": 0.010546617606279004
+    },
+    {
+      "test": "inside_fixed_historical_core",
+      "method": "Fisher exact",
+      "early_n": 413,
+      "late_n": 450,
+      "early_proportion": 0.4576271186440678,
+      "late_proportion": 0.6777777777777778,
+      "odds_ratio": 0.4011270491803279,
+      "p_raw": 7.967802505020704e-11,
+      "p_bonferroni_3_tests": 2.390340751506211e-10
+    },
+    {
+      "test": "within_10km_robust_priority_path",
+      "method": "Fisher exact",
+      "early_n": 413,
+      "late_n": 450,
+      "early_proportion": 0.0,
+      "late_proportion": 0.006666666666666667,
+      "odds_ratio": 0.0,
+      "p_raw": 0.2505101450989775,
+      "p_bonferroni_3_tests": 0.7515304352969325
+    }
+  ],
+  "interpretation_limits": [
+    "Observation effort, contributors, geography and telemetry intensity differ among years.",
+    "The observations helped create the historical density cores, so core/path associations are not independent validation.",
+    "Presence-only records cannot estimate abundance, absence, colonization or population trend.",
+    "P-values are exploratory screening statistics; effect sizes and spatial sampling bias control interpretation.",
+    "No post-2016 observations are available for direct validation of 2020 or 2024 modeled change."
+  ],
+  "cell_report": "C:\\cheetah\\reports\\cheetah_temporal_thinned_cells_20260909_120331.csv",
+  "test_report": "C:\\cheetah\\reports\\cheetah_temporal_consistency_tests_20260909_120331.csv"
+}

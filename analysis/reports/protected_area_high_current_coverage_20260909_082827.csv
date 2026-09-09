@@ -1,0 +1,4 @@
+﻿class,model_cells,protected_cells,protected_percent,null_mean_percent,null_p025_percent,null_p975_percent,difference_from_null_mean_percentage_points,one_sided_high_tail_probability,one_sided_low_tail_probability
+High concentration (95th–99th percentile),93523,33176,35.47362680837869,29.90337086014085,29.619131122825397,30.188295927205072,5.57025594823784,0.001,1.0
+Highest concentration (>=99th percentile),23383,6458,27.618355215327373,29.908585401892502,29.303340033357568,30.500791173074454,-2.290230186565129,1.0,0.001
+Combined high concentration (>=95th percentile),116906,39634,33.90245154226473,29.90591570134109,29.63825637691821,30.172403469454096,3.996535840923637,0.001,1.0

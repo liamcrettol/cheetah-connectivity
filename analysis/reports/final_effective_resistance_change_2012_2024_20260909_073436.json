@@ -1,0 +1,281 @@
+{
+  "created": "2026-09-09T07:34:36",
+  "scenario": "Final vegetation-balanced resistance with documented finite KAZA/Kruger fence multiplier",
+  "core_count": 23,
+  "pair_count": 253,
+  "years": [
+    2012,
+    2016,
+    2020,
+    2024
+  ],
+  "annual_effective_resistance": {
+    "2012": {
+      "pair_count": 253,
+      "median_effective_resistance": 0.8741100849350343,
+      "mean_effective_resistance": 0.8916077146157011,
+      "minimum_effective_resistance": 0.09591849529365366,
+      "maximum_effective_resistance": 2.0392496422242683
+    },
+    "2016": {
+      "pair_count": 253,
+      "median_effective_resistance": 0.8733673466542153,
+      "mean_effective_resistance": 0.8791779021850916,
+      "minimum_effective_resistance": 0.09799463006841516,
+      "maximum_effective_resistance": 2.0025281120842044
+    },
+    "2020": {
+      "pair_count": 253,
+      "median_effective_resistance": 0.8202099615913654,
+      "mean_effective_resistance": 0.8361676267036628,
+      "minimum_effective_resistance": 0.09378260649384719,
+      "maximum_effective_resistance": 1.9395291433363882
+    },
+    "2024": {
+      "pair_count": 253,
+      "median_effective_resistance": 0.8709690159627219,
+      "mean_effective_resistance": 0.8829112015879399,
+      "minimum_effective_resistance": 0.10429610968424971,
+      "maximum_effective_resistance": 1.985918127989431
+    }
+  },
+  "change_2012_2024_percent": {
+    "median": -1.2238490142066902,
+    "mean": -0.42011375210201224,
+    "minimum": -8.243470411729763,
+    "maximum": 13.119431580628401,
+    "median_absolute": 2.8215184593770775,
+    "p90_absolute": 6.08930967111285,
+    "increased_pairs": 92,
+    "decreased_pairs": 161
+  },
+  "largest_increases": [
+    {
+      "from_core": 33,
+      "to_core": 38,
+      "effective_resistance_2012": 0.22631708600177275,
+      "effective_resistance_2016": 0.23411524008692447,
+      "effective_resistance_2020": 0.22187727076832242,
+      "effective_resistance_2024": 0.25600860125504726,
+      "absolute_change_2012_2024": 0.029691515253274514,
+      "percent_change_2012_2024": 13.119431580628401,
+      "direction": "increase"
+    },
+    {
+      "from_core": 33,
+      "to_core": 42,
+      "effective_resistance_2012": 0.20353310375664918,
+      "effective_resistance_2016": 0.21016301192018988,
+      "effective_resistance_2020": 0.20043837804700304,
+      "effective_resistance_2024": 0.22862808407774793,
+      "absolute_change_2012_2024": 0.025094980321098748,
+      "percent_change_2012_2024": 12.329679967492227,
+      "direction": "increase"
+    },
+    {
+      "from_core": 18,
+      "to_core": 42,
+      "effective_resistance_2012": 0.164025077959275,
+      "effective_resistance_2016": 0.17672827877032232,
+      "effective_resistance_2020": 0.1634242037983277,
+      "effective_resistance_2024": 0.18339194301195488,
+      "absolute_change_2012_2024": 0.01936686505267987,
+      "percent_change_2012_2024": 11.807258556821644,
+      "direction": "increase"
+    },
+    {
+      "from_core": 1,
+      "to_core": 9,
+      "effective_resistance_2012": 0.4031124278269106,
+      "effective_resistance_2016": 0.41643868128746975,
+      "effective_resistance_2020": 0.3823177770016152,
+      "effective_resistance_2024": 0.44731751277804077,
+      "absolute_change_2012_2024": 0.04420508495113018,
+      "percent_change_2012_2024": 10.965944461060145,
+      "direction": "increase"
+    },
+    {
+      "from_core": 18,
+      "to_core": 33,
+      "effective_resistance_2012": 0.3725748991222504,
+      "effective_resistance_2016": 0.3884808716451244,
+      "effective_resistance_2020": 0.3650272848961538,
+      "effective_resistance_2024": 0.4083140605457349,
+      "absolute_change_2012_2024": 0.03573916142348449,
+      "percent_change_2012_2024": 9.59247697783249,
+      "direction": "increase"
+    },
+    {
+      "from_core": 18,
+      "to_core": 38,
+      "effective_resistance_2012": 0.37360061013729107,
+      "effective_resistance_2016": 0.3899732874693066,
+      "effective_resistance_2020": 0.3631279276512797,
+      "effective_resistance_2024": 0.40790852944477246,
+      "absolute_change_2012_2024": 0.034307919307481394,
+      "percent_change_2012_2024": 9.183046916029898,
+      "direction": "increase"
+    },
+    {
+      "from_core": 18,
+      "to_core": 24,
+      "effective_resistance_2012": 0.09591849529365366,
+      "effective_resistance_2016": 0.09799463006841516,
+      "effective_resistance_2020": 0.09378260649384719,
+      "effective_resistance_2024": 0.10429610968424971,
+      "absolute_change_2012_2024": 0.008377614390596047,
+      "percent_change_2012_2024": 8.734096969461469,
+      "direction": "increase"
+    },
+    {
+      "from_core": 24,
+      "to_core": 33,
+      "effective_resistance_2012": 0.2071476317197248,
+      "effective_resistance_2016": 0.21495201315588292,
+      "effective_resistance_2020": 0.203815539695555,
+      "effective_resistance_2024": 0.22494235616072486,
+      "absolute_change_2012_2024": 0.017794724441000054,
+      "percent_change_2012_2024": 8.590358621660082,
+      "direction": "increase"
+    },
+    {
+      "from_core": 24,
+      "to_core": 42,
+      "effective_resistance_2012": 0.17938802980995433,
+      "effective_resistance_2016": 0.18304331644300895,
+      "effective_resistance_2020": 0.1731453143994487,
+      "effective_resistance_2024": 0.1927998511218711,
+      "absolute_change_2012_2024": 0.01341182131191676,
+      "percent_change_2012_2024": 7.476430465357914,
+      "direction": "increase"
+    },
+    {
+      "from_core": 24,
+      "to_core": 38,
+      "effective_resistance_2012": 0.22333981774357892,
+      "effective_resistance_2016": 0.22377997921415588,
+      "effective_resistance_2020": 0.21044429262531744,
+      "effective_resistance_2024": 0.23995324667164872,
+      "absolute_change_2012_2024": 0.0166134289280698,
+      "percent_change_2012_2024": 7.438632795493738,
+      "direction": "increase"
+    }
+  ],
+  "largest_decreases": [
+    {
+      "from_core": 43,
+      "to_core": 45,
+      "effective_resistance_2012": 0.4192294567764474,
+      "effective_resistance_2016": 0.42634861432506543,
+      "effective_resistance_2020": 0.39983856975145504,
+      "effective_resistance_2024": 0.38467040054982554,
+      "absolute_change_2012_2024": -0.034559056226621865,
+      "percent_change_2012_2024": -8.243470411729763,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 13,
+      "to_core": 17,
+      "effective_resistance_2012": 0.5353423776156514,
+      "effective_resistance_2016": 0.5133079260576889,
+      "effective_resistance_2020": 0.49099642263729726,
+      "effective_resistance_2024": 0.4988365507205157,
+      "absolute_change_2012_2024": -0.03650582689513571,
+      "percent_change_2012_2024": -6.819155071886544,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 9,
+      "to_core": 13,
+      "effective_resistance_2012": 0.2636118505696039,
+      "effective_resistance_2016": 0.2486095007318619,
+      "effective_resistance_2020": 0.2342196984400477,
+      "effective_resistance_2024": 0.24564470435252078,
+      "absolute_change_2012_2024": -0.01796714621708312,
+      "percent_change_2012_2024": -6.815758160439409,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 27,
+      "to_core": 41,
+      "effective_resistance_2012": 0.6855159859136816,
+      "effective_resistance_2016": 0.639848721393937,
+      "effective_resistance_2020": 0.6340353299051023,
+      "effective_resistance_2024": 0.6413060780267319,
+      "absolute_change_2012_2024": -0.04420990788694967,
+      "percent_change_2012_2024": -6.449143243249832,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 26,
+      "to_core": 31,
+      "effective_resistance_2012": 0.23525096115034666,
+      "effective_resistance_2016": 0.21972828134924724,
+      "effective_resistance_2020": 0.21329134621688892,
+      "effective_resistance_2024": 0.22026418715875407,
+      "absolute_change_2012_2024": -0.014986773991592595,
+      "percent_change_2012_2024": -6.370547401085724,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 13,
+      "to_core": 27,
+      "effective_resistance_2012": 0.8231772801474933,
+      "effective_resistance_2016": 0.7620285809823468,
+      "effective_resistance_2020": 0.7439824655818001,
+      "effective_resistance_2024": 0.7742571011393969,
+      "absolute_change_2012_2024": -0.04892017900809631,
+      "percent_change_2012_2024": -5.942848544037926,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 45,
+      "to_core": 49,
+      "effective_resistance_2012": 0.7131023263946148,
+      "effective_resistance_2016": 0.7102755128611381,
+      "effective_resistance_2020": 0.6682245248047995,
+      "effective_resistance_2024": 0.6710686504643151,
+      "absolute_change_2012_2024": -0.04203367593029972,
+      "percent_change_2012_2024": -5.894480269447225,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 17,
+      "to_core": 24,
+      "effective_resistance_2012": 0.27601211864797937,
+      "effective_resistance_2016": 0.26844423379847104,
+      "effective_resistance_2020": 0.25280294429854006,
+      "effective_resistance_2024": 0.26006006849204033,
+      "absolute_change_2012_2024": -0.015952050155939035,
+      "percent_change_2012_2024": -5.779474551363442,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 13,
+      "to_core": 24,
+      "effective_resistance_2012": 0.4258052738702018,
+      "effective_resistance_2016": 0.40421514097997013,
+      "effective_resistance_2020": 0.3857141847281165,
+      "effective_resistance_2024": 0.40123002134582986,
+      "absolute_change_2012_2024": -0.024575252524371927,
+      "percent_change_2012_2024": -5.771476783508135,
+      "direction": "decrease"
+    },
+    {
+      "from_core": 41,
+      "to_core": 43,
+      "effective_resistance_2012": 0.6591872002252999,
+      "effective_resistance_2016": 0.6493110762973797,
+      "effective_resistance_2020": 0.6322226076687387,
+      "effective_resistance_2024": 0.6219549596652296,
+      "absolute_change_2012_2024": -0.03723224056007024,
+      "percent_change_2012_2024": -5.648204417098032,
+      "direction": "decrease"
+    }
+  ],
+  "interpretation_limits": [
+    "Effective resistance is a modelled pairwise connectivity metric, not observed cheetah movement probability.",
+    "Changes compare the same 23 fixed cores and all 253 core pairs under the same final model structure.",
+    "Results should be interpreted alongside link robustness, fence-scenario review, and VCF missing-data context."
+  ]
+}
