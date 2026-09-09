@@ -1,0 +1,563 @@
+{
+  "created": "2026-09-09T15:31:14",
+  "scenario": "final vegetation-balanced + documented finite KAZA/Kruger fences",
+  "domain": "valid model cells outside input cores carrying positive modelled current",
+  "why": "The top 10/5/1 percent of positive current lies entirely inside input cores in all four years, so source-inclusive statistics describe the fixed core footprint rather than connecting landscape.",
+  "core_cells": 246654,
+  "valid_model_cells": 2503870,
+  "core_share_of_valid_percent": 9.8509,
+  "masking_limit": "Post-hoc domain masking. set_focal_node_currents_to_zero is documented as not implemented in Circuitscape 5 (installed 5.17.1), so focal-region influence remains in the underlying solve.",
+  "null_limit": "The block null preserves clumping at the stated block scale and stays inside the domain, but it is not habitat-matched and is not a causal test. A toroidal-shift null was tried first and abandoned: the domain is irregular and covers only 41 percent of the grid, so shifts pushed most of the selection off-domain (median retention 46 percent of the observed cell count) and the resulting interval spanned almost the whole range. The descriptive comparison against the matched background is the primary result; the null is context.",
+  "per_year": {
+    "2012": {
+      "domain_cells": 2091475,
+      "outside_core_cells_including_zero_current": 2257221,
+      "background_percent_matched": 31.25813,
+      "background_percent_including_zero_current": 30.13303,
+      "crossover_percentile": 92.99192430718719,
+      "bands": {
+        "90": {
+          "current_threshold": 0.0008310910779982805,
+          "selected_cells": 209148,
+          "protected_percent": 26.31247,
+          "difference_percentage_points": -4.94566
+        },
+        "95": {
+          "current_threshold": 0.0010453956201672554,
+          "selected_cells": 104574,
+          "protected_percent": 35.56716,
+          "difference_percentage_points": 4.30903
+        },
+        "99": {
+          "current_threshold": 0.0013747111661359668,
+          "selected_cells": 20915,
+          "protected_percent": 44.17404,
+          "difference_percentage_points": 12.91591
+        }
+      },
+      "buffer_sensitivity": [
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 90,
+          "selected_cells": 209148,
+          "protected_percent": 26.31247,
+          "background_percent_matched": 31.25813
+        },
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 95,
+          "selected_cells": 104574,
+          "protected_percent": 35.56716,
+          "background_percent_matched": 31.25813
+        },
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 99,
+          "selected_cells": 20915,
+          "protected_percent": 44.17404,
+          "background_percent_matched": 31.25813
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 90,
+          "selected_cells": 207685,
+          "protected_percent": 26.30859,
+          "background_percent_matched": 31.29977
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 95,
+          "selected_cells": 103843,
+          "protected_percent": 35.58545,
+          "background_percent_matched": 31.29977
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 99,
+          "selected_cells": 20769,
+          "protected_percent": 44.90828,
+          "background_percent_matched": 31.29977
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 90,
+          "selected_cells": 201715,
+          "protected_percent": 26.30543,
+          "background_percent_matched": 31.52952
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 95,
+          "selected_cells": 100858,
+          "protected_percent": 35.83851,
+          "background_percent_matched": 31.52952
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 99,
+          "selected_cells": 20172,
+          "protected_percent": 46.94626,
+          "background_percent_matched": 31.52952
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 90,
+          "selected_cells": 194161,
+          "protected_percent": 26.68095,
+          "background_percent_matched": 31.91518
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 95,
+          "selected_cells": 97081,
+          "protected_percent": 36.14095,
+          "background_percent_matched": 31.91518
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 99,
+          "selected_cells": 19417,
+          "protected_percent": 48.99315,
+          "background_percent_matched": 31.91518
+        }
+      ]
+    },
+    "2016": {
+      "domain_cells": 2091498,
+      "outside_core_cells_including_zero_current": 2257221,
+      "background_percent_matched": 31.25798,
+      "background_percent_including_zero_current": 30.13303,
+      "crossover_percentile": 92.97987891672216,
+      "bands": {
+        "90": {
+          "current_threshold": 0.0008369399001821876,
+          "selected_cells": 209150,
+          "protected_percent": 26.21133,
+          "difference_percentage_points": -5.04665
+        },
+        "95": {
+          "current_threshold": 0.0010618868982419372,
+          "selected_cells": 104575,
+          "protected_percent": 36.18838,
+          "difference_percentage_points": 4.9304
+        },
+        "99": {
+          "current_threshold": 0.001374288578517735,
+          "selected_cells": 20916,
+          "protected_percent": 41.5567,
+          "difference_percentage_points": 10.29872
+        }
+      },
+      "buffer_sensitivity": [
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 90,
+          "selected_cells": 209150,
+          "protected_percent": 26.21133,
+          "background_percent_matched": 31.25798
+        },
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 95,
+          "selected_cells": 104575,
+          "protected_percent": 36.18838,
+          "background_percent_matched": 31.25798
+        },
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 99,
+          "selected_cells": 20916,
+          "protected_percent": 41.5567,
+          "background_percent_matched": 31.25798
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 90,
+          "selected_cells": 207688,
+          "protected_percent": 26.19602,
+          "background_percent_matched": 31.29962
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 95,
+          "selected_cells": 103844,
+          "protected_percent": 36.25438,
+          "background_percent_matched": 31.29962
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 99,
+          "selected_cells": 20769,
+          "protected_percent": 41.92787,
+          "background_percent_matched": 31.29962
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 90,
+          "selected_cells": 201718,
+          "protected_percent": 26.03387,
+          "background_percent_matched": 31.52935
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 95,
+          "selected_cells": 100859,
+          "protected_percent": 36.57681,
+          "background_percent_matched": 31.52935
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 99,
+          "selected_cells": 20172,
+          "protected_percent": 44.09082,
+          "background_percent_matched": 31.52935
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 90,
+          "selected_cells": 194164,
+          "protected_percent": 26.02388,
+          "background_percent_matched": 31.91501
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 95,
+          "selected_cells": 97082,
+          "protected_percent": 36.55673,
+          "background_percent_matched": 31.91501
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 99,
+          "selected_cells": 19417,
+          "protected_percent": 46.45414,
+          "background_percent_matched": 31.91501
+        }
+      ]
+    },
+    "2020": {
+      "domain_cells": 2091469,
+      "outside_core_cells_including_zero_current": 2257221,
+      "background_percent_matched": 31.25803,
+      "background_percent_including_zero_current": 30.13303,
+      "crossover_percentile": 93.00931919577502,
+      "bands": {
+        "90": {
+          "current_threshold": 0.0008345363894477487,
+          "selected_cells": 209147,
+          "protected_percent": 26.42495,
+          "difference_percentage_points": -4.83307
+        },
+        "95": {
+          "current_threshold": 0.0010577583452686667,
+          "selected_cells": 104575,
+          "protected_percent": 36.15587,
+          "difference_percentage_points": 4.89784
+        },
+        "99": {
+          "current_threshold": 0.0013978538336232305,
+          "selected_cells": 20915,
+          "protected_percent": 48.41023,
+          "difference_percentage_points": 17.1522
+        }
+      },
+      "buffer_sensitivity": [
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 90,
+          "selected_cells": 209147,
+          "protected_percent": 26.42495,
+          "background_percent_matched": 31.25803
+        },
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 95,
+          "selected_cells": 104575,
+          "protected_percent": 36.15587,
+          "background_percent_matched": 31.25803
+        },
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 99,
+          "selected_cells": 20915,
+          "protected_percent": 48.41023,
+          "background_percent_matched": 31.25803
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 90,
+          "selected_cells": 207685,
+          "protected_percent": 26.41163,
+          "background_percent_matched": 31.29967
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 95,
+          "selected_cells": 103843,
+          "protected_percent": 36.15265,
+          "background_percent_matched": 31.29967
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 99,
+          "selected_cells": 20769,
+          "protected_percent": 48.91425,
+          "background_percent_matched": 31.29967
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 90,
+          "selected_cells": 201715,
+          "protected_percent": 26.33121,
+          "background_percent_matched": 31.52941
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 95,
+          "selected_cells": 100858,
+          "protected_percent": 36.15677,
+          "background_percent_matched": 31.52941
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 99,
+          "selected_cells": 20172,
+          "protected_percent": 49.64307,
+          "background_percent_matched": 31.52941
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 90,
+          "selected_cells": 194161,
+          "protected_percent": 26.854,
+          "background_percent_matched": 31.91507
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 95,
+          "selected_cells": 97081,
+          "protected_percent": 36.3171,
+          "background_percent_matched": 31.91507
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 99,
+          "selected_cells": 19417,
+          "protected_percent": 51.1253,
+          "background_percent_matched": 31.91507
+        }
+      ]
+    },
+    "2024": {
+      "domain_cells": 2091456,
+      "outside_core_cells_including_zero_current": 2257221,
+      "background_percent_matched": 31.25832,
+      "background_percent_including_zero_current": 30.13303,
+      "crossover_percentile": 93.81356528233482,
+      "bands": {
+        "90": {
+          "current_threshold": 0.0008362798253074288,
+          "selected_cells": 209146,
+          "protected_percent": 25.54292,
+          "difference_percentage_points": -5.7154,
+          "spatial_null": {
+            "25km_blocks": {
+              "method": "499 draws assembling a same-sized selection from whole 25 km blocks within the domain",
+              "blocks_in_domain": 3753,
+              "mean_percent": 31.23949,
+              "p025_percent": 26.70935,
+              "p975_percent": 35.45009,
+              "one_sided_low_tail_probability": 0.006,
+              "one_sided_high_tail_probability": 0.996
+            },
+            "50km_blocks": {
+              "method": "499 draws assembling a same-sized selection from whole 50 km blocks within the domain",
+              "blocks_in_domain": 1014,
+              "mean_percent": 30.95078,
+              "p025_percent": 23.33206,
+              "p975_percent": 38.01689,
+              "one_sided_low_tail_probability": 0.096,
+              "one_sided_high_tail_probability": 0.906
+            }
+          }
+        },
+        "95": {
+          "current_threshold": 0.0010592793114483356,
+          "selected_cells": 104573,
+          "protected_percent": 33.45032,
+          "difference_percentage_points": 2.192,
+          "spatial_null": {
+            "25km_blocks": {
+              "method": "499 draws assembling a same-sized selection from whole 25 km blocks within the domain",
+              "blocks_in_domain": 3753,
+              "mean_percent": 31.2758,
+              "p025_percent": 25.32915,
+              "p975_percent": 37.27907,
+              "one_sided_low_tail_probability": 0.754,
+              "one_sided_high_tail_probability": 0.248
+            },
+            "50km_blocks": {
+              "method": "499 draws assembling a same-sized selection from whole 50 km blocks within the domain",
+              "blocks_in_domain": 1014,
+              "mean_percent": 31.20592,
+              "p025_percent": 20.98301,
+              "p975_percent": 41.57679,
+              "one_sided_low_tail_probability": 0.674,
+              "one_sided_high_tail_probability": 0.328
+            }
+          }
+        },
+        "99": {
+          "current_threshold": 0.0013963519595563412,
+          "selected_cells": 20915,
+          "protected_percent": 44.62826,
+          "difference_percentage_points": 13.36994,
+          "spatial_null": {
+            "25km_blocks": {
+              "method": "499 draws assembling a same-sized selection from whole 25 km blocks within the domain",
+              "blocks_in_domain": 3753,
+              "mean_percent": 31.17716,
+              "p025_percent": 17.96674,
+              "p975_percent": 46.6006,
+              "one_sided_low_tail_probability": 0.962,
+              "one_sided_high_tail_probability": 0.04
+            },
+            "50km_blocks": {
+              "method": "499 draws assembling a same-sized selection from whole 50 km blocks within the domain",
+              "blocks_in_domain": 1014,
+              "mean_percent": 30.13862,
+              "p025_percent": 10.12916,
+              "p975_percent": 56.34153,
+              "one_sided_low_tail_probability": 0.89,
+              "one_sided_high_tail_probability": 0.112
+            }
+          }
+        }
+      },
+      "buffer_sensitivity": [
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 90,
+          "selected_cells": 209146,
+          "protected_percent": 25.54292,
+          "background_percent_matched": 31.25832
+        },
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 95,
+          "selected_cells": 104573,
+          "protected_percent": 33.45032,
+          "background_percent_matched": 31.25832
+        },
+        {
+          "core_exclusion_buffer_km": 0,
+          "percentile": 99,
+          "selected_cells": 20915,
+          "protected_percent": 44.62826,
+          "background_percent_matched": 31.25832
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 90,
+          "selected_cells": 207684,
+          "protected_percent": 25.51376,
+          "background_percent_matched": 31.29996
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 95,
+          "selected_cells": 103842,
+          "protected_percent": 33.45467,
+          "background_percent_matched": 31.29996
+        },
+        {
+          "core_exclusion_buffer_km": 1,
+          "percentile": 99,
+          "selected_cells": 20769,
+          "protected_percent": 44.8842,
+          "background_percent_matched": 31.29996
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 90,
+          "selected_cells": 201713,
+          "protected_percent": 25.5105,
+          "background_percent_matched": 31.52971
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 95,
+          "selected_cells": 100857,
+          "protected_percent": 33.33333,
+          "background_percent_matched": 31.52971
+        },
+        {
+          "core_exclusion_buffer_km": 5,
+          "percentile": 99,
+          "selected_cells": 20172,
+          "protected_percent": 45.56316,
+          "background_percent_matched": 31.52971
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 90,
+          "selected_cells": 194160,
+          "protected_percent": 25.58611,
+          "background_percent_matched": 31.91539
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 95,
+          "selected_cells": 97080,
+          "protected_percent": 33.26226,
+          "background_percent_matched": 31.91539
+        },
+        {
+          "core_exclusion_buffer_km": 10,
+          "percentile": 99,
+          "selected_cells": 19416,
+          "protected_percent": 46.82221,
+          "background_percent_matched": 31.91539
+        }
+      ]
+    }
+  },
+  "temporal_overlap": [
+    {
+      "early_year": 2012,
+      "late_year": 2016,
+      "early_cells": 209148,
+      "late_cells": 209150,
+      "intersection": 200069,
+      "union": 218229,
+      "jaccard": 0.916785
+    },
+    {
+      "early_year": 2016,
+      "late_year": 2020,
+      "early_cells": 209150,
+      "late_cells": 209147,
+      "intersection": 201179,
+      "union": 217118,
+      "jaccard": 0.926588
+    },
+    {
+      "early_year": 2020,
+      "late_year": 2024,
+      "early_cells": 209147,
+      "late_cells": 209146,
+      "intersection": 199881,
+      "union": 218412,
+      "jaccard": 0.915156
+    },
+    {
+      "early_year": 2012,
+      "late_year": 2024,
+      "early_cells": 209148,
+      "late_cells": 209146,
+      "intersection": 199511,
+      "union": 218783,
+      "jaccard": 0.911913
+    }
+  ]
+}
