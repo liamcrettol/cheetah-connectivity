@@ -1,0 +1,5 @@
+﻿nucleus_id,nucleus_name,core_count,core_ids,status
+1,Northwest,6,"1,9,13,17,18,24",approved_for_local
+2,Central,10,"28,30,33,36,38,40,42,43,45,41",approved_for_local
+3,Southern,3,"49,50,53",approved_for_local
+4,Eastern,4,"26,27,31,32",approved_for_local

@@ -1,0 +1,29 @@
+{
+  "pair": [
+    31,
+    32
+  ],
+  "scope": "35-km buffered diagnostic around saved route",
+  "dem_source": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\Copernicus_DSM_COG_10_S23_00_E030_00_DEM.tif",
+  "dem_product": "Copernicus DEM GLO-30 Public, 2021 release, approximately 30 m DSM",
+  "path_feature_class": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\path_31_32_copdem30m",
+  "slope_raster": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\slope_copdem30m_pair_31_32",
+  "terrain_raster": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\terrain_copdem30m_pair_31_32",
+  "resistance_raster": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\resistance_2024_copdem30m",
+  "saved_1km_path_length_km": 64.72792206134909,
+  "highres_path_length_km": 63.78277487508956,
+  "saved_1km_cost": 120290.890625,
+  "highres_cost": 117870.46875,
+  "overlap_with_saved_path_within_1km_percent": 95.62478683654494,
+  "overlap_with_saved_path_within_5km_percent": 100.0,
+  "sampled_unique_30m_cells": 2002,
+  "route_slope_mean_degrees": 6.088949414383689,
+  "route_slope_maximum_degrees": 30.213804,
+  "route_cells_slope_ge_10": 247,
+  "route_cells_slope_ge_20": 17,
+  "route_cells_slope_ge_30": 1,
+  "route_terrain_resistance_mean": 1.1979820322177823,
+  "route_elevation_min_metres": 468.15149,
+  "route_elevation_max_metres": 967.10828,
+  "interpretation_boundary": "Diagnostic only: 30 m DSM slope is combined with bilinearly resampled 1 km non-terrain resistance; this is not an empirically calibrated cheetah model."
+}

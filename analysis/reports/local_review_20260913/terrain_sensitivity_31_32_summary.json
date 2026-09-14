@@ -1,0 +1,80 @@
+{
+  "pair": [
+    31,
+    32
+  ],
+  "analysis_type": "bounded 35-km-buffer diagnostic; not a network-wide rerun",
+  "baseline_verification_passed": false,
+  "saved_path_length_km": 64.72792206134909,
+  "saved_accumulated_cost": 120290.890625,
+  "reported_existing_cost": 120290.890625,
+  "terrain_weight": 0.2,
+  "terrain_options": {
+    "baseline_mean": "existing terrain from 1-km mean slope",
+    "blend25_max": "75% existing mean-slope terrain + 25% max-slope transform",
+    "blend50_max": "50% existing mean-slope terrain + 50% max-slope transform",
+    "max_upper_bound": "max-slope transform only; diagnostic upper bound, not recommended baseline"
+  },
+  "records": [
+    {
+      "scenario": "baseline_mean",
+      "path_feature_class": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\path_31_32_baseline_mean",
+      "path_length_km": 64.31370849897642,
+      "accumulated_cost": 120537.4375,
+      "cost_change_vs_reconstructed_baseline_percent": 0.0,
+      "overlap_with_saved_path_within_1km_percent": 100.00000000558384,
+      "overlap_with_saved_path_within_5km_percent": 100.0,
+      "unique_1km_cells": 62,
+      "mean_of_mean_slope_degrees": 7.472143772580645,
+      "maximum_mean_slope_degrees": 16.073782,
+      "mean_of_max_slope_degrees": 22.266707627419354,
+      "maximum_max_slope_degrees": 41.618755,
+      "cells_with_max_slope_ge_30": 12
+    },
+    {
+      "scenario": "blend25_max",
+      "path_feature_class": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\path_31_32_blend25_max",
+      "path_length_km": 65.55634918609637,
+      "accumulated_cost": 135482.5625,
+      "cost_change_vs_reconstructed_baseline_percent": 12.39874126243973,
+      "overlap_with_saved_path_within_1km_percent": 99.99999997747473,
+      "overlap_with_saved_path_within_5km_percent": 100.0,
+      "unique_1km_cells": 62,
+      "mean_of_mean_slope_degrees": 6.9018876693548386,
+      "maximum_mean_slope_degrees": 18.268387,
+      "mean_of_max_slope_degrees": 19.697687901612902,
+      "maximum_max_slope_degrees": 51.64756,
+      "cells_with_max_slope_ge_30": 6
+    },
+    {
+      "scenario": "blend50_max",
+      "path_feature_class": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\path_31_32_blend50_max",
+      "path_length_km": 65.55634918609637,
+      "accumulated_cost": 148305.078125,
+      "cost_change_vs_reconstructed_baseline_percent": 23.036528070376477,
+      "overlap_with_saved_path_within_1km_percent": 99.99999997747473,
+      "overlap_with_saved_path_within_5km_percent": 100.0,
+      "unique_1km_cells": 62,
+      "mean_of_mean_slope_degrees": 6.9018876693548386,
+      "maximum_mean_slope_degrees": 18.268387,
+      "mean_of_max_slope_degrees": 19.697687901612902,
+      "maximum_max_slope_degrees": 51.64756,
+      "cells_with_max_slope_ge_30": 6
+    },
+    {
+      "scenario": "max_upper_bound",
+      "path_feature_class": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\path_31_32_max_upper_bound",
+      "path_length_km": 66.38477631084848,
+      "accumulated_cost": 164226.8125,
+      "cost_change_vs_reconstructed_baseline_percent": 36.245481823852444,
+      "overlap_with_saved_path_within_1km_percent": 0.0,
+      "overlap_with_saved_path_within_5km_percent": 0.0,
+      "unique_1km_cells": 62,
+      "mean_of_mean_slope_degrees": 2.995942730645161,
+      "maximum_mean_slope_degrees": 6.1765981,
+      "mean_of_max_slope_degrees": 9.721925282258065,
+      "maximum_max_slope_degrees": 28.876673,
+      "cells_with_max_slope_ge_30": 0
+    }
+  ]
+}

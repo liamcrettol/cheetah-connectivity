@@ -1,0 +1,47 @@
+{
+  "pair": [
+    31,
+    32
+  ],
+  "method": "Copernicus 30 m slope 90th percentile aggregated to the original aligned 1 km grid",
+  "weights_preserved": {
+    "anthropogenic": 0.6,
+    "vegetation": 0.2,
+    "terrain": 0.2,
+    "anthropogenic_subweights": {
+      "built_up": 0.3,
+      "roads": 0.3,
+      "livestock": 0.3,
+      "night_lights": 0.1
+    }
+  },
+  "fence_multiplier": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\cheetah-connectivity-latest\\gis\\cheetah_connectivity\\cheetah\\gdb\\cheetah_working.gdb\\fence_multiplier_main_1km",
+  "fence_multiplier_minimum_in_analysis_area": 1.0,
+  "fence_multiplier_maximum_in_analysis_area": 1.0,
+  "saved_path_length_km": 64.72792206134909,
+  "saved_accumulated_cost": 120290.890625,
+  "slope_p90_raster": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\slope_p90_copdem30m_to_1km",
+  "terrain_p90_raster": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\terrain_p90_copdem30m_1km",
+  "resistance_p90_raster": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\resistance_2024_p90_copdem30m_fence_main",
+  "records": [
+    {
+      "scenario": "baseline_mean_fence_main",
+      "path_feature_class": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\path_31_32_baseline_mean_fence_main",
+      "path_length_km": 64.31370849897642,
+      "accumulated_cost": 120537.4375,
+      "overlap_with_saved_path_within_1km_percent": 100.0,
+      "overlap_with_saved_path_within_5km_percent": 100.0,
+      "cost_change_vs_fenced_baseline_percent": 0.0
+    },
+    {
+      "scenario": "p90_copdem30m_fence_main",
+      "path_feature_class": "C:\\Users\\liamc\\Documents\\Codex\\2026-09-11\\i-want-help\\work\\terrain_sensitivity_31_32.gdb\\path_31_32_p90_copdem30m_fence_main",
+      "path_length_km": 66.3847763108428,
+      "accumulated_cost": 138180.703125,
+      "overlap_with_saved_path_within_1km_percent": 100.0,
+      "overlap_with_saved_path_within_5km_percent": 100.0,
+      "cost_change_vs_fenced_baseline_percent": 14.637166668654293
+    }
+  ],
+  "limitation": "The repository contains fence_multiplier_main_1km, not the later documented Kruger-combined multiplier named in the handoff. Baseline agreement is therefore reported explicitly."
+}
