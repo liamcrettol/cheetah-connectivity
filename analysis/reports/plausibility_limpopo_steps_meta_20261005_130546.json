@@ -1,0 +1,21 @@
+{
+  "steps_used": 549,
+  "steps_dropped_gap_over_1_day": 145,
+  "steps_dropped_under_1km": 303,
+  "alternatives_per_step": 20,
+  "median_step_km": 4.06,
+  "steps_per_animal": {
+    "CBU": 53,
+    "Challenger": 105,
+    "Eloise": 92,
+    "First Lady": 29,
+    "GeorgeJoss": 121,
+    "Rakhee": 61,
+    "Sonny": 71,
+    "Steenekamp": 7,
+    "Trekker": 10
+  },
+  "bootstrap": "10000 resamples of animals, equal weight per animal",
+  "seed": 20261006,
+  "surface_year_compared": 2012
+}

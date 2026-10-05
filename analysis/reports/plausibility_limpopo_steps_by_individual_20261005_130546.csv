@@ -1,0 +1,73 @@
+surface,measure,comparison,animal,steps,mean_share_beaten
+final_balanced_fence_documented,resistance,endpoint,CBU,53,0.638
+final_balanced_fence_documented,resistance,endpoint,Challenger,105,0.577
+final_balanced_fence_documented,resistance,endpoint,Eloise,92,0.509
+final_balanced_fence_documented,resistance,endpoint,First Lady,29,0.565
+final_balanced_fence_documented,resistance,endpoint,GeorgeJoss,121,0.649
+final_balanced_fence_documented,resistance,endpoint,Rakhee,61,0.566
+final_balanced_fence_documented,resistance,endpoint,Sonny,71,0.487
+final_balanced_fence_documented,resistance,endpoint,Steenekamp,7,0.4
+final_balanced_fence_documented,resistance,endpoint,Trekker,10,0.645
+final_balanced_fence_documented,resistance,straight-line path,CBU,53,0.618
+final_balanced_fence_documented,resistance,straight-line path,Challenger,105,0.515
+final_balanced_fence_documented,resistance,straight-line path,Eloise,92,0.549
+final_balanced_fence_documented,resistance,straight-line path,First Lady,29,0.533
+final_balanced_fence_documented,resistance,straight-line path,GeorgeJoss,121,0.661
+final_balanced_fence_documented,resistance,straight-line path,Rakhee,61,0.559
+final_balanced_fence_documented,resistance,straight-line path,Sonny,71,0.484
+final_balanced_fence_documented,resistance,straight-line path,Steenekamp,7,0.443
+final_balanced_fence_documented,resistance,straight-line path,Trekker,10,0.575
+final_balanced_fence_documented,current,endpoint,CBU,53,0.638
+final_balanced_fence_documented,current,endpoint,Challenger,105,0.551
+final_balanced_fence_documented,current,endpoint,Eloise,92,0.492
+final_balanced_fence_documented,current,endpoint,First Lady,29,0.604
+final_balanced_fence_documented,current,endpoint,GeorgeJoss,121,0.666
+final_balanced_fence_documented,current,endpoint,Rakhee,61,0.529
+final_balanced_fence_documented,current,endpoint,Sonny,71,0.425
+final_balanced_fence_documented,current,endpoint,Steenekamp,7,0.364
+final_balanced_fence_documented,current,endpoint,Trekker,10,0.495
+final_balanced_fence_documented,current,straight-line path,CBU,53,0.624
+final_balanced_fence_documented,current,straight-line path,Challenger,105,0.491
+final_balanced_fence_documented,current,straight-line path,Eloise,92,0.546
+final_balanced_fence_documented,current,straight-line path,First Lady,29,0.534
+final_balanced_fence_documented,current,straight-line path,GeorgeJoss,121,0.679
+final_balanced_fence_documented,current,straight-line path,Rakhee,61,0.513
+final_balanced_fence_documented,current,straight-line path,Sonny,71,0.43
+final_balanced_fence_documented,current,straight-line path,Steenekamp,7,0.393
+final_balanced_fence_documented,current,straight-line path,Trekker,10,0.5
+primary_unfenced,resistance,endpoint,CBU,53,0.633
+primary_unfenced,resistance,endpoint,Challenger,105,0.574
+primary_unfenced,resistance,endpoint,Eloise,92,0.505
+primary_unfenced,resistance,endpoint,First Lady,29,0.556
+primary_unfenced,resistance,endpoint,GeorgeJoss,121,0.65
+primary_unfenced,resistance,endpoint,Rakhee,61,0.552
+primary_unfenced,resistance,endpoint,Sonny,71,0.496
+primary_unfenced,resistance,endpoint,Steenekamp,7,0.364
+primary_unfenced,resistance,endpoint,Trekker,10,0.645
+primary_unfenced,resistance,straight-line path,CBU,53,0.628
+primary_unfenced,resistance,straight-line path,Challenger,105,0.518
+primary_unfenced,resistance,straight-line path,Eloise,92,0.553
+primary_unfenced,resistance,straight-line path,First Lady,29,0.517
+primary_unfenced,resistance,straight-line path,GeorgeJoss,121,0.659
+primary_unfenced,resistance,straight-line path,Rakhee,61,0.566
+primary_unfenced,resistance,straight-line path,Sonny,71,0.477
+primary_unfenced,resistance,straight-line path,Steenekamp,7,0.393
+primary_unfenced,resistance,straight-line path,Trekker,10,0.565
+primary_unfenced,current,endpoint,CBU,53,0.643
+primary_unfenced,current,endpoint,Challenger,105,0.547
+primary_unfenced,current,endpoint,Eloise,92,0.492
+primary_unfenced,current,endpoint,First Lady,29,0.589
+primary_unfenced,current,endpoint,GeorgeJoss,121,0.664
+primary_unfenced,current,endpoint,Rakhee,61,0.515
+primary_unfenced,current,endpoint,Sonny,71,0.423
+primary_unfenced,current,endpoint,Steenekamp,7,0.379
+primary_unfenced,current,endpoint,Trekker,10,0.525
+primary_unfenced,current,straight-line path,CBU,53,0.634
+primary_unfenced,current,straight-line path,Challenger,105,0.489
+primary_unfenced,current,straight-line path,Eloise,92,0.554
+primary_unfenced,current,straight-line path,First Lady,29,0.534
+primary_unfenced,current,straight-line path,GeorgeJoss,121,0.675
+primary_unfenced,current,straight-line path,Rakhee,61,0.505
+primary_unfenced,current,straight-line path,Sonny,71,0.432
+primary_unfenced,current,straight-line path,Steenekamp,7,0.343
+primary_unfenced,current,straight-line path,Trekker,10,0.505

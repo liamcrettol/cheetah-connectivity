@@ -1,0 +1,9 @@
+surface,measure,comparison,steps,animals,mean_share_beaten_animal_weighted,ci95_low,ci95_high,animals_above_0_5,mean_share_beaten_step_weighted
+final_balanced_fence_documented,resistance,endpoint,549,9,0.559,0.506,0.608,7,0.573
+final_balanced_fence_documented,resistance,straight-line path,549,9,0.548,0.509,0.59,7,0.565
+final_balanced_fence_documented,current,endpoint,549,9,0.529,0.467,0.588,5,0.555
+final_balanced_fence_documented,current,straight-line path,549,9,0.523,0.47,0.58,5,0.55
+primary_unfenced,resistance,endpoint,549,9,0.553,0.492,0.606,7,0.57
+primary_unfenced,resistance,straight-line path,549,9,0.542,0.491,0.589,7,0.565
+primary_unfenced,current,endpoint,549,9,0.531,0.473,0.588,6,0.553
+primary_unfenced,current,straight-line path,549,9,0.519,0.457,0.579,6,0.55
