@@ -1,0 +1,10 @@
+{
+  "purpose": "Descriptive audit of manuscript H1; not a predeclared inferential test.",
+  "selected_links": 45,
+  "links_with_increased_effective_resistance": 18,
+  "links_with_decreased_effective_resistance": 27,
+  "spearman_rho_percent_change_vs_baseline_betweenness": 0.014216385122086969,
+  "interpretation": "The minority-loss condition matched, but the expected positive relationship between loss and baseline betweenness did not. H1 is mixed, not supported.",
+  "input_change_report": "C:\\cheetah\\github_repo\\analysis\\reports\\final_effective_resistance_change_2012_2024_20260909_073544.csv",
+  "input_importance_report": "C:\\cheetah\\github_repo\\analysis\\reports\\conservation_link_importance_betweenness.csv"
+}
