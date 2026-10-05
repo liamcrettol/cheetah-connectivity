@@ -21,3 +21,7 @@ cheetah-sheets-*.json
 # ArcGIS Pro transient session locks -- never commit
 *.sr.lock
 *.lock
+
+# ArcGIS raster sidecars (statistics and metadata), regenerated automatically
+*.tif.aux.xml
+*.tif.xml
