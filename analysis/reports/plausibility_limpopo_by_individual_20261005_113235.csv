@@ -1,0 +1,10 @@
+name,sex,thinned_fixes,first,last,share_fixes_in_cores,median_resistance,below_available_median_resistance,median_current_outside_cores,above_available_median_current
+CBU,Male,74,2004-05-03,2008-02-09,0.0,1.735,True,0.181838,True
+Challenger,Male,188,2006-07-14,2007-03-21,0.0,2.032,True,0.1511,True
+Eloise,Female,137,2007-09-20,2008-04-17,0.0,2.153,True,0.154238,True
+First Lady,Female,73,2007-05-18,2007-11-15,0.0,2.237,True,0.157441,True
+GeorgeJoss,Male,306,2003-09-18,2007-08-07,0.0,2.573,False,0.170736,True
+Rakhee,Male,70,2006-08-03,2006-10-13,0.0,2.31,True,0.136424,False
+Sonny,Male,104,2008-07-04,2008-11-21,0.0,2.233,True,0.142856,False
+Steenekamp,Male,18,2007-12-12,2008-01-09,0.0,2.669,False,0.154331,True
+Trekker,Male,36,2007-06-15,2007-10-16,0.0,2.217,True,0.143228,False

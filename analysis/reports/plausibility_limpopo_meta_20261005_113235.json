@@ -1,0 +1,18 @@
+{
+  "source": "EWT Carnivore Conservation Programme Cheetah Tracking Data, GBIF DOI 10.15468/0nsr0r, CC-BY 4.0",
+  "raw_records": 3165,
+  "dropped_incomplete_dates": 17,
+  "thinned_fixes": 1006,
+  "individuals": 9,
+  "date_range": [
+    "2003-09-18",
+    "2008-11-21"
+  ],
+  "share_thinned_fixes_in_cores": 0.0,
+  "surface_year_compared": 2012,
+  "thinning_rule": "earliest fix per individual per calendar day",
+  "availability_rule": "10x thinned count, uniform inside the convex hull of all thinned fixes (0 km primary, 20 km buffer sensitivity), points with no modeled resistance dropped",
+  "seed": 20261005,
+  "summary_csv": "C:\\cheetah\\github_repo\\analysis\\reports\\plausibility_limpopo_summary_20261005_113235.csv",
+  "by_individual_csv": "C:\\cheetah\\github_repo\\analysis\\reports\\plausibility_limpopo_by_individual_20261005_113235.csv"
+}
