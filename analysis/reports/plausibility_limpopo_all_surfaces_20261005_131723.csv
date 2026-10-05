@@ -1,0 +1,19 @@
+surface,group,comparison,steps,animals,mean_share_beaten_animal_weighted,ci95_low,ci95_high,animals_above_0_5,mean_share_beaten_step_weighted
+main,main,endpoint,549,9,0.559,0.506,0.609,7,0.573
+main,main,straight-line path,549,9,0.548,0.508,0.59,7,0.565
+equal human-pressure weights,human-pressure weighting,endpoint,549,9,0.561,0.508,0.608,7,0.574
+equal human-pressure weights,human-pressure weighting,straight-line path,549,9,0.549,0.508,0.589,7,0.566
+infrastructure emphasis,human-pressure weighting,endpoint,549,9,0.556,0.502,0.605,6,0.569
+infrastructure emphasis,human-pressure weighting,straight-line path,549,9,0.547,0.506,0.592,7,0.562
+vegetation 10 percent,vegetation weight,endpoint,549,9,0.556,0.5,0.607,7,0.57
+vegetation 10 percent,vegetation weight,straight-line path,549,9,0.546,0.502,0.588,7,0.565
+vegetation 40 percent,vegetation weight,endpoint,549,9,0.554,0.505,0.598,6,0.566
+vegetation 40 percent,vegetation weight,straight-line path,549,9,0.552,0.516,0.589,7,0.567
+no fences,fence treatment,endpoint,549,9,0.559,0.506,0.608,7,0.573
+no fences,fence treatment,straight-line path,549,9,0.548,0.509,0.589,7,0.565
+KAZA fences only,fence treatment,endpoint,549,9,0.559,0.506,0.609,7,0.573
+KAZA fences only,fence treatment,straight-line path,549,9,0.548,0.508,0.59,7,0.565
+near-barrier fences,fence treatment,endpoint,549,9,0.559,0.506,0.609,7,0.573
+near-barrier fences,fence treatment,straight-line path,549,9,0.548,0.508,0.589,7,0.565
+Kruger conservative,fence treatment,endpoint,549,9,0.559,0.506,0.607,7,0.573
+Kruger conservative,fence treatment,straight-line path,549,9,0.548,0.509,0.59,7,0.565

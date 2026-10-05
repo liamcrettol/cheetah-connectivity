@@ -1,0 +1,25 @@
+test,layer,weight_in_main,comparison,steps,animals,mean_share_beaten_animal_weighted,ci95_low,ci95_high,animals_above_0_5,mean_share_beaten_step_weighted
+this layer alone,built,0.18,endpoint,549,9,0.5,0.5,0.501,3,0.5
+this layer alone,built,0.18,straight-line path,549,9,0.5,0.499,0.501,2,0.501
+this layer alone,roads,0.18,endpoint,549,9,0.552,0.495,0.616,6,0.571
+this layer alone,roads,0.18,straight-line path,549,9,0.55,0.501,0.608,7,0.569
+this layer alone,livestock,0.18,endpoint,549,9,0.524,0.494,0.558,5,0.526
+this layer alone,livestock,0.18,straight-line path,549,9,0.523,0.49,0.549,8,0.536
+this layer alone,lights,0.06,endpoint,549,9,0.513,0.505,0.522,8,0.508
+this layer alone,lights,0.06,straight-line path,549,9,0.523,0.508,0.538,7,0.521
+this layer alone,vegetation,0.2,endpoint,549,9,0.478,0.43,0.521,3,0.487
+this layer alone,vegetation,0.2,straight-line path,549,9,0.503,0.468,0.541,4,0.494
+this layer alone,terrain,0.2,endpoint,549,9,0.518,0.503,0.537,4,0.516
+this layer alone,terrain,0.2,straight-line path,549,9,0.522,0.506,0.541,5,0.519
+main surface without this layer,built,0.18,endpoint,549,9,0.559,0.505,0.607,7,0.573
+main surface without this layer,built,0.18,straight-line path,549,9,0.548,0.508,0.59,7,0.565
+main surface without this layer,roads,0.18,endpoint,549,9,0.535,0.502,0.565,7,0.527
+main surface without this layer,roads,0.18,straight-line path,549,9,0.538,0.501,0.574,7,0.544
+main surface without this layer,livestock,0.18,endpoint,549,9,0.554,0.503,0.603,6,0.569
+main surface without this layer,livestock,0.18,straight-line path,549,9,0.549,0.508,0.594,7,0.562
+main surface without this layer,lights,0.06,endpoint,549,9,0.56,0.507,0.609,7,0.573
+main surface without this layer,lights,0.06,straight-line path,549,9,0.548,0.508,0.589,7,0.565
+main surface without this layer,vegetation,0.2,endpoint,549,9,0.554,0.494,0.606,7,0.572
+main surface without this layer,vegetation,0.2,straight-line path,549,9,0.543,0.494,0.591,7,0.566
+main surface without this layer,terrain,0.2,endpoint,549,9,0.546,0.497,0.592,7,0.563
+main surface without this layer,terrain,0.2,straight-line path,549,9,0.54,0.501,0.582,7,0.559

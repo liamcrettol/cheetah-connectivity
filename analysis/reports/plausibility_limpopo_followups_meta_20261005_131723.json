@@ -1,0 +1,51 @@
+{
+  "steps": 549,
+  "alternatives_per_step": 20,
+  "seed": 20261006,
+  "rebuilt_main_vs_stored_surface": {
+    "points_compared": 259801,
+    "points_off_by_more_than_0_01": 85,
+    "max_abs_diff": 0.7139344854702117
+  },
+  "scaling_bounds": {
+    "built": [
+      0.0,
+      10000.0
+    ],
+    "lights": [
+      -0.0273736622184515,
+      652.6679077148438
+    ],
+    "roads": [
+      1.0,
+      10.0
+    ],
+    "livestock": [
+      1.0,
+      10.0
+    ]
+  },
+  "fence_multiplier_values_at_sampled_points": {
+    "documented": [
+      1.0
+    ],
+    "none": [
+      1.0
+    ],
+    "kaza_only": [
+      1.0
+    ],
+    "near_barrier": [
+      1.0
+    ],
+    "kruger_conservative": [
+      1.0
+    ]
+  },
+  "road_layer_crs": {
+    "roads_grip4_major": "PROJCS[\"Africa_Albers_Equal_Area_Conic\",GEOGCS[\"WGS 84\",DATU",
+    "roads_grip4_minor": "PROJCS[\"Africa_Albers_Equal_Area_Conic\",GEOGCS[\"WGS 84\",DATU",
+    "roads_grip4": "PROJCS[\"Africa_Albers_Equal_Area_Conic\",GEOGCS[\"WGS 84\",DATU"
+  },
+  "note": "Scores are the share of matched alternatives the real move beats; 0.5 = no difference. Animal-weighted, 95% CI from 10,000 resamples of animals."
+}

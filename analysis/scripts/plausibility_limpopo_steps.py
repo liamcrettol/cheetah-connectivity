@@ -77,8 +77,8 @@ def boot_ci(per_animal: np.ndarray, rng) -> tuple[float, float]:
     return float(np.quantile(means, 0.025)), float(np.quantile(means, 0.975))
 
 
-def main() -> None:
-    rng = np.random.default_rng(SEED)
+def build_steps(rng):
+    """Real day-to-day moves and their matched alternatives (shared by the follow-up checks)."""
     pts = thin(download())
     to_albers = Transformer.from_crs("EPSG:4326", ALBERS, always_xy=True)
     xy = np.array([to_albers.transform(float(r["lon"]), float(r["lat"])) for r in pts])
@@ -108,6 +108,26 @@ def main() -> None:
     alt_xy = a0[:, None, :] + np.stack([alt_len * np.cos(ang), alt_len * np.sin(ang)], -1)
     flat_alt = alt_xy.reshape(-1, 2)
     flat_start = np.repeat(a0, N_ALT, axis=0)
+    return {"xy": xy, "starts": starts, "ends": ends, "animal": animal, "lengths": lengths,
+            "a0": a0, "flat_alt": flat_alt, "flat_start": flat_start, "short": short, "gap": gap}
+
+
+def animal_summary(s: np.ndarray, animal: np.ndarray, rng) -> dict:
+    animals = sorted(set(animal))
+    pa = np.array([np.nanmean(s[animal == a]) for a in animals])
+    lo, hi = boot_ci(pa, rng)
+    return {"steps": int(np.isfinite(s).sum()), "animals": len(animals),
+            "mean_share_beaten_animal_weighted": round(float(pa.mean()), 3),
+            "ci95_low": round(lo, 3), "ci95_high": round(hi, 3),
+            "animals_above_0_5": int((pa > 0.5).sum()),
+            "mean_share_beaten_step_weighted": round(float(np.nanmean(s)), 3)}, pa
+
+
+def main() -> None:
+    rng = np.random.default_rng(SEED)
+    st = build_steps(rng)
+    xy, starts, ends, animal, lengths = st["xy"], st["starts"], st["ends"], st["animal"], st["lengths"]
+    a0, flat_alt, flat_start, short, gap = st["a0"], st["flat_alt"], st["flat_start"], st["short"], st["gap"]
 
     animals = sorted(lengths)
     rows, per_animal_rows = [], []
@@ -122,16 +142,8 @@ def main() -> None:
                     obs = line_mean(p, a0, xy[ends])
                     alt = line_mean(p, flat_start, flat_alt).reshape(len(starts), N_ALT)
                 s = beat_share(obs, alt, lower)
-                pa = np.array([np.nanmean(s[animal == a]) for a in animals])
-                lo, hi = boot_ci(pa, rng)
-                rows.append({
-                    "surface": surf, "measure": measure, "comparison": kind,
-                    "steps": int(np.isfinite(s).sum()), "animals": len(animals),
-                    "mean_share_beaten_animal_weighted": round(float(pa.mean()), 3),
-                    "ci95_low": round(lo, 3), "ci95_high": round(hi, 3),
-                    "animals_above_0_5": int((pa > 0.5).sum()),
-                    "mean_share_beaten_step_weighted": round(float(np.nanmean(s)), 3),
-                })
+                summ, pa = animal_summary(s, animal, rng)
+                rows.append({"surface": surf, "measure": measure, "comparison": kind, **summ})
                 for a, v in zip(animals, pa):
                     per_animal_rows.append({"surface": surf, "measure": measure, "comparison": kind,
                                             "animal": a, "steps": int((animal == a).sum()),
